@@ -14,14 +14,15 @@ def separate(fileName, geneNum):
         BigData[currentGene][i] = fileName.readline()
         i+=1
 
+    print("hi")
     print(BigData)
 
 
 
 
-def main():
-        cfile = csv.writer(open("myFile.csv", "wb"))
-        separate("Ecoli_MG1655.gb.txt", 4381)
+print("hi")
+cfile = csv.writer(open("myFile.csv", "wb"))
+separate("Ecoli_MG1655.gb.txt", 4381)
 
 
- main()
+
