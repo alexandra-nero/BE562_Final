@@ -52,16 +52,23 @@ def findP(gene, csv, pcutoff):
                     i += 1
         #If both query and target are R
         if csv[temp][5] == 'R' and csv[temp + 1][5] == 'R':
-            if int(csv[temp][4]) < int(csv[temp+1][3])+pcutoff:
+            if int(csv[temp][3]) < int(csv[temp+1][4])-pcutoff:
                 return(csv[temp][0])
         #If are less than pcutoff away, go forward until right
-            elif int(csv[temp][4]) >= int(csv[temp+1][3])+pcutoff:
+            elif int(csv[temp][3]) >= int(csv[temp+1][4])-pcutoff:
                 i = 1
                 while i <100:
                     #if past the bottom of the list--stop
-                    if temp[i+1] == len(csv):                        
-                        return(csv[temp])
-                
+                    if (temp-i+1) == len(csv):                        
+                        return()
+                    #if the next gene is in opposite orientation, take current
+                    #promoter
+                    elif csv[temp+i+1][5] == 'F':
+                        return(csv[temp+i][0])
+                    #if promoter is of right length, take it
+                    elif int(csv[temp+i][3]) < int(csv[temp+i+1][4])-pcutoff:
+                        return(csv[temp+i][0])
+                    i += 1
                 
                     
                     
@@ -69,4 +76,4 @@ def findP(gene, csv, pcutoff):
                 
 
 T = readcsv('C:/python/test.csv')
-x = findP('Gene 3', T, 25)
+x = findP('Gene 1', T, 25)
