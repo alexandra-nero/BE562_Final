@@ -7,8 +7,6 @@ def separate(fileName, geneNum):
     BigData = []
     for i in xrange(geneNum + 1):
         BigData += [[0]*(infoLines)]
-
-
     currentGene = 0
     count = 0
     for line in myFile:
@@ -29,10 +27,17 @@ def findNames(CVSMatrix, BigData, currentGene):
         for currentLine in xrange(infoLines):
             myString = BigData[currentString][currentLine]
             if 'synonym' in myString:
-                save = False
+                saveName = False
                 for c in myString:
-                    if c == '"':
-                        save = True
+                    if ord(c) == 34 and saveName == False:
+                        saveName = True
+                    if ord(c) == 34 and saveName == True:
+                        pass
+            if 'gene=' in myString:
+                saveName = False
+                for c in myString:
+                    if ord(c) == 34:
+
 
 
 
