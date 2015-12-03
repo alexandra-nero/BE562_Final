@@ -4,14 +4,6 @@
 #date  2014-02-17                                      
 #Desc KMP search string 
 
-
-
-def formatFile(fileName):
-    myFile = open(fileName, 'r')
-    BigData = myFile.read()
-    print(BigData)
-
-
 #On the string to pretreatment, find fails to match the substring fallback position
 def preprocess(patter):
     length = len(patter)
@@ -60,7 +52,4 @@ def kmp(value,pattern):
     print 'find times ' , total
 
 
-def main():
-    formatFile("Ecoli_MG1655.gb.txt")
 
-main()
