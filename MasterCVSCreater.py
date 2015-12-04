@@ -1,3 +1,9 @@
+# CSV FILE SHOULD LOOK LIKE:
+#GENE NAME  TF  FUNCTION                    START    STOP    DIRECTION   PROMOTER
+#"gene1"    T/F Repressor/Activator/Both     978     1001       F/R       
+
+
+
 import csv
 
 INFO_LINES = 200

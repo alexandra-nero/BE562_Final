@@ -18,7 +18,7 @@ def readcsv(file):
 def getTnum(gene, csv):
     temp = []
     for i in range(1, len(csv)):
-        if csv[i][0] == gene:
+        if csv[i][0] == gene: #if gene in the string at csv[i][0], there's more than one name
             temp.append(i)
     if len(temp) == 0:
         return('Error: No occurences of gene \'' + gene + '\'.')
@@ -72,7 +72,7 @@ def findP(gene, csv, pcutoff):
                 
                     
                     
-                    
+#have to add the addition of the promoter to the end of the csv file       
                 
 
 T = readcsv('C:/python/test.csv')
