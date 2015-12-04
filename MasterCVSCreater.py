@@ -1,21 +1,28 @@
 import csv
 
-infoLines = 200
+INFO_LINES = 200
+GENE_NUM =
+TF_COLUMN = 1 
+NAME_COLUMN = 0
+REPRESSOR_COLUMN = 2
+ACTIVATOR_COLUMN = 3
+DIRECTION_COLUMN = 4
+START_COLUMN = 5
+STOP_COLUMN = 6
 
 def separate(fileName, geneNum):
     myFile = open(fileName, 'r')
     BigData = []
     for i in xrange(geneNum + 1):
-        BigData += [[0]*(infoLines)]
-    currentGene = 0
+        BigData += [[0]*(INFO_LINES]
+    currentGene = -1
     count = 0
     for line in myFile:
-        #print(line)
         if '     gene            ' in line:
             currentGene+=1
             count = 0
-
-        BigData[currentGene][count] = line
+        if currentGene > -1:
+            BigData[currentGene][count] = line
         count+=1
 
     return BigData, currentGene
