@@ -1,0 +1,173 @@
+# CSV FILE SHOULD LOOK LIKE:
+#GENE NAME  TF  FUNCTION                    START    STOP    DIRECTION   PROMOTER
+#"gene1"    T/F Repressor/Activator/Both     978     1001       F/R       
+
+import csv
+import DNASearch
+
+INFO_LINES = 31
+DIRECTION_COLUMN = 4
+TF_COLUMN = 1
+START_COLUMN = 2
+STOP_COLUMN = 3
+REPRESSOR_COLUMN = 5
+ACTIVATOR_COLUMN = 6
+NAME_COLUMN = 0
+
+GENE_NUM = 9
+
+def separate(fileName, geneNum):
+    myFile = open(fileName, 'r')
+    BigData = []
+    for i in xrange(geneNum + 1):
+        BigData += [[0]*(INFO_LINES)]
+    currentGene = -1
+    count = 0
+    start = False
+    for line in myFile:
+        if '     gene            ' in line:
+            start = True
+            count = 0
+            currentGene+=1
+        if (start):
+            BigData[currentGene][count] = line
+            count+=1
+
+    return BigData, currentGene
+
+def findNames(CSVMatrix, BigData):
+    geneNumber = 0
+    for currentString in xrange(len(BigData)):
+        totalNames = ""
+        for currentLine in xrange(INFO_LINES):
+            myString = BigData[currentString][currentLine]
+            saveName1 = False
+            saveName2 = False
+            if myString != 0:
+                if 'synonym' in myString:
+                    for c in myString:
+                        if saveName1:
+                            if 
+                            totalNames += c
+                        if c == '=':
+                            saveName1 = True
+                if 'gene=' in myString:
+                    for c in myString:
+                        if saveName2:
+                            totalNames += c
+                        if c == '=':
+                            saveName2 = True
+        CSVMatrix[geneNumber][NAME_COLUMN] = totalNames
+        geneNumber+=1
+
+#finding and parsing lines with stop/start data in them
+#example:     gene            70387..71265
+def findStartandStop(CSVMatrix, BigData):
+    geneNumber = 0
+    for currentString in xrange(len(BigData)):
+        totalStart = ""
+        totalStop = ""
+        myString = BigData[currentString][0]
+        if myString != 0:
+            if '     gene            ' in myString:
+                saveStart = False
+                saveStop = False
+                dotTimes=0
+                for c in myString:
+                    if ord(c) > 47 and ord(c) < 58:
+                        if dotTimes > 1:
+                            saveStart = True
+                            saveStop = False
+                        else:
+                            saveStart = False
+                            saveStop = True
+                        if saveStart:
+                            totalStop += c
+                        if saveStop:
+                            totalStart += c
+
+                    if c == "(":
+                        saveStart = True
+                        saveStop = False
+                    if c == ".":
+                        if dotTimes > 1:
+                            saveStop = True
+                            saveStart = False
+                        else:
+                            dotTimes+=1
+        CSVMatrix[geneNumber][START_COLUMN] = int(totalStart)
+        CSVMatrix[geneNumber][STOP_COLUMN] = int(totalStop)
+        geneNumber+=1
+
+#simple string search to find the description word for the characteristics of the gene
+def isTF(CSVMatrix, BigData):
+    geneNumber = 0
+    for currentString in xrange(len(BigData)):
+        check = True
+        for currentLine in xrange(INFO_LINES):
+            myString = BigData[currentString][currentLine]
+            if myString != 0:
+                if "transcription" in myString or "regulator" in myString:
+                    CSVMatrix[geneNumber][DIRECTION_COLUMN] = True
+                    check = False
+        if check:
+            CSVMatrix[geneNumber][TF_COLUMN] =False
+        geneNumber+=1
+
+def isRepressor(CSVMatrix, BigData):
+    geneNumber = 0
+    for currentString in xrange(len(BigData)):
+        check = True
+        for currentLine in xrange(INFO_LINES):
+            myString = BigData[currentString][currentLine]
+            if myString != 0:
+                if "repressor" in myString:
+                    CSVMatrix[geneNumber][DIRECTION_COLUMN] = True
+                    check = False
+        if check:
+            CSVMatrix[geneNumber][REPRESSOR_COLUMN] =False
+        geneNumber+=1
+
+def isActivator(CSVMatrix, BigData):
+    geneNumber = 0
+    for currentString in xrange(len(BigData)):
+        check = True
+        for currentLine in xrange(INFO_LINES):
+            myString = BigData[currentString][currentLine]
+            if myString != 0:
+                if "activator" in myString:
+                    CSVMatrix[geneNumber][DIRECTION_COLUMN] = True
+                    check = False
+        if check:
+            CSVMatrix[geneNumber][ACTIVATOR_COLUMN] =False
+        geneNumber+=1
+
+def findDirection(CSVMatrix, BigData):
+    geneNumber = 0
+    for currentString in xrange(len(BigData)):
+        myString = BigData[currentString][0]
+        check = True
+        if myString != 0:
+            if "complement" in myString:
+                check = False
+                CSVMatrix[geneNumber][DIRECTION_COLUMN] = True
+        if check:
+            CSVMatrix[geneNumber][DIRECTION_COLUMN] = False
+        geneNumber+=1
+
+def main():
+    cfile = csv.writer(open("myFile.csv", "wb"))
+    DNAMatrix, currentGene = separate("test.gb.txt", GENE_NUM)
+    CSVMatrix = []
+    for i in xrange(GENE_NUM+1):
+        CSVMatrix += [[0]*(ACTIVATOR_COLUMN+1)]
+    findDirection(CSVMatrix, DNAMatrix)
+    isActivator(CSVMatrix, DNAMatrix)
+    isRepressor(CSVMatrix, DNAMatrix)
+    isTF(CSVMatrix, DNAMatrix)
+    findStartandStop(CSVMatrix, DNAMatrix)
+    findNames(CSVMatrix,DNAMatrix)
+
+    characteristicsVector = []
+
+main()
