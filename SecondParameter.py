@@ -11,9 +11,11 @@ for every tf:
 '''
 START_COLUMN = 4 
 STOP_COLUMN = 5	#up to whoever creates the csv
+
 BIN_SIZE = 250
 TF_POS = 0
 GENE_POS = 0
+REG_GENES_POS = 1
 pairFileName = 'nameOfPairFile.csv'
 genesFileName = 'nameOfGenesFile.csv'
 
@@ -28,6 +30,9 @@ for tf in pairFile:
 	for gene in genesFile:
 		if gene[GENE_POS] == tfName:
 			tfPosition = gene[START_COLUMN]
+	regGenes = tf[1]
+	regGenesList = []
+	regGenesList = regGenes.split()
 	for 
 
 return
