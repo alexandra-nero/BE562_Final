@@ -9,11 +9,24 @@ for every tf:
 	for every gene:
 		=tf/gene pair take their line numbers and calculate distance
 '''
-START_COLUMN = start 
-STOP_COLUMN = STOP_COLUMN	#up to whoever creates the csv
+START_COLUMN = 4 
+STOP_COLUMN = 5	#up to whoever creates the csv
 BIN_SIZE = 250
+TF_POS = 0
+GENE_POS = 0
+pairFileName = 'nameOfPairFile.csv'
+genesFileName = 'nameOfGenesFile.csv'
 
 def SecondParam():
+genesFile = open(genesFileName)
+pairFile = open(pairFileName,'rb')
+for tf in pairFile:
+	tfPosition = 0
+	tfName = tf[TF_POS]
+	for gene in genesFile:
+		if gene[GENE_POS] == tfName:
+			tfPosition = gene[START_COLUMN]
+	for 
 
 return
 
