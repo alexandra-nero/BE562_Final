@@ -172,7 +172,7 @@ def findDirection(CSVMatrix, BigData):
             CSVMatrix[geneNumber][DIRECTION_COLUMN] = False
         geneNumber+=1
 
-def main():
+def createCSV():
 
     fileName = raw_input('Enter the File Name: ')
     geneNumber = raw_input('Enter the number of genes: ')
@@ -209,12 +209,12 @@ def main():
         else:
             characteristicsVector.append('N/A')
 
-        if CSVMatrix[geneNumber][START_COLUMN] < CSVMatrix[geneNumber][STOP_COLUMN]:
-            characteristicsVector.append(CSVMatrix[geneNumber][START_COLUMN])
+        if CSVMatrix[geneNumber][START_COLUMN]:
             characteristicsVector.append(CSVMatrix[geneNumber][STOP_COLUMN])
+            characteristicsVector.append(CSVMatrix[geneNumber][START_COLUMN])
         else:
-            characteristicsVector.append(CSVMatrix[geneNumber][STOP_COLUMN])
             characteristicsVector.append(CSVMatrix[geneNumber][START_COLUMN])
+            characteristicsVector.append(CSVMatrix[geneNumber][STOP_COLUMN])
 
         if CSVMatrix[geneNumber][DIRECTION_COLUMN] == False:
             characteristicsVector.append('F')
@@ -224,4 +224,4 @@ def main():
         del characteristicsVector[:]
         
 
-main()
+createCSV()
