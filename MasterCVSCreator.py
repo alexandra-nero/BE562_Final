@@ -3,9 +3,8 @@
 #"gene1"    T/F Repressor/Activator/Both     978     1001       F/R       
 
 import csv
-import DNASearch
 
-INFO_LINES = 31
+INFO_LINES = 50
 DIRECTION_COLUMN = 4
 TF_COLUMN = 1
 START_COLUMN = 2
@@ -14,12 +13,11 @@ REPRESSOR_COLUMN = 5
 ACTIVATOR_COLUMN = 6
 NAME_COLUMN = 0
 
-GENE_NUM = 9
 
-def separate(fileName, geneNum):
+def separate(fileName, GENE_NUM):
     myFile = open(fileName, 'r')
     BigData = []
-    for i in xrange(geneNum + 1):
+    for i in xrange(GENE_NUM+ 1):
         BigData += [[0]*(INFO_LINES)]
     currentGene = -1
     count = 0
@@ -39,24 +37,42 @@ def findNames(CSVMatrix, BigData):
     geneNumber = 0
     for currentString in xrange(len(BigData)):
         totalNames = ""
+        count1 = 0
+        count2 = 0
         for currentLine in xrange(INFO_LINES):
             myString = BigData[currentString][currentLine]
             saveName1 = False
             saveName2 = False
             if myString != 0:
                 if 'synonym' in myString:
-                    for c in myString:
-                        if saveName1:
-                            if 
-                            totalNames += c
-                        if c == '=':
-                            saveName1 = True
+                    count1+= 1
+                    if (count1 < 2):
+                        for c in myString:
+                            if c == '"' and saveName1 == True:
+                                saveName1 = False
+                                totalNames += " "
+                            elif saveName1:
+                                if ord(c) > 47 and ord(c) < 57:
+                                    totalNames += c
+                                elif ord(c) > 64 and ord(c) < 91:
+                                    totalNames += c
+                                elif ord(c) > 96 and ord(c) < 123:
+                                    totalNames += c
+                                elif ord(c) == 32:
+                                    totalNames += c
+                            elif c == '"' and saveName1 == False:
+                                saveName1 = True
                 if 'gene=' in myString:
-                    for c in myString:
-                        if saveName2:
-                            totalNames += c
-                        if c == '=':
-                            saveName2 = True
+                    count2 +=1
+                    if (count2 < 2):
+                        for c in myString:
+                            if c == '"' and saveName2 == True:
+                              saveName2 = False
+                              totalNames +=" "
+                            elif saveName2:
+                                totalNames += c
+                            elif c == '"' and saveName2 == False:
+                                saveName2 = True
         CSVMatrix[geneNumber][NAME_COLUMN] = totalNames
         geneNumber+=1
 
@@ -95,8 +111,9 @@ def findStartandStop(CSVMatrix, BigData):
                             saveStart = False
                         else:
                             dotTimes+=1
-        CSVMatrix[geneNumber][START_COLUMN] = int(totalStart)
-        CSVMatrix[geneNumber][STOP_COLUMN] = int(totalStop)
+        if len(totalStart) > 0 and len(totalStop) > 0:
+            CSVMatrix[geneNumber][START_COLUMN] = int(totalStart)
+            CSVMatrix[geneNumber][STOP_COLUMN] = int(totalStop)
         geneNumber+=1
 
 #simple string search to find the description word for the characteristics of the gene
@@ -107,8 +124,8 @@ def isTF(CSVMatrix, BigData):
         for currentLine in xrange(INFO_LINES):
             myString = BigData[currentString][currentLine]
             if myString != 0:
-                if "transcription" in myString or "regulator" in myString:
-                    CSVMatrix[geneNumber][DIRECTION_COLUMN] = True
+                if "transcription" in myString or "regulator" in myString or 'repressor' in myString or 'activator' in myString:
+                    CSVMatrix[geneNumber][TF_COLUMN] = True
                     check = False
         if check:
             CSVMatrix[geneNumber][TF_COLUMN] =False
@@ -122,7 +139,7 @@ def isRepressor(CSVMatrix, BigData):
             myString = BigData[currentString][currentLine]
             if myString != 0:
                 if "repressor" in myString:
-                    CSVMatrix[geneNumber][DIRECTION_COLUMN] = True
+                    CSVMatrix[geneNumber][REPRESSOR_COLUMN] = True
                     check = False
         if check:
             CSVMatrix[geneNumber][REPRESSOR_COLUMN] =False
@@ -136,7 +153,7 @@ def isActivator(CSVMatrix, BigData):
             myString = BigData[currentString][currentLine]
             if myString != 0:
                 if "activator" in myString:
-                    CSVMatrix[geneNumber][DIRECTION_COLUMN] = True
+                    CSVMatrix[geneNumber][ACTIVATOR_COLUMN] = True
                     check = False
         if check:
             CSVMatrix[geneNumber][ACTIVATOR_COLUMN] =False
@@ -156,18 +173,55 @@ def findDirection(CSVMatrix, BigData):
         geneNumber+=1
 
 def main():
-    cfile = csv.writer(open("myFile.csv", "wb"))
-    DNAMatrix, currentGene = separate("test.gb.txt", GENE_NUM)
+
+    fileName = raw_input('Enter the File Name: ')
+    geneNumber = raw_input('Enter the number of genes: ')
+    GENE_NUM = int(geneNumber)
+
+    cfile = csv.writer(open(""+fileName+".csv", "wb"))
+    DNAMatrix, currentGene = separate(fileName, GENE_NUM)
     CSVMatrix = []
     for i in xrange(GENE_NUM+1):
         CSVMatrix += [[0]*(ACTIVATOR_COLUMN+1)]
+    print('Taking Information from file...')
     findDirection(CSVMatrix, DNAMatrix)
     isActivator(CSVMatrix, DNAMatrix)
     isRepressor(CSVMatrix, DNAMatrix)
     isTF(CSVMatrix, DNAMatrix)
     findStartandStop(CSVMatrix, DNAMatrix)
     findNames(CSVMatrix,DNAMatrix)
-
     characteristicsVector = []
+    GENE_NUM = currentGene
+    print('Creating .csv file...')
+    for geneNumber in xrange(GENE_NUM+1):
+        characteristicsVector.append(CSVMatrix[geneNumber][0])
+        if CSVMatrix[geneNumber][TF_COLUMN]:
+            characteristicsVector.append('T')
+        else:
+            characteristicsVector.append('F')
+
+        if CSVMatrix[geneNumber][REPRESSOR_COLUMN] and CSVMatrix[geneNumber][ACTIVATOR_COLUMN]:
+            characteristicsVector.append('Both')        
+        elif CSVMatrix[geneNumber][REPRESSOR_COLUMN]:
+            characteristicsVector.append('Repressor')
+        elif CSVMatrix[geneNumber][ACTIVATOR_COLUMN]:
+            characteristicsVector.append('Activator')
+        else:
+            characteristicsVector.append('N/A')
+
+        if CSVMatrix[geneNumber][START_COLUMN] < CSVMatrix[geneNumber][STOP_COLUMN]:
+            characteristicsVector.append(CSVMatrix[geneNumber][START_COLUMN])
+            characteristicsVector.append(CSVMatrix[geneNumber][STOP_COLUMN])
+        else:
+            characteristicsVector.append(CSVMatrix[geneNumber][STOP_COLUMN])
+            characteristicsVector.append(CSVMatrix[geneNumber][START_COLUMN])
+
+        if CSVMatrix[geneNumber][DIRECTION_COLUMN] == False:
+            characteristicsVector.append('F')
+        else:
+            characteristicsVector.append('R')
+        cfile.writerow(characteristicsVector)
+        del characteristicsVector[:]
+        
 
 main()
