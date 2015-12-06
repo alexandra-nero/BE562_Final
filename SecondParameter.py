@@ -17,6 +17,8 @@ GENE_POS = 0
 pairFileName = 'nameOfPairFile.csv'
 genesFileName = 'nameOfGenesFile.csv'
 
+#test
+
 def SecondParam():
 genesFile = open(genesFileName)
 pairFile = open(pairFileName,'rb')
