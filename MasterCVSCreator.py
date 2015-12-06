@@ -197,16 +197,16 @@ def createCSV():
         characteristicsVector.append(CSVMatrix[geneNumber][0])
         if CSVMatrix[geneNumber][TF_COLUMN]:
             characteristicsVector.append('T')
+            if CSVMatrix[geneNumber][REPRESSOR_COLUMN] and CSVMatrix[geneNumber][ACTIVATOR_COLUMN]:
+                characteristicsVector.append('Both')        
+            elif CSVMatrix[geneNumber][REPRESSOR_COLUMN]:
+                characteristicsVector.append('Repressor')
+            elif CSVMatrix[geneNumber][ACTIVATOR_COLUMN]:
+                characteristicsVector.append('Activator')
+            else:
+                characteristicsVector.append('unknown')
         else:
             characteristicsVector.append('F')
-
-        if CSVMatrix[geneNumber][REPRESSOR_COLUMN] and CSVMatrix[geneNumber][ACTIVATOR_COLUMN]:
-            characteristicsVector.append('Both')        
-        elif CSVMatrix[geneNumber][REPRESSOR_COLUMN]:
-            characteristicsVector.append('Repressor')
-        elif CSVMatrix[geneNumber][ACTIVATOR_COLUMN]:
-            characteristicsVector.append('Activator')
-        else:
             characteristicsVector.append('N/A')
 
         if CSVMatrix[geneNumber][START_COLUMN]:
