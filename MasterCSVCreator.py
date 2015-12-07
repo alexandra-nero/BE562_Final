@@ -3,7 +3,7 @@
 #"gene1"    T/F Repressor/Activator/Both     978     1001       F/R       
 
 import csv
-import TFPairs
+import GenerateTFPairs
 
 INFO_LINES = 50
 DIRECTION_COLUMN = 4
@@ -194,7 +194,7 @@ def createCSV():
     findNames(CSVMatrix,DNAMatrix)
     characteristicsVector = []
     GENE_NUM = currentGene
-    print('Creating .csv file...')
+    print('Creating .csv file of characteristics...')
     for geneNumber in xrange(GENE_NUM+1):
         characteristicsVector.append(CSVMatrix[geneNumber][0])
         if CSVMatrix[geneNumber][TF_COLUMN]:
@@ -225,9 +225,8 @@ def createCSV():
         cfile.writerow(characteristicsVector)
         del characteristicsVector[:]
     
-    cfile.close()
-
+    print('Creating csv file of the TF/Gene Pairs...')
     #creating the accompanying tf/gene pair file name
-    TFPairs.createTFPairsFile(fileName2)
+    GenerateTFPairs.createTFPairsFile(fileName2)
 
 createCSV()

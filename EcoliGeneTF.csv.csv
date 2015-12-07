@@ -1,0 +1,1099 @@
+Genes of transcription unit,Transcription Factors
+spy,BaeR   CpxR
+ycaC,FNR   BaeR 
+qseC  qseB,BasR   QseB 
+yecR,FlhDC   FNR 
+flhE  flhA  flhB,FlhDC 
+fliE,CsgD   FlhDC 
+fliK  fliJ  fliI  fliH  fliG  fliF,CsgD   FlhDC 
+sroC  gltL  gltK  gltJ  gltI,FlhDC 
+ytfE,NarP   NarL   FNR   NsrR 
+ygbA,NsrRnitric oxide  NsrR   FNR 
+astE  astB  astD  astA  astC,NtrC   ArgRLarginine 
+nrdH  nrdI  nrdF  nrdE,IscR   NrdRZnsup2sup   FurFesup2sup 
+cpxP,CpxR
+dsbA  rdoA,CpxR
+dmsC  dmsB  dmsA,ModEMoOsub4subsup2sup   IHF 
+moaE  moaD  moaC  moaB  moaA,ModEMoOsub4subsup2sup 
+ptsG,SoxS   Mlc   ArcA   CRPcAMP   Fis 
+ptsG,Mlc   Fis 
+grcA,FurFesup2sup   Fis   PdhR   FNR   ArcA   CRPcAMP 
+rrfA  rrlA  alaT  ileT  rrsA,LrpLeucine   Fis 
+rrfB  rrlB  gltT  rrsB,HNS   LrpLeucine   Fis 
+rrfC  rrlC  gltU  rrsC,HNS   LrpLeucine   Fis 
+rrfE  rrlE  gltV  rrsE,LrpLeucine   Fis 
+rrfG  rrlG  gltW  rrsG,HNS   LrpLeucine   Fis 
+rrfH  rrlH  alaV  ileV  rrsH,HNS   LrpLeucine   Fis 
+rrfF  thrV  rrfD  rrlD  alaU  ileU  rrsD,HNS   LrpLeucine   Fis 
+uspB,IHF 
+gdhA,ArgP   FurFesup2sup   FNR  Nac   CRPcAMP 
+sgrR  sroA  tbpA  thiP  thiQ,SgrR 
+sgrT  setA  sgrS,Cra   SgrR 
+leuO,HNS   LeuO 
+cra,PhoB 
+uof  fur,OxyR   SoxS 
+ppdD  hofB  hofC,CRPcAMP 
+nadC,CRPcAMP 
+uof  fur  fldA,SoxS 
+fur,FurFesup2sup   CRPcAMP 
+yaeP  rof,CRPcAMP 
+nlpE  arfB  yaeQ,CRPcAMP 
+dkgB,NsrRnitric oxide
+dinJ  yafQ,DinJ  YafQ  LexA 
+yafP  yafO  yafN  dinB,LexA 
+yafP  yafO  yafN,LexA 
+crl,FurFesup2sup 
+yagK,RcdA  
+ecpA,MatA 
+ecpR,MatA 
+ykgM  ykgO,ZurZnsup2sup 
+rclC  rclB  rclA,RclR 
+pdeL,Cra 
+mhpT,NsrRnitric oxide
+iraP,CsgD 
+ykiA,RcsBBglJ 
+sbcD  sbcC,PhoB 
+fadM,FadR 
+ybaO,MarA 
+tomB  hha,BasR   PdhR   CpxR
+hemH,OxyR 
+ybdN,CysBOacetylLserine   FNR   ArcA 
+dsbG,OxyR 
+citC  citD  citE  citF  citX  citG,ArcA   DpiAPsupaspsup 
+dpiA  dpiB,FNR   CRPcAMP   NarL   ArcA   DpiAPsupaspsup 
+cspE,CRPcAMP 
+ybfN  chiP,CRPcAMP   NagC 
+pnuC  nadA,NadR  and NMN adenylyltransferase
+acrZ,Rob   SoxS   MarA 
+ybhL,YjjQ 
+mcbA,McbR 
+ybjJ  ybjI,RcdA  
+rybB,NsrR 
+lysO,ArgRarg
+rarA  lolA,RcsBPSUPasp56SUP
+yccT,CsgD 
+yccA,CpxR
+gfcA,YjjQ 
+wrbA  yccJ,CsgD 
+efeU2  efeU1,CpxR
+ycdZ,CytR   CRPcAMP 
+dinI,NagC   LexA 
+ldtC,CpxR
+iraM,PhoP   FNR   ArcA 
+yciE  yciF  yciG,McbR   HNS 
+yciX  ymiA,YjjQ 
+yciW,CysBOacetylLserine 
+puuP  puuA,PuuR   FNR   ArcA 
+puuE  puuB  puuC  puuR  puuD,CRPcAMP   PuuR   ArcA 
+ycjY,PgrR 
+uspE,GadX 
+hslJ,CysBOacetylLserine 
+ydbD,NsrRnitric oxide
+ynbD  ynbC  ynbB  ynbA,RcsBBglJ 
+sutR,SutR 
+mcbR,YgiV 
+lsrK  lsrR,CRPcAMP   LsrR 
+yneM,PhoP 
+dgcZ,CysBOacetylLserine   CpxR
+ydfH,PhoB 
+ydfZ,FNR 
+dicC  ydfX  ydfW,DicA 
+dicA,DicA 
+intQ  insD  ydfE  ydfD  dicB,DicA 
+rspA  rspB,YdfH 
+add,RbsRribose
+mepH,NsrRnitric oxide
+rprA,CpxR   RcsBPSUPasp56SUP
+ydiV,SdiA 
+ynjI,RcsBBglJ 
+yeaE,NsrRnitric oxide
+mipA,PhoB 
+nimT,NimR 
+yeaR  yoaG,Fis  NarP   NarL   NsrR 
+argP,ArgParginine     PhoB 
+yoaC,CysBOacetylLserine 
+cbl,CysBOacetylLserine   NtrC 
+mntP,FurFesup2sup   MntRMnsup2sup 
+yebE,CpxR
+yebG,LexA 
+yebK,YebK 
+yecT,RcsBBglJ 
+ftnA,HNS   FurFesup2sup 
+hchA,HNS 
+yedX,YedW   CusRPSUPaspSUP   PhoB 
+yefM  yoeB,YefMantitoxin   YefMYoeB  
+cyaR,CpxR   CRPcAMP 
+rcnR,RcnR 
+rcnB  rcnA,FurFesup2sup   RcnR 
+mlrA,FliZ  
+preA  preT,CRPcAMP 
+folE  yeiB,MetJSadenosylmethionine 
+yeiP,CRPcAMP 
+yojI,LrpLeucine 
+arnF  arnE  arnT  arnD  arnA  arnC  arnB,BasR 
+alaA,LrpLeucine 
+yfbR,CysBOacetylLserine 
+alaC,SgrR 
+murR,MurR 
+eutH  eutA,HipB antitoxin and 
+eutS  eutP  eutQ  eutT  eutD  eutM,NagC 
+aegA,CRPcAMP 
+narQ,CRPcAMP 
+glmY,IHF   GlrRPsupasp56sup
+pgpC  tadA,NsrRnitric oxide
+raiA,CRPcAMP 
+yfiB  dgcN  yfiR,YjjQ 
+intA,AlpA  CP457 prophage
+ygaU,CpxR
+yqaE,CpxR
+casA  casB  casC  casD  casE  cas1  cas2,CRPcAMP   LeuO   HNS 
+ptrA  recB  recD,LexA 
+ppdA  ppdB  ygdB  ppdC  recC,FlhDC 
+ygeH,CysBOacetylLserine 
+fau  ssrS,Fis    Lrp   HNS 
+argO,LrpLeucine   ArgParginine   
+pitB,PhoB 
+dkgA  yqhD,YqhC 
+yqhG,RcsBBglJ 
+mqsR  mqsA,MqsA antitoxin of the MqsRA toxinantitoxin system and 
+nudF  yqiB  cpdA  yqiA  parE,CreB  
+ygiC  ygiB  ygiA  tolC,Rob   SoxS   MarA 
+fadH,HipB antitoxin and   CRPcAMP   ArcA   FadR 
+sfsB,RcsBBglJ 
+ibaG,MlrA
+aaeX  aaeA  aaeB,CRPcAMP 
+gspO  gspM  gspL  gspK  gspJ  gspI  gspH  gspG  gspF  gspE  gspD  gspC,FurFesup2sup   HNS 
+tsgA,NsrRnitric oxide
+hofM  hofN  hofO  hofP,CRPcAMP 
+asd,ArgP 
+yhjA,FNR   OxyR 
+yhjC,PhoB 
+avtA,LrpLeucine 
+secB  gpsA,CRPcAMP 
+yibQ  envC  gpmM,Cra 
+waaH,NsrRnitric oxide  PhoB 
+gor,OxyR 
+dinD,LexA 
+cbrB,CreB  
+mioC,MraZ 
+rffM  wzyE  rffT  wzxE  rffA  rffC  rffH  rffG  wecC  wecB  wzzE  rfe,NsrRnitric oxide
+yjbE,RcsAB   IHF 
+yjbJ,FliZ  
+adiC,PhoB   GadERcsB
+yjfN,CpxR
+yjfF  ytfT  ytfR  ytfQ,AraC
+bdcA,NsrRnitric oxide
+pepA,aminopeptidase AI
+yjhC  yjhB,NanR 
+ydeA,ArcA 
+lgoR,UxuR 
+yjjP,HNS 
+ftsZ  ftsA,RcsBPSUPasp56SUP
+slt,CpxR
+yeiW,CRPcAMP 
+ihfA  pheT  pheS  pheM  rplT  rpmI  infC  thrS,NsrRnitric oxide
+norR,NsrRnitric oxide  NorR 
+mioC  asnC,AsnC   Nac 
+mnmG  mioC  asnC,AsnC   Nac 
+mazF  mazE  relA,CRPcAMP   HNS 
+ygbK,FlhDC 
+ftnB,CpxR
+mzrA  yqjA,CpxR
+yjbH  yjbG  yjbF  yjbE,RcsAB   IHF 
+nhaR,YdeO 
+glgP  glgA  glgC  glgX  glgB,PhoP 
+rnlB  rnlA,IscR 
+eptA,BasR 
+rcsB  rcsD,HNS 
+gspO  gspM  gspL  gspK  gspJ  gspI  gspH  gspG  gspF  gspE  gspD  gspC,HNS 
+gspB  gspA,HNS 
+gspB  gspA,HNS 
+cynS  cynT,CynRCyanate 
+hokD  relE  relB,RelBRelE    RelBantitoxin and 
+crp,Fis 
+crp,Fis 
+hypF,Cra 
+hypF,Cra 
+eno,Cra 
+eno,Cra 
+eno,Cra 
+hisP  hisM  hisQ  hisJ,HNS   ArgRLarginine 
+hchA,HNS 
+csgG  csgF  csgE  csgD,FliZ    RstA  
+dcuR,CRPcAMP 
+gadW  gadX,PhoB   GadX   RutR   GadW   HNS   FNR   GadE 
+lpxC  ftsZ  ftsA  ftsQ  ddlB  murC  murG  ftsW  murD  mraY  murF  murE  ftsI  ftsL,LexA 
+ftsK,LexA 
+cysH,HypTMetoxidized 
+rutR,RutR 
+ydeO  safA,RcsBPSUPasp56SUP  YdeO   PhoP   EvgA 
+hflC  hflK  hflX  hfq,CRPcAMP 
+bglJ  yjjQ,HNS   LeuO 
+cspE,DinJYafQ  
+dctA,ArcA   CRPcAMP   DcuR 
+trg,Fis   CRPcAMP 
+sbmC,CRPcAMP   LexA 
+talA,CreB  
+yhbS  yhbT,CsgD 
+tpiA,Cra 
+ydhT  ydhU  ydhX  ydhW  ydhV  ydhY,NarL   NarP   FNR 
+ecnB,OmpR 
+creD,CreB  
+nemA  nemR,RutR   NemR 
+fau  ssrS,Fis    Lrp   HNS 
+pstS,PhoB   IHF   FNR 
+pstA  pstC  pstS,PhoB   IHF   FNR 
+ygiC  ygiB  ygiA  tolC,PhoP 
+ygiC  ygiB  ygiA  tolC,MarA   Rob   SoxS 
+murP  murQ,CRPcAMP   MurR 
+murP  murQ,MurR   CRPcAMP 
+gadW,YdeO 
+gadW,HNS   GadX   GadW   SdiA   PhoP 
+gadE,ArcA   GadX   YdeO 
+fadR,FadRacylCoA
+yjeV,DnaAATP 
+ogt,NarL   Fis
+waaZ  waaY,MarA   SoxS 
+mdh,DpiAPsupaspsup 
+exuT,DpiAPsupaspsup 
+citG  citX  citF  citE  citD  citC,FNR   CRPcAMP   NarL   DpiAPsupaspsup 
+dpiA  dpiB,DcuR   NarL 
+ahpF  ahpC,OxyR 
+ymgC  ariR  ymgA  ycgZ,BluR 
+azuC,CRPcAMP 
+ykgR,CRPcAMP 
+flhC  flhD,MatA 
+acrD,BaeR   CpxR
+fnrS,FNR 
+mgrR,PhoP 
+fabB,FabR   FadR 
+flxA,Fis 
+fliC,MatA   GadE   HNS 
+flgN  flgM,CsgD 
+aer,CRPcAMP   FNR 
+cheZ  cheY  cheB  cheR  tap  tar,FNR 
+ycgR,FlhDC 
+pdeH,FlhDC 
+yhcH  nanK  nanE  nanT  nanA,Fis   NanR   CRPcAMP 
+dcuC,FNR   ArcA 
+sodB,NsrRnitric oxide  IHF   CRPcAMP 
+asr,RcdA    HNS   RstA    PhoB 
+ribA,SoxS 
+osmC,Lrp   HNS   NhaRNaSUPSUP   RcsBPSUPasp56SUP
+osmC,HNS   Lrp 
+ychF,OxyR 
+metK,MetJSadenosylmethionine   CRPcAMP 
+pspF,PspF 
+cusA  cusB  cusF  cusC,YedW   PhoB   CusRPSUPaspSUP
+cusS  cusR,YedW   PhoB   CusRPSUPaspSUP
+inaA,Rob   MarA   SoxS 
+iscA  iscU  iscS  iscR,IscR2Fe2S
+dcuD,PhoP 
+gabP  gabT  gabD,Nac 
+glcA  glcB  glcG  glcF  glcE  glcD,PdhR   ArcA   GlcCGlycolate   IHF 
+glcC,Cra   Fis   GlcCGlycolate   CRPcAMP 
+osmY,FliZ    Fis   IHF   Lrp   CRPcAMP 
+recN,LexA 
+psiE,CRPcAMP   PhoB 
+hpt,IHF   CRPcAMP 
+gcd,CRPcAMP   IHF 
+ybjN  rimK  nfsA  ybjC,Rob   MarA   OxyR   SoxS 
+gadX,PhoB   GadX   RutR   GadW   HNS   FNR   GadE 
+metQ  metI  metN,HypTMetoxidized   MetJSadenosylmethionine 
+serA,LrpLeucine   CRPcAMP 
+mhpF  mhpE  mhpD  mhpC  mhpB  mhpA,MhpR3HPP   CRPcAMP 
+mgtL  mgtA,PhoP 
+treR,PhoP 
+treR,PhoP 
+mgrB,PhoP 
+topA,Fis 
+topA,Fis 
+fiu,FurFesup2sup   CRPcAMP 
+exbD,FurFesup2sup 
+fhuE,FurFesup2sup 
+gyrB,Fis 
+sufE  sufS  sufD  sufC  sufB  sufA,NsrRnitric oxide  FurFesup2sup   OxyR   IHF   IscR 
+micF,AcrR   LrpLeucine   Lrp   HNS   IHF   MarA   SoxS   HU   Rob   OmpR 
+isrC  flu,OxyR 
+metJ,FurFesup2sup 
+hemF  amiA,IHF 
+hemF,IHF 
+cpxA  cpxR,CpxR
+emrY  emrK,EvgA   FNR 
+trxA,CRPcAMP 
+trxC,OxyR 
+copA,CueRCusupsup 
+ybaT  ybaS,GadX 
+cueO,CueRCusupsup 
+chiA,HNS 
+xdhB  xdhC  xdhA,FNR 
+cydB  cydA,HNS   FNR   ArcA 
+cydB  cydA,HNS   FNR   ArcA 
+cydB  cydA,Cra 
+fldB,SoxS 
+patA,NtrC   Fis   IHF 
+gpmA,FurFesup2sup 
+ryhB,FurFesup2sup 
+ygaC,FurFesup2sup 
+bamE,NsrRnitric oxide  CpxR
+mscM  psd,CpxR
+bacA,CpxR
+yaiW  sbmA,CpxR
+uspD  yiiS,YdeO 
+hisP  hisM  hisQ  hisJ  argT,NtrC 
+prpE  prpD  prpC  prpB,Cra   CRPcAMP   PrpR2methylcitrate 
+yeaH  yeaG,NtrC 
+yhdZ  yhdY  yhdX  yhdW,NtrC 
+ddpF  ddpD  ddpC  ddpB  ddpA  ddpX,NtrC 
+glnD,FNR  FurFesup2sup 
+yciG,McbR   HNS 
+glgP  glgA,PhoP 
+phoU,PhoB 
+uxaB,CRPcAMP   ExuR 
+ssrS,Fis    Lrp   HNS 
+ssrS,Fis    Lrp   HNS 
+iraM,PhoP 
+lacI  mhpR,CRPcAMP 
+dgkA,BasR 
+rutA  rutB  rutC  rutD  rutE  rutF  rutG,RutR   NtrC   PhoP   ArcA 
+actP  yjcH  acs,Fis   IHF 
+actP  yjcH  acs,Fis   CRPcAMP   IHF 
+metL  metB,HypTMetoxidized   MetJSadenosylmethionine   PhoP 
+proP,Fis   CRPcAMP 
+sra,OmpR   Fis   IHF 
+ftsQ,SdiA 
+csiE,CRPcAMP   HNS 
+gabP  gabT  gabD  lhgO  csiD,CsiR   CRPcAMP   LrpLeucine   HNS 
+pdeR,FliZ    RutR 
+dsbC,CpxR
+lpxA  fabZ  lpxD  skp,CpxR  GadE 
+phoQ,PhoB 
+ydeM  ydeN,AraCArabinose   NagC 
+ydeI,RcdA  
+sroD  fadD,FadR   ArcA   CRPcAMP 
+prmC  prfA  hemA,FNR   ArcA   IHF 
+rybA  mntS,MntRMnsup2sup 
+cbrA,CreB  
+recG,CreB  
+patZ,CRPcAMP 
+leuO,LeuO    HNS   RcsBBglJ 
+fumC,Rob 
+rmf,CRPcAMP 
+yjiY,CRPcAMP   YehT 
+yhjX,YpdB
+waaH,BasR 
+fumC  fumA,ArcA   FNR   CRPcAMP 
+bluF,RcdA  
+leuL,LeuO 
+sucB  sucA,IHF   ArcA   FNR 
+trpL,TrpRTryptophan 
+gntK,GntR   IdnR5ketogluconate   CRPcAMP 
+ivbL,CRPcAMP 
+tnaC,CRPcAMP   TorR 
+bglG, RcsBBglJ   LeuO   Fis   HNS   CRPcAMP 
+ilvL,IHF 
+ilvL,Lrp   LrpLeucine   IHF 
+mpaA  ymjC  ymjD  ycjY,PgrR 
+leuE,LrpLeucine 
+cbpM  cbpA,Fis 
+cbpM  cbpA,Fis 
+gloA  nemA  nemR,RutR   NemR 
+patD  ydcV  ydcU  ydcT  ydcS,Nac 
+ompN  ydbK,SoxS 
+nanA,Fis   NanR   CRPcAMP 
+nanS  nanM  nanC,NanR   NagC   CRPcAMP 
+feaR,CRPcAMP   PhoB   NsrRnitric oxide  Nac 
+tynA,FeaR 
+bglG,RcsBBglJ   CRPcAMP 
+ygeA  araE,CRPcAMP   AraCArabinose 
+galE,GalR   HU   HNS   GalS   CRPcAMP 
+galE,CRPcAMP   HU   GalR   GalS   GalRgalactose  GalSgalactose
+galT  galE,GalR   HU   HNS   GalS   CRPcAMP 
+galT  galE,CRPcAMP   HU   GalR   GalS   GalRgalactose  GalSgalactose
+galK  galT  galE,GalR   HU   HNS   GalS   CRPcAMP 
+galK  galT  galE,CRPcAMP   HU   GalR   GalS   GalRgalactose  GalSgalactose
+relA,NtrC 
+ariR,CysBOacetylLserine 
+accA,FadR 
+accC  accB,FadR 
+fabI,FadR 
+iclR,IclRpyruvate   FadR 
+nagE,NagC   CRPcAMP 
+norW  norV,FNR   NarL   NarP   NorR   IHF 
+pgm  seqA,HU 
+garD,CdaR 
+gudD  gudX  gudP,CdaR 
+mngB  mngA,MngR 
+rpiB,AlsR 
+cdaR,CdaR 
+alsE  alsC  alsA  alsB  rpiR,AlsR 
+alsE  alsC  alsA  alsB  rpiR,AlsR 
+recX  recA,LexA 
+fumB  dcuB,DcuR 
+znuB  znuC,ZurZnsup2sup 
+zntA,ZntRZnsup2sup 
+nfsB,Rob   SoxS   MarA 
+znuA,ZurZnsup2sup 
+idnK,GntR   IdnR   CRPcAMP 
+idnR  idnT  idnO  idnD,GntR   IdnR5ketogluconate   CRPcAMP 
+lacA  lacY  lacZ,CRPcAMP 
+lacA  lacY  lacZ,CRPcAMP 
+nrdG  nrdD,HNS   NrdRZnsup2sup   FNR 
+bglB  bglF  bglG, RcsBBglJ   LeuO   Fis   HNS   CRPcAMP 
+gadE,ArcA   PhoP   GadE 
+hdeD,RcsBPSUPasp56SUP  PhoP   HNS   GadE   GadX 
+yeaD  gapA,Cra 
+gapA,Cra 
+gapA,Cra   CRPcAMP 
+gapA,Cra 
+gntT,GntR   CRPcAMP 
+gntT,GntR   CRPcAMP 
+asnB,GadX 
+lon,GadX 
+gntP,OxyR   UxuR   CRPcAMP 
+nfuA  gntX,GntR   CRPcAMP 
+ibpB,IHF 
+uxaA  uxaC,ExuR   CRPcAMP   FNR 
+uxuR,UxuR   ExuR   CRPcAMP 
+exuR,ExuR 
+uidC  uidB  uidA,UidR   UxuR   CRPcAMP 
+uidR,UidR 
+gnd,FNR  FurFesup2sup   GadE 
+ulaF  ulaE  ulaD  ulaC  ulaB  ulaA,UlaR   IHF   CRPcAMP 
+ulaG,UlaR   IHF 
+apaH  apaG  rsmA  pdxA,Fis 
+rsmA  pdxA,Fis 
+fadJ  fadI,FadR   ArcA 
+malZ,MalTMaltotrioseATP 
+dmsD  ynfH  ynfG  ynfF  ynfE,NarL   FNR 
+argG,ArgRLarginine   CRPcAMP 
+mdtF  mdtE  gadE,FliZ    HNS   GadX   GadW   CRPcAMP   GadE   EvgA   YdeO 
+pspG,PspF   IHF 
+gadY,RcsBPSUPasp56SUP  GadW   GadX 
+glnA,NtrC   CRPcAMP 
+glnA,CRPcAMP   Fis   NtrC 
+cytR,CRPcAMP   CytR 
+serC,CRPcAMP   Lrp 
+ugpQ  ugpC  ugpE  ugpA  ugpB,PhoB 
+ugpQ  ugpC  ugpE  ugpA  ugpB,PhoB   CRPcAMP 
+yidQ,CpxR
+dcuA  aspA,NarL   FNR   CRPcAMP 
+entS,FurFesup2sup 
+gcvB,GcvA 
+pnp  rpsO  truB  rbfA  infB  nusA  rimP  metY,Fis 
+tisB,LexA 
+murI  btuB,GadX 
+dinG,LexA 
+folA,IHF   TyrRTyrosine 
+dapB,ArgP 
+lysP,Lrp   ArgP 
+gltX,Fis
+amn,PhoB 
+manA,CRPcAMP 
+alaS,AlaSLalanine
+dapD,ArgP 
+pgi,SoxS 
+aspC,FNR  FurFesup2sup 
+cspD,CRPcAMP   MqsA antitoxin of the MqsRA toxinantitoxin system and   HNS 
+cysE,SutR 
+katE,FurFesup2sup   Fis 
+ppc,Cra 
+ung,CpxR
+lysC,ArgP 
+uvrC,LexA 
+ssb,ArcA 
+ssb,ArcA 
+ansB,Fis 
+agaA  agaW  agaV  kbaZ,AgaR   CRPcAMP 
+agaR,AgaR 
+agaI  agaD  agaC  agaB  kbaY  agaS,AgaR 
+ppiD,CpxR
+ssuB  ssuC  ssuD  ssuA  ssuE,CysBOacetylLserine   FNR   Cbl   IHF 
+aceF  aceE,NsrRnitric oxide  FNR   ArcA 
+rplT,FNR 
+ruvB  ruvA,LexA 
+ptrA,LexA 
+uvrC  uvrY,LexA 
+sdhB  sdhA  sdhD,CRPcAMP 
+cstA,CRPcAMP 
+nanM  nanC,NanR   NagC   CRPcAMP 
+ilvH  ilvI,Lrp 
+cspI,BasR   Fis 
+tsr,CpxR
+hcr  hcp,OxyR   NsrR   FNR   NarL   NarP 
+galP,NagC   GalSgalactose  GalRgalactose  GalR   GalS   CRPcAMP 
+sra  bdm,RcsBPSUPasp56SUP
+hcaR,HcaR 
+hcaD  hcaB  hcaC  hcaF  hcaE,HcaRHCA 
+prpR,PhoB   AscG   PrpR2methylcitrate   CRPcAMP 
+mntH,OxyR   FurFesup2sup   MntRMnsup2sup 
+tktB,PhoB 
+agp,CRPcAMP 
+glk,Cra 
+evgS  evgA,HNS   EvgA 
+evgS  evgA,HNS   EvgA 
+polB,LexA 
+allA,AllRallantoin
+allS,AllRallantoin
+glxK  ybbY  allB  ybbW  glxR  hyi  gcl,AllRallantoin
+allE  allC  allD,AllSallantoin 
+yhhY,FurFesup2sup 
+tfaQ  ydfN  nohA,FurFesup2sup 
+fhuF,OxyR   FurFesup2sup 
+ydeP,UvrY Phosphorylated   NarP  NarL  RcsBPSUPasp56SUP  HNS   NagC   PhoP   EvgA 
+ydeO,HNS 
+yegZ  yegR,EvgA 
+frc,EvgA 
+yfdE  yfdV  oxc  frc  yfdX,EvgA 
+yrbL,BasR   PhoP 
+borD,PhoP 
+rstB  rstA,PhoP 
+slyB,PhoP 
+slyB,PhoP 
+rob,SoxS   Rob   MarA 
+nagA,PhoP 
+hemL,PdhR   PhoP 
+pagP,PhoP 
+ybjG,PhoP 
+ompT,PhoP 
+tam  lsrG  lsrF  lsrB  lsrD  lsrC  lsrA,LsrR   CRPcAMP 
+baeR  baeS  mdtD  mdtC  mdtB  mdtA,BaeR   CpxR
+mglC  mglA,Fis 
+dhaR,DhaR 
+dhaM  dhaL  dhaK,DhaR 
+glnQ,Fis 
+acrD,EvgA 
+fbaA  pgk  epd,Cra   CRPcAMP 
+artJ,ArgRLarginine 
+metE,MetJSadenosylmethionine   MetRLhomocysteine
+metR,MetJSadenosylmethionine   MetRLhomocysteine
+metR,MetJSadenosylmethionine   MetRLhomocysteine
+ydjM,LexA 
+insK,LexA 
+dinQ,LexA 
+symE,LexA 
+ybfE,LexA 
+hokE,LexA 
+cho,LexA 
+pta  ackA,CreB  
+acrR,AcrR 
+yqjH,FurFesup2sup   YqjI 
+zinT,ZurZnsup2sup   SoxS   FurFesup2sup 
+ldtB,CRPcAMP   Rob 
+mltF,Rob 
+fliE,CsgD 
+scpC  scpB  argK  scpA,FNR 
+fhlA  hypE  hypD  hypC  hypB  hypA,NsrRnitric oxide  IHF   FhlAFormate 
+fhlA  hypE  hypD  hypC  hypB,FNR 
+dcuR  dcuS,NarL   FNR 
+bcsZ  bcsB,FNR 
+gapC2  gapC1,FNR 
+fbaB,Cra 
+pgaD  pgaC  pgaB  pgaA,OmpR  NhaRNaSUPSUP 
+argA,ArgRLarginine 
+dtpA,OmpR 
+metY,CRPcAMP   ArgRLarginine 
+appY,DpiAPsupaspsup   HNS 
+erpA,IscR 
+nfuA,IscR 
+ydiU,IscR 
+napC  napB  napH  napG  napA  napD  napF,IscR 
+oxyS,OxyR 
+pepT,FNR 
+pitA,FNR 
+ybiT,AscG   CRPcAMP 
+arcZ,ArcA 
+yhiM,HNS   GadERcsB
+yidL,RcsBBglJ 
+iraD,FNR 
+lgoD,UxuR 
+yjjZ,FurFesup2sup 
+yncE,MarA 
+yqjI,YqjI   FNR 
+ysgA,FNR 
+rcdA,RcdA  
+sxy,CRPcAMP 
+comR,CRPcAMP 
+bhsA,ComR   CRPcAMP 
+pliG,ZurZnsup2sup 
+ychH,CRPcAMP 
+ychO,FNR 
+ydbK,SoxS 
+ydcO,SutR 
+ydeJ,FNR 
+nimR,NimR 
+yegH,PhoB 
+pdeF,FNR 
+ttdR,DanLtartrate 
+ygiZ,RcsBBglJ 
+aaeR,CRPcAMP 
+dcuD,IHF 
+omrB,OmpR 
+omrA,OmpR 
+adeD,HNS 
+dacC,BolA 
+dsrA,LeuO 
+fadE,FadR   ArcA 
+feaB,CRPcAMP   FeaR   NsrR 
+grxD,NsrRnitric oxide
+hdfR,HNS 
+galR,GalSgalactose  GalRgalactose
+ompX,FNR 
+ompW,FNR 
+nlpA,CsgD 
+mcaS,CRPcAMP 
+pheM  rplT,FNR 
+aslB,GadERcsB   Rob 
+dgcC,CsgD 
+pepD,CsgD 
+molR1,RcsBBglJ   LexA 
+lpxC  ftsZ  ftsA  ftsQ  ddlB  murC  murG  ftsW  murD  mraY  murF  murE  ftsI  ftsL  rsmH  mraZ,MraZ   PdhR 
+sohB,CRPcAMP 
+sohB,CRPcAMP 
+mpl,Cra   CRPcAMP 
+aceB  aceA  aceK,ArcA   CRPcAMP   IclRpyruvate   IHF   Cra 
+alkA,Ada 
+araC,AraC   CRPcAMP   AraCArabinose 
+argC  argB  argH,ArgRLarginine 
+argF,ArgRLarginine 
+argI,ArgRLarginine 
+argR,ArgRLarginine 
+tyrA  aroF,TyrRTyrosine 
+aroG,TyrRPhenylalanine   CpxR
+aroH,TrpRTryptophan 
+aroL  yaiA  aroM,TyrRTyrosine   TrpRTryptophan 
+aroP,Cra   TyrRTyrosine 
+bioA,BirAbio5AMP 
+cirA,FurFesup2sup   CRPcAMP 
+cirA,FurFesup2sup   CRPcAMP 
+cyaA,CRPcAMP 
+deoC  deoA  deoB  deoD,DeoR 
+deoC  deoA  deoB  deoD,DeoR   CytR   ModEMoOsub4subsup2sup   CRPcAMP   Fis 
+dmsA  dmsB  dmsC,Fis   NarL   FNR 
+fhuA  fhuC  fhuD  fhuB,FurFesup2sup 
+dusB  fis,Fis   IHF   CRPcAMP 
+fnr,FurFesup2sup   FNR   IHF   ArcA 
+frdD  frdC  frdB  frdA,NarL   FNR   DcuR 
+galS,GalS   GalR   CRPcAMP 
+galM  galK  galT  galE,GalR   HU   HNS   GalS   CRPcAMP 
+galM  galK  galT  galE,CRPcAMP   HU   GalR   GalS   GalRgalactose  GalSgalactose
+glnG  glnL  glnA,NtrC   CRPcAMP 
+glnG  glnL,NtrC 
+glnG  glnL  glnA,CRPcAMP   Fis   NtrC 
+glpA  glpB  glpC,Fis   ArcA   GlpR   FlhDC   CRPcAMP   FNR 
+glpD,ArcA   GlpR   CRPcAMP 
+ilvN  ilvB  ivbL,CRPcAMP 
+ilvY,IlvY   IlvY2acetolactate  
+katG,FurFesup2sup   OxyR   FNR 
+kdpF  kdpC  kdpB  kdpA,KdpE 
+lacA  lacY  lacZ,LacI   HNS   CRPcAMP 
+lexA  dinF,LexA 
+malG  malF  malE,CreB    Fis   CRPcAMP   MalTMaltotrioseATP 
+malQ  malP,MalTMaltotrioseATP   FNR 
+melR,MelR   CRPcAMP   MelRMelibiose 
+metA,MetJSadenosylmethionine 
+metH,FurFesup2sup   MetR 
+umpH  nagC  nagA  nagB,NagC   CRPcAMP 
+narG  narH  narJ  narI,Fis   RstA    IHF   FNR   NarL 
+narK,Fis   IHF   FNR   NarL 
+nirB  nirD  nirC  cysG,Cra   HNS   IHF   Fis   CRPcAMP   FNR   NarL   NarP 
+yfaE  nrdA  nrdB,HNS   NrdRZnsup2sup   DnaAATP   ArgP   CRPcAMP   Fis 
+ompA,CRPcAMP 
+ompC,YjjQ   IHF   LrpLeucine   Lrp   EnvY   OmpR   CpxR
+ompF,PhoB   RstA    CpxR  OmpR   IHF   EnvY   CRPcAMP   FurFesup2sup 
+oxyR,OxyR   CRPcAMP 
+phoA  psiF,PhoB 
+phoB  phoR,PhoB 
+purB  hflD,PurRHypoxanthine 
+purC,PurRHypoxanthine 
+purD  purH,RbsR   PurRHypoxanthine   PhoP 
+purL,PurRHypoxanthine 
+purM  purN,PurRHypoxanthine   FNR 
+purR,PurRHypoxanthine   FurFesup2sup 
+pyrC,FurFesup2sup   PurRHypoxanthine 
+pyrD,Fis   PurRHypoxanthine 
+recA,LexA 
+rhaS  rhaR,RhaS  RhaSLrhamnose   RhaRLrhamnose   CRPcAMP 
+sodA,IHF   FurFesup2sup   FNR   ArcA   SoxS   Rob   MarA   CRPcAMP 
+ssb,LexA   ArcA 
+sulA,RcdA    LexA 
+trpA  trpB  trpC  trpD  trpE  trpL,TrpRTryptophan 
+tyrR,TyrR 
+uvrA,LexA   ArcA 
+uvrB,LexA 
+uvrD,LexA 
+alkB  ada,Ada 
+ahpC  ahpF,MetJSadenosylmethionine   OxyR 
+ansB,FNR   CRPcAMP 
+araE,CRPcAMP   AraCArabinose 
+cysB,PhoP   CysB 
+cysH  cysI  cysJ,CysBOacetylLserine   IHF 
+cysK,CysBOacetylLserine 
+fadL,CRPcAMP   OmpR   FadR   ArcA   PhoP 
+ilvI  ilvH,HNS   Lrp 
+purK  purE,PurRHypoxanthine 
+rpoH,CytR   CRPcAMP 
+rpoH,CytR   CRPcAMP   DnaAATP 
+tnaC  tnaA  tnaB,CRPcAMP   TorR 
+phoE,PhoB 
+tyrB,TyrRTyrosine 
+tyrP,TyrR   TyrRTyrosine   IHF   HU   TyrRPhenylalanine 
+glnB,PurRHypoxanthine 
+ilvC,IlvY   IlvY2acetolactate  
+malT,Mlc   CRPcAMP   Lrp 
+fabA,FabR   FadR 
+mtr,TrpRTryptophan   IHF   HU   TyrRTyrosine 
+purA,MarA   PurRHypoxanthine   GadE 
+aidB,isovalerylCoA dehydrogenase and   Lrp   Ada 
+dctR  slp,YdeO   HNS   GadERcsB   GadW   GadX   MarA 
+appX  appC  appB  appA,YdeO   AppY   ArcA 
+araH  araG  araF,CRPcAMP   AraCArabinose 
+araJ,CRPcAMP   AraCArabinose 
+cydA  cydB,HypTMetoxidized   FNR   HNS   ArcA 
+cyoE  cyoD  cyoC  cyoB  cyoA,YedW   CusRPSUPaspSUP   Cra   PdhR   FNR   ArcA   FurFesup2sup   GadE   CRPcAMP 
+sucA  sucB  sucC  sucD,IHF   ArcA   FNR 
+fumA,ArcA   FNR   CRPcAMP 
+fumC,CRPcAMP   FurFesup2sup   FNR  ArcA   SoxS   MarA   SoxR 
+gltA,ArcA   CRPcAMP   IHF 
+icd,ArcA 
+mdh,DpiAPsupaspsup   ArcA   FlhDC   CRPcAMP 
+carA  carB,ArgRLarginine 
+carA  carB,Fis   RutR   PurRHypoxanthine   aminopeptidase AI  IHF 
+argD,PhoP   ArgRLarginine 
+asnA,AsnC 
+asnC,AsnC   Nac 
+atoB  atoD  atoA  atoE,IHF   AtoC 
+betA  betB  betI,Cra   BetI   ArcA 
+betT,Cra   BetI   ArcA 
+bioB  bioF  bioC  bioD,BirAbio5AMP 
+cadC,HNS   MlrA   LeuO   CadC   FNR 
+crp,Cra   Fis   CRPcAMP 
+cpdB,CRPcAMP 
+fur,FurFesup2sup   CRPcAMP 
+glgP  glgA  glgC,CRPcAMP 
+malK  lamB  malM,MalTMaltotrioseATP   CRPcAMP 
+speC,CRPcAMP 
+tdcG  tdcF  tdcE  tdcD  tdcC  tdcB  tdcA,TdcR   TdcA   IHF   CRPcAMP   FNR 
+ubiG,CRPcAMP 
+ebgA  ebgC,EbgR   CRPcAMP 
+fucP  fucI  fucK  fucU  fucR,FucRLfuculose1phosphate   CRPcAMP 
+nupG,CytR   DeoR   CRPcAMP 
+uhpT,UvrY Phosphorylated   CRPcAMP   UhpA 
+melA  melB,MelR   MelRMelibiose  CRPcAMP 
+malX  malY,MalI   CRPcAMP 
+srlA  srlE  srlB  srlD  gutM  srlR  gutQ,HNS   GutR   GutM   CRPcAMP 
+udp,CytR   CRPcAMP 
+fucO  fucA,FucRLfuculose1phosphate   CRPcAMP 
+flhC  flhD,YjjQ   FliZ    MatA   OmpR   LrhA   HdfR   RcsAB   FurFesup2sup   IHF   HNS   CRPcAMP   QseB 
+malS,CRPcAMP   MalTMaltotrioseATP   PhoP 
+aldB,Fis   CRPcAMP 
+hns,HNS   CspA   Fis   GadX 
+gyrA,Fis   CspA   CRPcAMP 
+pck,CRPcAMP   Cra 
+cynT  cynS  cynX,CynRCyanate 
+cynR,CynR 
+cysM  cysA  cysW  cysU  cysP,HNS   CysBOacetylLserine 
+cysC  cysN  cysD,CysBOacetylLserine 
+nupC,CytR   CRPcAMP   Nac 
+dsdX  dsdA,DsdCDserine    CRPcAMP 
+dsdC,NsrRnitric oxide  DsdCDserine  
+exuT,DpiAPsupaspsup   ExuR   CRPcAMP 
+fecE  fecD  fecC  fecB  fecA,HypTMetoxidized   FurFesup2sup   CRPcAMP   PdhR 
+fdhF,NarL   FhlAFormate   FNR   NarP 
+hycI  hycH  hycG  hycF  hycE  hycD  hycC  hycB  hycA,NsrRnitric oxide  IHF   FhlAFormate   ModEMoOsub4subsup2sup 
+hypA  hypB  hypC  hypD  hypE,NsrRnitric oxide  IHF   FhlAFormate 
+proP,CRPcAMP 
+narL  narX,FNR   ModEMoOsub4subsup2sup 
+fdnG  fdnH  fdnI,NarP   FNR   NarL 
+ndh,FurFesup2sup   NsrRnitric oxide  PdhR   FNR   IHF   ArcA   Fis 
+fumB,Fis   FNR   ArcA   FurFesup2sup 
+aspA,NarL   FNR   CRPcAMP 
+fruA  fruK  fruB,Cra 
+ppsA,Cra 
+entD  fepA,FurFesup2sup   CRPcAMP 
+fepB,RutR   FurFesup2sup 
+fepC  fepG  fepD,FurFesup2sup 
+entC  entE  entB  entA  entH,FurFesup2sup   CRPcAMP 
+tonB,FurFesup2sup 
+mglC  mglA  mglB,GalS   FlhDC   GalR   CRPcAMP 
+gatD  gatC  gatB  gatA  gatZ  gatY,GatR   ArcA   CRPcAMP 
+gcvP  gcvH  gcvT,CRPcAMP   PurRHypoxanthine   Lrp   GcvA   FNR 
+gcvA,GcvA 
+glnQ  glnP  glnH,IHF   NtrC 
+glpX  glpK  glpF,GlpR   CRPcAMP 
+ihfA,IHF 
+ihfB,IHF 
+dps,MntRMnsup2sup   HNS   Fis  OxyR   IHF 
+envZ  ompR,CRPcAMP 
+leuD  leuC  leuB  leuA  leuL,LeuO 
+umuD  umuC,LexA 
+lrp,HNS   NsrRnitric oxide  LrpLeucine   Lrp   GadE 
+gltB  gltD  gltF,FurFesup2sup   AdiY   HdfR   LrpLeucine   Nac   FNR   CRPcAMP   ArgRLarginine   Lrp   GadE   IHF 
+livJ,LrpLeucine 
+livF  livG  livM  livH  livK,Lrp 
+lysA,ArgP   LysR 
+lysR,LysR 
+malI,CRPcAMP   MalI 
+fpr,SoxS   MarA 
+nfo,SoxS   Rob   MarA 
+marR  marA  marB,CpxR  AcrR   Cra   MarR   MarA   SoxS   Fis   Rob   CRPcAMP 
+metC,MetJSadenosylmethionine 
+glyA,PurRHypoxanthine   MetRLhomocysteine
+mtlA  mtlD  mtlR,MtlR   Cra   Fis   CRPcAMP 
+nadB,NadR  and NMN adenylyltransferase
+pncB,NadR  and NMN adenylyltransferase  CRPcAMP 
+manX  manY  manZ,Cra   Mlc   NagC   CRPcAMP 
+codB  codA,PurRHypoxanthine   Nac 
+adhE,Lrp   Cra   NarL   Fis 
+nrfA  nrfB  nrfC  nrfD  nrfE  nrfF  nrfG,NsrRnitric oxide  NsrR   Fis   FNR   FlhDC   NarL   NarP   IHF 
+nhaR  nhaA,HNS   NhaRNaSUPSUP 
+phnP  phnO  phnN  phnM  phnL  phnK  phnJ  phnI  phnH  phnG  phnF  phnE2  phnE1  phnD  phnC,PhoB 
+phoU  pstB  pstA  pstC  pstS,PhoB   IHF   FNR 
+prs,PurRHypoxanthine 
+speB  speA,PurRHypoxanthine 
+guaA  guaB,Fis  PurRHypoxanthine   DnaAATP   CRPcAMP 
+rbsR  rbsD  rbsA  rbsC  rbsB  rbsK,RbsR   CRPcAMP 
+wcaB  wcaA  wzc  wzb  wza,RcsAB 
+rhaT,RhaS  ArcA   CRPcAMP   RhaSLrhamnose 
+zwf,FNR  FurFesup2sup   Cra   SoxS   Rob   MarA 
+ftsQ  ftsA  ftsZ,SdiA 
+soxS,AcrR   FurFesup2sup   FNR  SoxS   SoxR 
+torC  torA  torD,NarL   TorR 
+treC  treB,TreR   CRPcAMP   ArcA 
+araD  araA  araB,AraC   CRPcAMP   AraCArabinose 
+fadA  fadB,Fis   FadR   ArcA 
+glpQ  glpT,Fis   IHF   GlpR   CRPcAMP   FNR 
+metF,MetJSadenosylmethionine 
+rhaD  rhaA  rhaB,RhaSLrhamnose   CRPcAMP 
+trpR,TrpRTryptophan 
+lysU,Lrp 
+oppA  oppB  oppC  oppD  oppF,FurFesup2sup   Lrp   ArcA   ModEMoOsub4subsup2sup 
+sdaA,Lrp 
+serA,Nac   Lrp 
+tdh  kbl,Lrp 
+argE,ArgRLarginine 
+eda  edd,KdgR   GntR   Cra 
+gntU  gntK,GntR   IdnR5ketogluconate   CRPcAMP 
+gntT,GntR   CRPcAMP 
+accB  accC,biotin carboxyl carrier protein dimer
+accD,FadR 
+acrA  acrB,MprA   EnvR   AcrR   PhoP   MarA   SoxS   Rob 
+acrE  acrF,HNS   FNR 
+adiA,HNS   AdiY   IHF 
+ampD  ampE,CRPcAMP 
+arsR  arsB  arsC,ArsR 
+artM  artQ  artI  artP,ArgRLarginine 
+ascF  ascB,CRPcAMP   AscG 
+caiE  caiD  caiC  caiB  caiA  caiT,HNS   CRPcAMP   CaiFLcarnitine   ArcA   FNR 
+chbG  chbF  chbR  chbA  chbC  chbB,ChbR   NagC   CRPcAMP   ChbRiNimonoacetylchitobiose6phosphate
+creA  creB  creC  creD,NagC 
+cydC  cydD,NarL   FNR   ArcA 
+dadA  dadX,CRPcAMP   Lrp 
+recF  dnaN  dnaA,DnaAATP   ArgP 
+dppF  dppD  dppC  dppB  dppA,FNR   IHF 
+htrE  yadV,IHF 
+exbD  exbB,FurFesup2sup 
+fabH  fabD  fabG,FadR 
+feoC  feoA  feoB,NagC   FurFesup2sup   FNR 
+ybdZ  fes  entF  fepE,HNS   FurFesup2sup   FNR 
+flgN  flgM  flgA,FlhDC 
+flgB  flgC  flgD  flgE  flgF  flgG  flgH  flgI  flgJ,FlhDC 
+fliD  fliS  fliT,FlhDC 
+fliL  fliM  fliN  fliO  fliP  fliQ  fliR,FlhDC 
+glgS,CRPcAMP 
+glmS  glmU,NagC 
+yhiD  hdeB  hdeA,FliZ    RcsBPSUPasp56SUP  PhoP   GadE   GadW   LrpLeucine   HNS   MarA   GadX   TorRTorI
+hipA  hipB,HipB antitoxin and   HipAB toxinantitoxin complex and   IHF 
+hyaA  hyaB  hyaC  hyaD  hyaE  hyaF,YdeO   Fis   NarL   NarP   IscR   ArcA   AppY 
+hybO  hybG  hybF  hybE  hybD  hybC  hybB  hybA,ArcA   NarL 
+moaA  moaB  moaC  moaD  moaE,CueRCusupsup   FNR 
+modA  modB  modC,ModEMoOsub4subsup2sup   CRPcAMP 
+moeB  moeA,FNR   ArcA   NarL 
+cheW  cheA  motB  motA,CpxR
+ccmH  ccmG  ccmF  ccmE  ccmD  ccmC  ccmB  ccmA  napC  napB  napH  napG  napA  napD  napF,NarL   FNR   ModEMoOsub4subsup2sup   NarP   FlhDC 
+nikR  nikA  nikB  nikC  nikD  nikE,NikRNi  NarL   FNR 
+nuoN  nuoM  nuoL  nuoK  nuoJ  nuoI  nuoH  nuoG  nuoF  nuoE  nuoC  nuoB  nuoA,FNR   ArcA   IHF   NarL 
+phoQ  phoP,PhoP 
+potF  potG  potH  potI,NtrC 
+pspA  pspB  pspC  pspD  pspE,IHF   PspF 
+rpsI  rplM,CRPcAMP   Fis   FNR 
+rpmA  rplU,MlrA
+rpsF  priB  rpsR  rplI,CRPcAMP 
+rpsQ  rpmC  rplP  rpsC  rplV  rpsS  rplB  rplW  rplD  rplC  rpsJ,ArcA   FNR 
+rplS  trmD  rimM  rpsP,FNR 
+ruvB  ruvA,LexA 
+serC  aroA,CRPcAMP   Lrp 
+dksA  sfsA,CRPcAMP 
+tehA  tehB,NsrRnitric oxide  NsrR 
+infC  thrS,NsrRnitric oxide
+ttdT  ttdA  ttdB,DanLtartrate 
+ubiC  ubiA,FNR   IHF   NarL   ArcA 
+dcd  udk,RbsRribose
+xylF  xylG  xylH  xylR,Fis   XylRXylose   CRPcAMP 
+dsdA,DsdCDserine    CRPcAMP 
+pflB  focA,NarL   CRPcAMP   IHF   FNR   ArcA 
+pflB  focA,ArcA 
+pflB  focA,NarL   FNR 
+pflB,Fis 
+ackA,ArcA   FNR 
+bolA,HNS   OmpR 
+osmB,RcsBPSUPasp56SUP
+csgC  csgB  csgA,FliZ    CpxR  CsgD 
+csgG  csgF  csgE  csgD,RcdA    BasR   FliZ    Cra   MlrA   IHF   RstA    CpxR  RcsAB   OmpR   CsgD   CRPcAMP 
+stpA, HNS   Lrp 
+osmE,IHF   Fis 
+htpG,AscG 
+htrE  yadV,IHF 
+htrE  yadV,IHF 
+mngR,MngR 
+fimB,HNS 
+fimB,BasR   IHF   NanR   NagC   HNS 
+grpE,CRPcAMP 
+tcyJ  fliZ  fliA,SutR   CsgD   MatA   NsrRnitric oxide  HNS   FlhDC 
+hypB  hypC  hypD  hypE,FNR 
+icd,Cra 
+rpoH,CpxR
+rpoH,CytR   CRPcAMP   DnaAATP 
+lrhA,LrhA 
+trmA,Fis 
+uspA,IHF   FadR 
+rpsU  dnaG  rpoD,LexA 
+uraA  upp,FNR 
+rpoS,MqsA antitoxin of the MqsRA toxinantitoxin system and   FurFesup2sup   ArcA   CRPcAMP   GadX 
+pgk  epd,Cra   CRPcAMP 
+nuoN  nuoM  nuoL  nuoK  nuoJ  nuoI  nuoH  nuoG  nuoF  nuoE  nuoC  nuoB  nuoA,Fis 
+tsx,DeoR 
+tsx,CytR   CRPcAMP 
+soxR,AcrR   FurFesup2sup   FNR  SoxR 
+mprA  emrA  emrB,MprA 
+fecR  fecI,FurFesup2sup 
+ppiA,CpxR
+ppiA,CytR   CRPcAMP 
+ppiA,CytR   CRPcAMP 
+ppiA,CytR   CRPcAMP 
+cadA  cadB,Lrp   ArcA   HNS   CadC   GadX   GadERcsB
+fumB  dcuB,NarL   FNR   CRPcAMP 
+tcyJ  fliZ  fliA,NsrRnitric oxide
+glnB,PurRHypoxanthine 
+ubiX  purF  cvpA,PurRHypoxanthine 
+ompC,Lrp 
+ompC,IHF   Lrp 
+yhfA,CRPcAMP 
+ptsH  ptsI  crr,NagC   Mlc   CRPcAMP 
+ptsH  ptsI  crr,NagC   CRPcAMP 
+ptsH  ptsI  crr,NagC 
+ptsH  ptsI  crr,CRPcAMP   Cra 
+ptsH  ptsI  crr,Cra   CRPcAMP 
+rcsA,HNS   GadE   RcsAB 
+glmS  glmU,NagC 
+aspV,Fis 
+thrW,Fis 
+argU,Fis 
+lysT  valT  lysW,Fis 
+proL,Fis 
+valU  valX  valY  lysV,Fis  Fis 
+argW,Fis 
+pheV,Fis 
+argX  hisR  leuT  proM,Fis 
+tufB  thrU  tyrU  glyT  thrT,Fis 
+leuX,Fis 
+glnX  glnV  metU  glnW  glnU  leuW  metT,Fis 
+serT,Fis 
+serX,Fis 
+tpr  tyrV  tyrT,Fis 
+alaX  alaW,Fis 
+glyU,Fis 
+infB  nusA  rimP  metY,Fis 
+proK,Fis 
+pheU,Fis 
+leuV  leuP  leuQ,Fis 
+pdhR  aceE  aceF  lpd,Cra   PdhR   FNR   CRPcAMP 
+lpd,FurFesup2sup   ArcA   CRPcAMP   FNR   Fis 
+sdhC  sdhD  sdhA  sdhB  sucA  sucB  sucC  sucD,FNR   CRPcAMP   ArcA   FurFesup2sup 
+pykF,Cra 
+uxuB  uxuA,OxyR   UxuR   ExuR   CRPcAMP 
+aldA,DnaAATP   ArcA   FNR   CRPcAMP 
+putP,fused PutA   proline dehydrogenase  1pyrroline5carboxylate dehydrogenase
+putP,CRPcAMP 
+caiF,NarL   HNS   CRPcAMP   FNR 
+fixX  fixC  fixB  fixA,CRPcAMP   CaiFLcarnitine   FNR 
+envZ  ompR,CRPcAMP   IHF 
+envZ  ompR,CRPcAMP 
+envZ  ompR,CRPcAMP 
+lldD  lldR  lldP,LldRLlactose   ArcA   LldR 
+fimD  fimH  fimG  fimF  fimC  fimI  fimA,Lrp   IHF   HNS 
+fimE,HNS   Lrp   LrhA 
+rpoH,IHF 
+msrA,Fis 
+ampC,BolA 
+eda,KdgR 
+mukB  mukE  mukF  smtA,HNS 
+eda,PhoB 
+rseC  rseB  rseA  rpoE,CpxR
+xapB  xapA,XapRxanthosine 
+tauD  tauC  tauB  tauA,CysBOacetylLserine   Cbl 
+pnp  rpsO  truB  rbfA  infB  nusA  rimP  metY,CRPcAMP   ArgRLarginine 
+metY,Fis 
+arcA,FNR 
+arcA,FNR 
+putA,BasR   fused PutA   proline dehydrogenase  1pyrroline5carboxylate dehydrogenase  MarA 
+nmpC,MprA   IHF   OmpR   CRPcAMP 
+cydB  cydA,HNS   ArcA   FNR 
+ccmH  ccmG  ccmF  ccmE  ccmD  ccmC  ccmB  ccmA  napC  napB  napH  napG  napA  napD  napF,NarL   NarP   ModEMoOsub4subsup2sup   FlhDC 
+phr,LexA 
+yiaJ,YiaJ   CRPcAMP   IHF 
+gadC  gadB,FliZ    GadW   AdiY   RcsBPSUPasp56SUP  Fis   CRPcAMP   GadX   GadE 
+paaZ,PaaX   CRPcAMP   IHF 
+glpR  glpG  glpE,CRPcAMP 
+hypF  hydN,FhlAFormate   FlhDC 
+dadX  dadA,Lrp   CRPcAMP 
+dadX  dadA,Lrp   CRPcAMP 
+rnpB  garK  garR  garL  garP,FurFesup2sup   HNS   CdaR   FNR 
+hupA,CRPcAMP   Fis 
+hupB,Fis 
+hupB,Fis   CRPcAMP 
+xseA,CRPcAMP 
+paaK  paaJ  paaI  paaH  paaG  paaF  paaE  paaD  paaC  paaB  paaA,PaaX   CRPcAMP   IHF 
+mazF  mazE  relA,HipAB toxinantitoxin complex and   HipB antitoxin and 
+mazG  mazF  mazE,MazEMazF    MazE antitoxin of the MazFMazE toxinantitoxin system  Fis 
+mazG  mazF  mazE,MazEMazF    MazE antitoxin of the MazFMazE toxinantitoxin system  Fis 
+ilvX  ilvG1  ilvA  ilvD  ilvE  ilvM  ilvG2  ilvL,IHF 
+ilvX  ilvG1  ilvA  ilvD  ilvE  ilvM  ilvG2  ilvL,Lrp   LrpLeucine   IHF 
+poxB,Cra   MarA   SoxS 
+rnpB,Fis 
+tpx,FNR   ArcA 
+adhE,NarL   FNR 
+pqiB  pqiA,SoxS   MarA 
+hlyE,Fis   CRPcAMP   FNR   SlyA   HNS 
+degP,HNS   CpxR
+gadX  gadA,AdiY   RcsBPSUPasp56SUP  Fis   HNS   GadW   TorRTorI  CRPcAMP   FNR   GadX   GadERcsB   ArcA 
+amtB  glnK,FurFesup2sup   FNR  NtrC   GadX 
+yiaM  sgbE  sgbU  sgbH  lyxK  yiaO  yiaN  yiaL  yiaK,YiaJ   IHF   CRPcAMP 
+recF  dnaN  dnaA,DnaAATP 
+rtcA  rtcB,RtcR   IHF 
+aroP,Cra   TyrRTyrosine 
+nac,FurFesup2sup   FNR  Nac   NtrC 
+phoQ  phoP,PhoP 
+polA,DnaAATP 
+xylB  xylA,AraCArabinose   XylRXylose   CRPcAMP 
+xylR,ArcA 
+hmp,NsrRnitric oxide  MetR   FurFesup2sup   FNR   NsrR 
+focB  hyfR  hyfJ  hyfI  hyfH  hyfG  hyfF  hyfE  hyfD  hyfC  hyfB  hyfA,FNR   HyfR   FhlAFormate   CRPcAMP 
+paaY  paaX,PaaX 
+proX  proW  proV,HNS 
+proX  proW  proV,IHF   HNS 
+grxA,OxyR 
+zraP,ZraR 
+zraR  zraS,ZraR   CRPcAMP 
+pfkA,Cra 
+mlc,Mlc   CRPcAMP 
+ynfK  mlc,Mlc   CRPcAMP 
+torR,TorR 
+acnA,Rob   MarA   SoxS   ArcA   FNR   CRPcAMP   Cra 
+acnB,ArcA   Fis   Cra   CRPcAMP 
+spf,CRPcAMP 
+adiY,HNS 
+cdd,NsrRnitric oxide  CytR   CRPcAMP 
+yeiL,FNR   LrpLeucine   IHF   YeiL 
+phoH,PhoB 
+queA,Fis 
