@@ -58,4 +58,3 @@ def createTFPairsFile(fileName):
 		csv.writerow(TFPairs[i])
 	cfile.close()
 
-createTFPairs()

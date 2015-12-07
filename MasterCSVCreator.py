@@ -3,6 +3,7 @@
 #"gene1"    T/F Repressor/Activator/Both     978     1001       F/R       
 
 import csv
+import TFPairs
 
 INFO_LINES = 50
 DIRECTION_COLUMN = 4
@@ -174,8 +175,9 @@ def findDirection(CSVMatrix, BigData):
 
 def createCSV():
 
-    fileName = raw_input('Enter the File Name: ')
+    fileName = raw_input('Enter the name of the GenBank file: ')
     geneNumber = raw_input('Enter the number of genes: ')
+    fileName2 = raw_input('Enter the name of the TF/Gene pair file: ')
     GENE_NUM = int(geneNumber)
 
     cfile = csv.writer(open(""+fileName+".csv", "wb"))
@@ -222,6 +224,10 @@ def createCSV():
             characteristicsVector.append('R')
         cfile.writerow(characteristicsVector)
         del characteristicsVector[:]
-        
+    
+    cfile.close()
+
+    #creating the accompanying tf/gene pair file name
+    TFPairs.createTFPairsFile(fileName2)
 
 createCSV()
