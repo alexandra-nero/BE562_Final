@@ -16,7 +16,7 @@ NAME_COLUMN = 0
 
 
 def separate(fileName, GENE_NUM):
-    myFile = open(fileName, 'r')
+    myFile = open(fileName+'.gb.txt', 'r')
     BigData = []
     for i in xrange(GENE_NUM+ 1):
         BigData += [[0]*(INFO_LINES)]
@@ -175,13 +175,12 @@ def findDirection(CSVMatrix, BigData):
 
 def createCSV():
 
-    fileName = raw_input('Enter the name of the GenBank file: ')
+    fileName = raw_input('Enter the name of the files: ')
     geneNumber = raw_input('Enter the number of genes: ')
-    fileName2 = raw_input('Enter the name of the TF/Gene pair file: ')
     GENE_NUM = int(geneNumber)
-
-    cfile = csv.writer(open(""+fileName+".csv", "wb"))
+    
     DNAMatrix, currentGene = separate(fileName, GENE_NUM)
+    cfile = csv.writer(open(""+fileName+"Master.csv", "wb"))
     CSVMatrix = []
     for i in xrange(GENE_NUM+1):
         CSVMatrix += [[0]*(ACTIVATOR_COLUMN+1)]
@@ -225,8 +224,8 @@ def createCSV():
         cfile.writerow(characteristicsVector)
         del characteristicsVector[:]
     
-    print('Creating csv file of the TF/Gene Pairs...')
+    print('Creating .csv file of the TF/Gene Pairs...')
     #creating the accompanying tf/gene pair file name
-    GenerateTFPairs.createTFPairsFile(fileName2)
+    GenerateTFPairs.createTFPairsFile(fileName)
 
 createCSV()
