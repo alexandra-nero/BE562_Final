@@ -210,7 +210,7 @@ def createCSV():
             characteristicsVector.append('F')
             characteristicsVector.append('N/A')
 
-        if CSVMatrix[geneNumber][START_COLUMN]:
+        if CSVMatrix[geneNumber][DIRECTION]:
             characteristicsVector.append(CSVMatrix[geneNumber][STOP_COLUMN])
             characteristicsVector.append(CSVMatrix[geneNumber][START_COLUMN])
         else:
