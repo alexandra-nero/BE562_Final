@@ -49,17 +49,17 @@ def readCSVFile(fileName):
 			else:
 				genePiece += c
 		geneVector.append(genePiece)
-		print(geneVector)
 		index = 0
 		finalgeneString = ""
 		for gene in geneVector:
+			geneLower = gene[0].lower() + gene[1:]
 			if 'sup' in gene or 'sub' in gene or 'SUP' in gene or 'SUB' in gene:
 				geneVector.remove(gene)
-			elif validGene(gene[:5], fileName):
+			elif validGene(gene[:5], fileName) or validGene(geneLower[:5], fileName):
 				finalgeneString += gene[:5] + " "
-			elif validGene(gene[:4], fileName):
+			elif validGene(gene[:4], fileName) or validGene(geneLower[:4], fileName):
 				finalgeneString += gene[:4] + " "
-			elif validGene(gene[:3], fileName):
+			elif validGene(gene[:3], fileName) or validGene(geneLower[:3], fileName):
 				finalgeneString += gene[:3] + " "
 			else:
 				geneVector.remove(gene)
@@ -67,8 +67,7 @@ def readCSVFile(fileName):
 		if(len(geneVector) > 0):
 			TFPairs[geneCount][0] = tfPiece
 			TFPairs[geneCount][1] = finalgeneString
-
-		geneCount += 1
+			geneCount += 1
 	return TFPairs
 			
 
