@@ -89,7 +89,9 @@ def normTrainingDistances(genomeLength, trainingDistances):
 def secondParamMain(genomeLength, rootFileName):
 	"manages the running of all other functions in second Parameter File"
 	genesFileName = str(rootFileName)+"Master.csv"
+	print(genesFileName)
 	pairFileName = str(rootFileName)+"TFPairs.csv"
+	print(pairFileName)
 	posNegTup = readPosTrainingDistances(genomeLength, pairFileName, genesFileName) 
 	
 	outputCSV(posNegTup[0], posNegTup[1], rootFileName)
