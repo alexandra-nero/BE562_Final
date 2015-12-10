@@ -236,3 +236,5 @@ def createCSV(fileName, geneNumber):
     print('Creating .csv file of the TF/Gene Pairs...')
     #creating the accompanying tf/gene pair file name
     GenerateTFPairs.createTFPairsFile(fileName)
+
+    
