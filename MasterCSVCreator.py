@@ -122,14 +122,20 @@ def isTF(CSVMatrix, BigData):
     geneNumber = 0
     for currentString in xrange(len(BigData)):
         check = True
+        checkEnzyme = False
         for currentLine in xrange(INFO_LINES):
             myString = BigData[currentString][currentLine]
             if myString != 0:
                 if "transcription" in myString or "regulator" in myString or 'repressor' in myString or 'activator' in myString:
-                    CSVMatrix[geneNumber][TF_COLUMN] = True
+                    CSVMatrix[geneNumber][TF_COLUMN] = 'T'
                     check = False
+                if "enzyme" in myString:
+                    checkEnzyme = True
         if check:
-            CSVMatrix[geneNumber][TF_COLUMN] =False
+            if checkEnzyme:
+                CSVMatrix[geneNumber][TF_COLUMN] = 'F'
+            else:
+                CSVMatrix[geneNumber][TF_COLUMN] ='unknown'
         geneNumber+=1
 
 def isRepressor(CSVMatrix, BigData):
@@ -196,7 +202,7 @@ def createCSV(fileName, geneNumber):
     print('Creating .csv file of characteristics...')
     for geneNumber in xrange(GENE_NUM+1):
         characteristicsVector.append(CSVMatrix[geneNumber][0])
-        if CSVMatrix[geneNumber][TF_COLUMN]:
+        if CSVMatrix[geneNumber][TF_COLUMN] == 'T':
             characteristicsVector.append('T')
             if CSVMatrix[geneNumber][REPRESSOR_COLUMN] and CSVMatrix[geneNumber][ACTIVATOR_COLUMN]:
                 characteristicsVector.append('Both')        
@@ -206,7 +212,10 @@ def createCSV(fileName, geneNumber):
                 characteristicsVector.append('Activator')
             else:
                 characteristicsVector.append('unknown')
-        else:
+        elif CSVMatrix[geneNumber][TF_COLUMN] == 'unknown':
+            characteristicsVector.append('unknown')
+            characteristicsVector.append('N/A')
+        elif CSVMatrix[geneNumber][TF_COLUMN] == 'F':
             characteristicsVector.append('F')
             characteristicsVector.append('N/A')
 
