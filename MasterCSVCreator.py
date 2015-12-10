@@ -173,10 +173,10 @@ def findDirection(CSVMatrix, BigData):
             CSVMatrix[geneNumber][DIRECTION_COLUMN] = False
         geneNumber+=1
 
-def createCSV():
+def createCSV(fileName, geneNumber):
 
-    fileName = raw_input('Enter the name of the files: ')
-    geneNumber = raw_input('Enter the number of genes: ')
+    #fileName = raw_input('Enter the name of the files: ')
+    #geneNumber = raw_input('Enter the number of genes: ')
     GENE_NUM = int(geneNumber)
     
     DNAMatrix, currentGene = separate(fileName, GENE_NUM)
@@ -227,5 +227,3 @@ def createCSV():
     print('Creating .csv file of the TF/Gene Pairs...')
     #creating the accompanying tf/gene pair file name
     GenerateTFPairs.createTFPairsFile(fileName)
-
-createCSV()
