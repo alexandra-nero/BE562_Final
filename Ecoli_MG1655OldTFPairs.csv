@@ -1,0 +1,1099 @@
+Genes of transcription unit,Transcription Factors
+spy,BaeR  // CpxR
+ycaC,FNR  // BaeR 
+qseC // qseB,BasR  // QseB 
+yecR,FlhDC  // FNR 
+flhE // flhA // flhB,FlhDC 
+fliE,CsgD  // FlhDC 
+fliK // fliJ // fliI // fliH // fliG // fliF,CsgD  // FlhDC 
+sroC // gltL // gltK // gltJ // gltI,FlhDC 
+ytfE,NarP  // NarL  // FNR  // NsrR 
+ygbA,NsrR-nitric oxide // NsrR  // FNR 
+astE // astB // astD // astA // astC,NtrC  // ArgR-L-arginine 
+nrdH // nrdI // nrdF // nrdE,IscR  // NrdR-Zn<sup>2+</sup>  // Fur-Fe<sup>2+</sup> 
+cpxP,CpxR
+dsbA // rdoA,CpxR
+dmsC // dmsB // dmsA,ModE-MoO<sub>4</sub><sup>2-</sup>  // IHF 
+moaE // moaD // moaC // moaB // moaA,ModE-MoO<sub>4</sub><sup>2-</sup> 
+ptsG,SoxS  // Mlc  // ArcA  // CRP-cAMP  // Fis 
+ptsG,Mlc  // Fis 
+grcA,Fur-Fe<sup>2+</sup>  // Fis  // PdhR  // FNR  // ArcA  // CRP-cAMP 
+rrfA // rrlA // alaT // ileT // rrsA,Lrp-Leucine  // Fis 
+rrfB // rrlB // gltT // rrsB,H-NS  // Lrp-Leucine  // Fis 
+rrfC // rrlC // gltU // rrsC,H-NS  // Lrp-Leucine  // Fis 
+rrfE // rrlE // gltV // rrsE,Lrp-Leucine  // Fis 
+rrfG // rrlG // gltW // rrsG,H-NS  // Lrp-Leucine  // Fis 
+rrfH // rrlH // alaV // ileV // rrsH,H-NS  // Lrp-Leucine  // Fis 
+rrfF // thrV // rrfD // rrlD // alaU // ileU // rrsD,H-NS  // Lrp-Leucine  // Fis 
+uspB,IHF 
+gdhA,ArgP  // Fur-Fe<sup>2+</sup>  // FNR // Nac  // CRP-cAMP 
+sgrR // sroA // tbpA // thiP // thiQ,SgrR 
+sgrT // setA // sgrS,Cra  // SgrR 
+leuO,H-NS  // LeuO 
+cra,PhoB 
+uof // fur,OxyR  // SoxS 
+ppdD // hofB // hofC,CRP-cAMP 
+nadC,CRP-cAMP 
+uof // fur // fldA,SoxS 
+fur,Fur-Fe<sup>2+</sup>  // CRP-cAMP 
+yaeP // rof,CRP-cAMP 
+nlpE // arfB // yaeQ,CRP-cAMP 
+dkgB,NsrR-nitric oxide
+dinJ // yafQ,DinJ // YafQ // LexA 
+yafP // yafO // yafN // dinB,LexA 
+yafP // yafO // yafN,LexA 
+crl,Fur-Fe<sup>2+</sup> 
+yagK,RcdA  
+ecpA,MatA 
+ecpR,MatA 
+ykgM // ykgO,Zur-Zn<sup>2+</sup> 
+rclC // rclB // rclA,RclR 
+pdeL,Cra 
+mhpT,NsrR-nitric oxide
+iraP,CsgD 
+ykiA,RcsB-BglJ 
+sbcD // sbcC,PhoB 
+fadM,FadR 
+ybaO,MarA 
+tomB // hha,BasR  // PdhR  // CpxR
+hemH,OxyR 
+ybdN,CysB-O-acetyl-L-serine  // FNR  // ArcA 
+dsbG,OxyR 
+citC // citD // citE // citF // citX // citG,ArcA  // DpiA-P<sup>asp</sup> 
+dpiA // dpiB,FNR  // CRP-cAMP  // NarL  // ArcA  // DpiA-P<sup>asp</sup> 
+cspE,CRP-cAMP 
+ybfN // chiP,CRP-cAMP  // NagC 
+pnuC // nadA,NadR  and NMN adenylyltransferase
+acrZ,Rob  // SoxS  // MarA 
+ybhL,YjjQ 
+mcbA,McbR 
+ybjJ // ybjI,RcdA  
+rybB,NsrR 
+lysO,ArgR-arg
+rarA // lolA,RcsB-P<SUP>asp56</SUP>
+yccT,CsgD 
+yccA,CpxR
+gfcA,YjjQ 
+wrbA // yccJ,CsgD 
+efeU_2 // efeU_1,CpxR
+ycdZ,CytR  // CRP-cAMP 
+dinI,NagC  // LexA 
+ldtC,CpxR
+iraM,PhoP  // FNR  // ArcA 
+yciE // yciF // yciG,McbR  // H-NS 
+yciX // ymiA,YjjQ 
+yciW,CysB-O-acetyl-L-serine 
+puuP // puuA,PuuR  // FNR  // ArcA 
+puuE // puuB // puuC // puuR // puuD,CRP-cAMP  // PuuR  // ArcA 
+ycjY,PgrR 
+uspE,GadX 
+hslJ,CysB-O-acetyl-L-serine 
+ydbD,NsrR-nitric oxide
+ynbD // ynbC // ynbB // ynbA,RcsB-BglJ 
+sutR,SutR 
+mcbR,YgiV 
+lsrK // lsrR,CRP-cAMP  // LsrR 
+yneM,PhoP 
+dgcZ,CysB-O-acetyl-L-serine  // CpxR
+ydfH,PhoB 
+ydfZ,FNR 
+dicC // ydfX // ydfW,DicA 
+dicA,DicA 
+intQ // insD // ydfE // ydfD // dicB,DicA 
+rspA // rspB,YdfH 
+add,RbsR-ribose
+mepH,NsrR-nitric oxide
+rprA,CpxR  // RcsB-P<SUP>asp56</SUP>
+ydiV,SdiA 
+ynjI,RcsB-BglJ 
+yeaE,NsrR-nitric oxide
+mipA,PhoB 
+nimT,NimR 
+yeaR // yoaG,Fis // NarP  // NarL  // NsrR 
+argP,ArgP-arginine    // PhoB 
+yoaC,CysB-O-acetyl-L-serine 
+cbl,CysB-O-acetyl-L-serine  // NtrC 
+mntP,Fur-Fe<sup>2+</sup>  // MntR-Mn<sup>2+</sup> 
+yebE,CpxR
+yebG,LexA 
+yebK,YebK 
+yecT,RcsB-BglJ 
+ftnA,H-NS  // Fur-Fe<sup>2+</sup> 
+hchA,H-NS 
+yedX,YedW  // CusR-P<SUP>asp</SUP>  // PhoB 
+yefM // yoeB,YefM-antitoxin  // YefM-YoeB  
+cyaR,CpxR  // CRP-cAMP 
+rcnR,RcnR 
+rcnB // rcnA,Fur-Fe<sup>2+</sup>  // RcnR 
+mlrA,FliZ  
+preA // preT,CRP-cAMP 
+folE // yeiB,MetJ-S-adenosylmethionine 
+yeiP,CRP-cAMP 
+yojI,Lrp-Leucine 
+arnF // arnE // arnT // arnD // arnA // arnC // arnB,BasR 
+alaA,Lrp-Leucine 
+yfbR,CysB-O-acetyl-L-serine 
+alaC,SgrR 
+murR,MurR 
+eutH // eutA,HipB antitoxin and 
+eutS // eutP // eutQ // eutT // eutD // eutM,NagC 
+aegA,CRP-cAMP 
+narQ,CRP-cAMP 
+glmY,IHF  // GlrR-P<sup>asp56</sup>
+pgpC // tadA,NsrR-nitric oxide
+raiA,CRP-cAMP 
+yfiB // dgcN // yfiR,YjjQ 
+intA,AlpA ; CP4-57 prophage
+ygaU,CpxR
+yqaE,CpxR
+casA // casB // casC // casD // casE // cas1 // cas2,CRP-cAMP  // LeuO  // H-NS 
+ptrA // recB // recD,LexA 
+ppdA // ppdB // ygdB // ppdC // recC,FlhDC 
+ygeH,CysB-O-acetyl-L-serine 
+fau // ssrS,Fis  //  Lrp  // H-NS 
+argO,Lrp-Leucine  // ArgP-arginine   
+pitB,PhoB 
+dkgA // yqhD,YqhC 
+yqhG,RcsB-BglJ 
+mqsR // mqsA,MqsA antitoxin of the MqsRA toxin-antitoxin system and 
+nudF // yqiB // cpdA // yqiA // parE,CreB  
+ygiC // ygiB // ygiA // tolC,Rob  // SoxS  // MarA 
+fadH,HipB antitoxin and  // CRP-cAMP  // ArcA  // FadR 
+sfsB,RcsB-BglJ 
+ibaG,MlrA
+aaeX // aaeA // aaeB,CRP-cAMP 
+gspO // gspM // gspL // gspK // gspJ // gspI // gspH // gspG // gspF // gspE // gspD // gspC,Fur-Fe<sup>2+</sup>  // H-NS 
+tsgA,NsrR-nitric oxide
+hofM // hofN // hofO // hofP,CRP-cAMP 
+asd,ArgP 
+yhjA,FNR  // OxyR 
+yhjC,PhoB 
+avtA,Lrp-Leucine 
+secB // gpsA,CRP-cAMP 
+yibQ // envC // gpmM,Cra 
+waaH,NsrR-nitric oxide // PhoB 
+gor,OxyR 
+dinD,LexA 
+cbrB,CreB  
+mioC,MraZ 
+rffM // wzyE // rffT // wzxE // rffA // rffC // rffH // rffG // wecC // wecB // wzzE // rfe,NsrR-nitric oxide
+yjbE,RcsAB  // IHF 
+yjbJ,FliZ  
+adiC,PhoB  // GadE-RcsB
+yjfN,CpxR
+yjfF // ytfT // ytfR // ytfQ,AraC
+bdcA,NsrR-nitric oxide
+pepA,aminopeptidase A/I
+yjhC // yjhB,NanR 
+ydeA,ArcA 
+lgoR,UxuR 
+yjjP,H-NS 
+ftsZ // ftsA,RcsB-P<SUP>asp56</SUP>
+slt,CpxR
+yeiW,CRP-cAMP 
+ihfA // pheT // pheS // pheM // rplT // rpmI // infC // thrS,NsrR-nitric oxide
+norR,NsrR-nitric oxide // NorR 
+mioC // asnC,AsnC  // Nac 
+mnmG // mioC // asnC,AsnC  // Nac 
+mazF // mazE // relA,CRP-cAMP  // H-NS 
+ygbK,FlhDC 
+ftnB,CpxR
+mzrA // yqjA,CpxR
+yjbH // yjbG // yjbF // yjbE,RcsAB  // IHF 
+nhaR,YdeO 
+glgP // glgA // glgC // glgX // glgB,PhoP 
+rnlB // rnlA,IscR 
+eptA,BasR 
+rcsB // rcsD,H-NS 
+gspO // gspM // gspL // gspK // gspJ // gspI // gspH // gspG // gspF // gspE // gspD // gspC,H-NS 
+gspB // gspA,H-NS 
+gspB // gspA,H-NS 
+cynS // cynT,CynR-Cyanate 
+hokD // relE // relB,RelB-RelE   // RelB-antitoxin and 
+crp,Fis 
+crp,Fis 
+hypF,Cra 
+hypF,Cra 
+eno,Cra 
+eno,Cra 
+eno,Cra 
+hisP // hisM // hisQ // hisJ,H-NS  // ArgR-L-arginine 
+hchA,H-NS 
+csgG // csgF // csgE // csgD,FliZ   // RstA  
+dcuR,CRP-cAMP 
+gadW // gadX,PhoB  // GadX  // RutR  // GadW  // H-NS  // FNR  // GadE 
+lpxC // ftsZ // ftsA // ftsQ // ddlB // murC // murG // ftsW // murD // mraY // murF // murE // ftsI // ftsL,LexA 
+ftsK,LexA 
+cysH,HypT-[Met-oxidized] 
+rutR,RutR 
+ydeO // safA,RcsB-P<SUP>asp56</SUP> // YdeO  // PhoP  // EvgA 
+hflC // hflK // hflX // hfq,CRP-cAMP 
+bglJ // yjjQ,H-NS  // LeuO 
+cspE,DinJ-YafQ  
+dctA,ArcA  // CRP-cAMP  // DcuR 
+trg,Fis  // CRP-cAMP 
+sbmC,CRP-cAMP  // LexA 
+talA,CreB  
+yhbS // yhbT,CsgD 
+tpiA,Cra 
+ydhT // ydhU // ydhX // ydhW // ydhV // ydhY,NarL  // NarP  // FNR 
+ecnB,OmpR 
+creD,CreB  
+nemA // nemR,RutR  // NemR 
+fau // ssrS,Fis  //  Lrp  // H-NS 
+pstS,PhoB  // IHF  // FNR 
+pstA // pstC // pstS,PhoB  // IHF  // FNR 
+ygiC // ygiB // ygiA // tolC,PhoP 
+ygiC // ygiB // ygiA // tolC,MarA  // Rob  // SoxS 
+murP // murQ,CRP-cAMP  // MurR 
+murP // murQ,MurR  // CRP-cAMP 
+gadW,YdeO 
+gadW,H-NS  // GadX  // GadW  // SdiA  // PhoP 
+gadE,ArcA  // GadX  // YdeO 
+fadR,FadR-acyl-CoA
+yjeV,DnaA-ATP 
+ogt,NarL  // Fis
+waaZ // waaY,MarA  // SoxS 
+mdh,DpiA-P<sup>asp</sup> 
+exuT,DpiA-P<sup>asp</sup> 
+citG // citX // citF // citE // citD // citC,FNR  // CRP-cAMP  // NarL  // DpiA-P<sup>asp</sup> 
+dpiA // dpiB,DcuR  // NarL 
+ahpF // ahpC,OxyR 
+ymgC // ariR // ymgA // ycgZ,BluR 
+azuC,CRP-cAMP 
+ykgR,CRP-cAMP 
+flhC // flhD,MatA 
+acrD,BaeR  // CpxR
+fnrS,FNR 
+mgrR,PhoP 
+fabB,FabR  // FadR 
+flxA,Fis 
+fliC,MatA  // GadE  // H-NS 
+flgN // flgM,CsgD 
+aer,CRP-cAMP  // FNR 
+cheZ // cheY // cheB // cheR // tap // tar,FNR 
+ycgR,FlhDC 
+pdeH,FlhDC 
+yhcH // nanK // nanE // nanT // nanA,Fis  // NanR  // CRP-cAMP 
+dcuC,FNR  // ArcA 
+sodB,NsrR-nitric oxide // IHF  // CRP-cAMP 
+asr,RcdA   // H-NS  // RstA   // PhoB 
+ribA,SoxS 
+osmC,Lrp  // H-NS  // NhaR-Na<SUP>+</SUP>  // RcsB-P<SUP>asp56</SUP>
+osmC,H-NS  // Lrp 
+ychF,OxyR 
+metK,MetJ-S-adenosylmethionine  // CRP-cAMP 
+pspF,PspF 
+cusA // cusB // cusF // cusC,YedW  // PhoB  // CusR-P<SUP>asp</SUP>
+cusS // cusR,YedW  // PhoB  // CusR-P<SUP>asp</SUP>
+inaA,Rob  // MarA  // SoxS 
+iscA // iscU // iscS // iscR,IscR-2Fe-2S
+dcuD,PhoP 
+gabP // gabT // gabD,Nac 
+glcA // glcB // glcG // glcF // glcE // glcD,PdhR  // ArcA  // GlcC-Glycolate  // IHF 
+glcC,Cra  // Fis  // GlcC-Glycolate  // CRP-cAMP 
+osmY,FliZ   // Fis  // IHF  // Lrp  // CRP-cAMP 
+recN,LexA 
+psiE,CRP-cAMP  // PhoB 
+hpt,IHF  // CRP-cAMP 
+gcd,CRP-cAMP  // IHF 
+ybjN // rimK // nfsA // ybjC,Rob  // MarA  // OxyR  // SoxS 
+gadX,PhoB  // GadX  // RutR  // GadW  // H-NS  // FNR  // GadE 
+metQ // metI // metN,HypT-[Met-oxidized]  // MetJ-S-adenosylmethionine 
+serA,Lrp-Leucine  // CRP-cAMP 
+mhpF // mhpE // mhpD // mhpC // mhpB // mhpA,MhpR-3HPP  // CRP-cAMP 
+mgtL // mgtA,PhoP 
+treR,PhoP 
+treR,PhoP 
+mgrB,PhoP 
+topA,Fis 
+topA,Fis 
+fiu,Fur-Fe<sup>2+</sup>  // CRP-cAMP 
+exbD,Fur-Fe<sup>2+</sup> 
+fhuE,Fur-Fe<sup>2+</sup> 
+gyrB,Fis 
+sufE // sufS // sufD // sufC // sufB // sufA,NsrR-nitric oxide // Fur-Fe<sup>2+</sup>  // OxyR  // IHF  // IscR 
+micF,AcrR  // Lrp-Leucine  // Lrp  // H-NS  // IHF  // MarA  // SoxS  // HU  // Rob  // OmpR 
+isrC // flu,OxyR 
+metJ,Fur-Fe<sup>2+</sup> 
+hemF // amiA,IHF 
+hemF,IHF 
+cpxA // cpxR,CpxR
+emrY // emrK,EvgA  // FNR 
+trxA,CRP-cAMP 
+trxC,OxyR 
+copA,CueR-Cu<sup>+</sup> 
+ybaT // ybaS,GadX 
+cueO,CueR-Cu<sup>+</sup> 
+chiA,H-NS 
+xdhB // xdhC // xdhA,FNR 
+cydB // cydA,H-NS  // FNR  // ArcA 
+cydB // cydA,H-NS  // FNR  // ArcA 
+cydB // cydA,Cra 
+fldB,SoxS 
+patA,NtrC  // Fis  // IHF 
+gpmA,Fur-Fe<sup>2+</sup> 
+ryhB,Fur-Fe<sup>2+</sup> 
+ygaC,Fur-Fe<sup>2+</sup> 
+bamE,NsrR-nitric oxide // CpxR
+mscM // psd,CpxR
+bacA,CpxR
+yaiW // sbmA,CpxR
+uspD // yiiS,YdeO 
+hisP // hisM // hisQ // hisJ // argT,NtrC 
+prpE // prpD // prpC // prpB,Cra  // CRP-cAMP  // PrpR-2-methylcitrate 
+yeaH // yeaG,NtrC 
+yhdZ // yhdY // yhdX // yhdW,NtrC 
+ddpF // ddpD // ddpC // ddpB // ddpA // ddpX,NtrC 
+glnD,FNR // Fur-Fe<sup>2+</sup> 
+yciG,McbR  // H-NS 
+glgP // glgA,PhoP 
+phoU,PhoB 
+uxaB,CRP-cAMP  // ExuR 
+ssrS,Fis  //  Lrp  // H-NS 
+ssrS,Fis  //  Lrp  // H-NS 
+iraM,PhoP 
+lacI // mhpR,CRP-cAMP 
+dgkA,BasR 
+rutA // rutB // rutC // rutD // rutE // rutF // rutG,RutR  // NtrC  // PhoP  // ArcA 
+actP // yjcH // acs,Fis  // IHF 
+actP // yjcH // acs,Fis  // CRP-cAMP  // IHF 
+metL // metB,HypT-[Met-oxidized]  // MetJ-S-adenosylmethionine  // PhoP 
+proP,Fis  // CRP-cAMP 
+sra,OmpR  // Fis  // IHF 
+ftsQ,SdiA 
+csiE,CRP-cAMP  // H-NS 
+gabP // gabT // gabD // lhgO // csiD,CsiR  // CRP-cAMP  // Lrp-Leucine  // H-NS 
+pdeR,FliZ   // RutR 
+dsbC,CpxR
+lpxA // fabZ // lpxD // skp,CpxR // GadE 
+phoQ,PhoB 
+ydeM // ydeN,AraC-Arabinose  // NagC 
+ydeI,RcdA  
+sroD // fadD,FadR  // ArcA  // CRP-cAMP 
+prmC // prfA // hemA,FNR  // ArcA  // IHF 
+rybA // mntS,MntR-Mn<sup>2+</sup> 
+cbrA,CreB  
+recG,CreB  
+patZ,CRP-cAMP 
+leuO,LeuO  //  H-NS  // RcsB-BglJ 
+fumC,Rob 
+rmf,CRP-cAMP 
+yjiY,CRP-cAMP  // YehT 
+yhjX,YpdB
+waaH,BasR 
+fumC // fumA,ArcA  // FNR  // CRP-cAMP 
+bluF,RcdA  
+leuL,LeuO 
+sucB // sucA,IHF  // ArcA  // FNR 
+trpL,TrpR-Tryptophan 
+gntK,GntR  // IdnR-5-ketogluconate  // CRP-cAMP 
+ivbL,CRP-cAMP 
+tnaC,CRP-cAMP  // TorR 
+bglG, RcsB-BglJ  // LeuO  // Fis  // H-NS  // CRP-cAMP 
+ilvL,IHF 
+ilvL,Lrp  // Lrp-Leucine  // IHF 
+mpaA // ymjC // ymjD // ycjY,PgrR 
+leuE,Lrp-Leucine 
+cbpM // cbpA,Fis 
+cbpM // cbpA,Fis 
+gloA // nemA // nemR,RutR  // NemR 
+patD // ydcV // ydcU // ydcT // ydcS,Nac 
+ompN // ydbK,SoxS 
+nanA,Fis  // NanR  // CRP-cAMP 
+nanS // nanM // nanC,NanR  // NagC  // CRP-cAMP 
+feaR,CRP-cAMP  // PhoB  // NsrR-nitric oxide // Nac 
+tynA,FeaR 
+bglG,RcsB-BglJ  // CRP-cAMP 
+ygeA // araE,CRP-cAMP  // AraC-Arabinose 
+galE,GalR  // HU  // H-NS  // GalS  // CRP-cAMP 
+galE,CRP-cAMP  // HU  // GalR  // GalS  // GalR-galactose // GalS-galactose
+galT // galE,GalR  // HU  // H-NS  // GalS  // CRP-cAMP 
+galT // galE,CRP-cAMP  // HU  // GalR  // GalS  // GalR-galactose // GalS-galactose
+galK // galT // galE,GalR  // HU  // H-NS  // GalS  // CRP-cAMP 
+galK // galT // galE,CRP-cAMP  // HU  // GalR  // GalS  // GalR-galactose // GalS-galactose
+relA,NtrC 
+ariR,CysB-O-acetyl-L-serine 
+accA,FadR 
+accC // accB,FadR 
+fabI,FadR 
+iclR,IclR-pyruvate  // FadR 
+nagE,NagC  // CRP-cAMP 
+norW // norV,FNR  // NarL  // NarP  // NorR  // IHF 
+pgm // seqA,HU 
+garD,CdaR 
+gudD // gudX // gudP,CdaR 
+mngB // mngA,MngR 
+rpiB,AlsR 
+cdaR,CdaR 
+alsE // alsC // alsA // alsB // rpiR,AlsR 
+alsE // alsC // alsA // alsB // rpiR,AlsR 
+recX // recA,LexA 
+fumB // dcuB,DcuR 
+znuB // znuC,Zur-Zn<sup>2+</sup> 
+zntA,ZntR-Zn<sup>2+</sup> 
+nfsB,Rob  // SoxS  // MarA 
+znuA,Zur-Zn<sup>2+</sup> 
+idnK,GntR  // IdnR  // CRP-cAMP 
+idnR // idnT // idnO // idnD,GntR  // IdnR-5-ketogluconate  // CRP-cAMP 
+lacA // lacY // lacZ,CRP-cAMP 
+lacA // lacY // lacZ,CRP-cAMP 
+nrdG // nrdD,H-NS  // NrdR-Zn<sup>2+</sup>  // FNR 
+bglB // bglF // bglG, RcsB-BglJ  // LeuO  // Fis  // H-NS  // CRP-cAMP 
+gadE,ArcA  // PhoP  // GadE 
+hdeD,RcsB-P<SUP>asp56</SUP> // PhoP  // H-NS  // GadE  // GadX 
+yeaD // gapA,Cra 
+gapA,Cra 
+gapA,Cra  // CRP-cAMP 
+gapA,Cra 
+gntT,GntR  // CRP-cAMP 
+gntT,GntR  // CRP-cAMP 
+asnB,GadX 
+lon,GadX 
+gntP,OxyR  // UxuR  // CRP-cAMP 
+nfuA // gntX,GntR  // CRP-cAMP 
+ibpB,IHF 
+uxaA // uxaC,ExuR  // CRP-cAMP  // FNR 
+uxuR,UxuR  // ExuR  // CRP-cAMP 
+exuR,ExuR 
+uidC // uidB // uidA,UidR  // UxuR  // CRP-cAMP 
+uidR,UidR 
+gnd,FNR // Fur-Fe<sup>2+</sup>  // GadE 
+ulaF // ulaE // ulaD // ulaC // ulaB // ulaA,UlaR  // IHF  // CRP-cAMP 
+ulaG,UlaR  // IHF 
+apaH // apaG // rsmA // pdxA,Fis 
+rsmA // pdxA,Fis 
+fadJ // fadI,FadR  // ArcA 
+malZ,MalT-Maltotriose-ATP 
+dmsD // ynfH // ynfG // ynfF // ynfE,NarL  // FNR 
+argG,ArgR-L-arginine  // CRP-cAMP 
+mdtF // mdtE // gadE,FliZ   // H-NS  // GadX  // GadW  // CRP-cAMP  // GadE  // EvgA  // YdeO 
+pspG,PspF  // IHF 
+gadY,RcsB-P<SUP>asp56</SUP> // GadW  // GadX 
+glnA,NtrC  // CRP-cAMP 
+glnA,CRP-cAMP  // Fis  // NtrC 
+cytR,CRP-cAMP  // CytR 
+serC,CRP-cAMP  // Lrp 
+ugpQ // ugpC // ugpE // ugpA // ugpB,PhoB 
+ugpQ // ugpC // ugpE // ugpA // ugpB,PhoB  // CRP-cAMP 
+yidQ,CpxR
+dcuA // aspA,NarL  // FNR  // CRP-cAMP 
+entS,Fur-Fe<sup>2+</sup> 
+gcvB,GcvA 
+pnp // rpsO // truB // rbfA // infB // nusA // rimP // metY,Fis 
+tisB,LexA 
+murI // btuB,GadX 
+dinG,LexA 
+folA,IHF  // TyrR-Tyrosine 
+dapB,ArgP 
+lysP,Lrp  // ArgP 
+gltX,Fis
+amn,PhoB 
+manA,CRP-cAMP 
+alaS,AlaS-L-alanine
+dapD,ArgP 
+pgi,SoxS 
+aspC,FNR // Fur-Fe<sup>2+</sup> 
+cspD,CRP-cAMP  // MqsA antitoxin of the MqsRA toxin-antitoxin system and  // H-NS 
+cysE,SutR 
+katE,Fur-Fe<sup>2+</sup>  // Fis 
+ppc,Cra 
+ung,CpxR
+lysC,ArgP 
+uvrC,LexA 
+ssb,ArcA 
+ssb,ArcA 
+ansB,Fis 
+agaA // agaW // agaV // kbaZ,AgaR  // CRP-cAMP 
+agaR,AgaR 
+agaI // agaD // agaC // agaB // kbaY // agaS,AgaR 
+ppiD,CpxR
+ssuB // ssuC // ssuD // ssuA // ssuE,CysB-O-acetyl-L-serine  // FNR  // Cbl  // IHF 
+aceF // aceE,NsrR-nitric oxide // FNR  // ArcA 
+rplT,FNR 
+ruvB // ruvA,LexA 
+ptrA,LexA 
+uvrC // uvrY,LexA 
+sdhB // sdhA // sdhD,CRP-cAMP 
+cstA,CRP-cAMP 
+nanM // nanC,NanR  // NagC  // CRP-cAMP 
+ilvH // ilvI,Lrp 
+cspI,BasR  // Fis 
+tsr,CpxR
+hcr // hcp,OxyR  // NsrR  // FNR  // NarL  // NarP 
+galP,NagC  // GalS-galactose // GalR-galactose // GalR  // GalS  // CRP-cAMP 
+sra // bdm,RcsB-P<SUP>asp56</SUP>
+hcaR,HcaR 
+hcaD // hcaB // hcaC // hcaF // hcaE,HcaR-HCA 
+prpR,PhoB  // AscG  // PrpR-2-methylcitrate  // CRP-cAMP 
+mntH,OxyR  // Fur-Fe<sup>2+</sup>  // MntR-Mn<sup>2+</sup> 
+tktB,PhoB 
+agp,CRP-cAMP 
+glk,Cra 
+evgS // evgA,H-NS  // EvgA 
+evgS // evgA,H-NS  // EvgA 
+polB,LexA 
+allA,AllR-allantoin
+allS,AllR-allantoin
+glxK // ybbY // allB // ybbW // glxR // hyi // gcl,AllR-allantoin
+allE // allC // allD,AllS-allantoin 
+yhhY,Fur-Fe<sup>2+</sup> 
+tfaQ // ydfN // nohA,Fur-Fe<sup>2+</sup> 
+fhuF,OxyR  // Fur-Fe<sup>2+</sup> 
+ydeP,UvrY- Phosphorylated  // NarP // NarL // RcsB-P<SUP>asp56</SUP> // H-NS  // NagC  // PhoP  // EvgA 
+ydeO,H-NS 
+yegZ // yegR,EvgA 
+frc,EvgA 
+yfdE // yfdV // oxc // frc // yfdX,EvgA 
+yrbL,BasR  // PhoP 
+borD,PhoP 
+rstB // rstA,PhoP 
+slyB,PhoP 
+slyB,PhoP 
+rob,SoxS  // Rob  // MarA 
+nagA,PhoP 
+hemL,PdhR  // PhoP 
+pagP,PhoP 
+ybjG,PhoP 
+ompT,PhoP 
+tam // lsrG // lsrF // lsrB // lsrD // lsrC // lsrA,LsrR  // CRP-cAMP 
+baeR // baeS // mdtD // mdtC // mdtB // mdtA,BaeR  // CpxR
+mglC // mglA,Fis 
+dhaR,DhaR 
+dhaM // dhaL // dhaK,DhaR 
+glnQ,Fis 
+acrD,EvgA 
+fbaA // pgk // epd,Cra  // CRP-cAMP 
+artJ,ArgR-L-arginine 
+metE,MetJ-S-adenosylmethionine  // MetR-L-homocysteine
+metR,MetJ-S-adenosylmethionine  // MetR-L-homocysteine
+metR,MetJ-S-adenosylmethionine  // MetR-L-homocysteine
+ydjM,LexA 
+insK,LexA 
+dinQ,LexA 
+symE,LexA 
+ybfE,LexA 
+hokE,LexA 
+cho,LexA 
+pta // ackA,CreB  
+acrR,AcrR 
+yqjH,Fur-Fe<sup>2+</sup>  // YqjI 
+zinT,Zur-Zn<sup>2+</sup>  // SoxS  // Fur-Fe<sup>2+</sup> 
+ldtB,CRP-cAMP  // Rob 
+mltF,Rob 
+fliE,CsgD 
+scpC // scpB // argK // scpA,FNR 
+fhlA // hypE // hypD // hypC // hypB // hypA,NsrR-nitric oxide // IHF  // FhlA-Formate 
+fhlA // hypE // hypD // hypC // hypB,FNR 
+dcuR // dcuS,NarL  // FNR 
+bcsZ // bcsB,FNR 
+gapC_2 // gapC_1,FNR 
+fbaB,Cra 
+pgaD // pgaC // pgaB // pgaA,OmpR // NhaR-Na<SUP>+</SUP> 
+argA,ArgR-L-arginine 
+dtpA,OmpR 
+metY,CRP-cAMP  // ArgR-L-arginine 
+appY,DpiA-P<sup>asp</sup>  // H-NS 
+erpA,IscR 
+nfuA,IscR 
+ydiU,IscR 
+napC // napB // napH // napG // napA // napD // napF,IscR 
+oxyS,OxyR 
+pepT,FNR 
+pitA,FNR 
+ybiT,AscG  // CRP-cAMP 
+arcZ,ArcA 
+yhiM,H-NS  // GadE-RcsB
+yidL,RcsB-BglJ 
+iraD,FNR 
+lgoD,UxuR 
+yjjZ,Fur-Fe<sup>2+</sup> 
+yncE,MarA 
+yqjI,YqjI  // FNR 
+ysgA,FNR 
+rcdA,RcdA  
+sxy,CRP-cAMP 
+comR,CRP-cAMP 
+bhsA,ComR  // CRP-cAMP 
+pliG,Zur-Zn<sup>2+</sup> 
+ychH,CRP-cAMP 
+ychO,FNR 
+ydbK,SoxS 
+ydcO,SutR 
+ydeJ,FNR 
+nimR,NimR 
+yegH,PhoB 
+pdeF,FNR 
+ttdR,Dan-L-tartrate 
+ygiZ,RcsB-BglJ 
+aaeR,CRP-cAMP 
+dcuD,IHF 
+omrB,OmpR 
+omrA,OmpR 
+adeD,H-NS 
+dacC,BolA 
+dsrA,LeuO 
+fadE,FadR  // ArcA 
+feaB,CRP-cAMP  // FeaR  // NsrR 
+grxD,NsrR-nitric oxide
+hdfR,H-NS 
+galR,GalS-galactose // GalR-galactose
+ompX,FNR 
+ompW,FNR 
+nlpA,CsgD 
+mcaS,CRP-cAMP 
+pheM // rplT,FNR 
+aslB,GadE-RcsB  // Rob 
+dgcC,CsgD 
+pepD,CsgD 
+molR_1,RcsB-BglJ  // LexA 
+lpxC // ftsZ // ftsA // ftsQ // ddlB // murC // murG // ftsW // murD // mraY // murF // murE // ftsI // ftsL // rsmH // mraZ,MraZ  // PdhR 
+sohB,CRP-cAMP 
+sohB,CRP-cAMP 
+mpl,Cra  // CRP-cAMP 
+aceB // aceA // aceK,ArcA  // CRP-cAMP  // IclR-pyruvate  // IHF  // Cra 
+alkA,Ada 
+araC,AraC  // CRP-cAMP  // AraC-Arabinose 
+argC // argB // argH,ArgR-L-arginine 
+argF,ArgR-L-arginine 
+argI,ArgR-L-arginine 
+argR,ArgR-L-arginine 
+tyrA // aroF,TyrR-Tyrosine 
+aroG,TyrR-Phenylalanine  // CpxR
+aroH,TrpR-Tryptophan 
+aroL // yaiA // aroM,TyrR-Tyrosine  // TrpR-Tryptophan 
+aroP,Cra  // TyrR-Tyrosine 
+bioA,BirA-bio-5'-AMP 
+cirA,Fur-Fe<sup>2+</sup>  // CRP-cAMP 
+cirA,Fur-Fe<sup>2+</sup>  // CRP-cAMP 
+cyaA,CRP-cAMP 
+deoC // deoA // deoB // deoD,DeoR 
+deoC // deoA // deoB // deoD,DeoR  // CytR  // ModE-MoO<sub>4</sub><sup>2-</sup>  // CRP-cAMP  // Fis 
+dmsA // dmsB // dmsC,Fis  // NarL  // FNR 
+fhuA // fhuC // fhuD // fhuB,Fur-Fe<sup>2+</sup> 
+dusB // fis,Fis  // IHF  // CRP-cAMP 
+fnr,Fur-Fe<sup>2+</sup>  // FNR  // IHF  // ArcA 
+frdD // frdC // frdB // frdA,NarL  // FNR  // DcuR 
+galS,GalS  // GalR  // CRP-cAMP 
+galM // galK // galT // galE,GalR  // HU  // H-NS  // GalS  // CRP-cAMP 
+galM // galK // galT // galE,CRP-cAMP  // HU  // GalR  // GalS  // GalR-galactose // GalS-galactose
+glnG // glnL // glnA,NtrC  // CRP-cAMP 
+glnG // glnL,NtrC 
+glnG // glnL // glnA,CRP-cAMP  // Fis  // NtrC 
+glpA // glpB // glpC,Fis  // ArcA  // GlpR  // FlhDC  // CRP-cAMP  // FNR 
+glpD,ArcA  // GlpR  // CRP-cAMP 
+ilvN // ilvB // ivbL,CRP-cAMP 
+ilvY,IlvY  // IlvY-2-acetolactate  
+katG,Fur-Fe<sup>2+</sup>  // OxyR  // FNR 
+kdpF // kdpC // kdpB // kdpA,KdpE 
+lacA // lacY // lacZ,LacI  // H-NS  // CRP-cAMP 
+lexA // dinF,LexA 
+malG // malF // malE,CreB   // Fis  // CRP-cAMP  // MalT-Maltotriose-ATP 
+malQ // malP,MalT-Maltotriose-ATP  // FNR 
+melR,MelR  // CRP-cAMP  // MelR-Melibiose 
+metA,MetJ-S-adenosylmethionine 
+metH,Fur-Fe<sup>2+</sup>  // MetR 
+umpH // nagC // nagA // nagB,NagC  // CRP-cAMP 
+narG // narH // narJ // narI,Fis  // RstA   // IHF  // FNR  // NarL 
+narK,Fis  // IHF  // FNR  // NarL 
+nirB // nirD // nirC // cysG,Cra  // H-NS  // IHF  // Fis  // CRP-cAMP  // FNR  // NarL  // NarP 
+yfaE // nrdA // nrdB,H-NS  // NrdR-Zn<sup>2+</sup>  // DnaA-ATP  // ArgP  // CRP-cAMP  // Fis 
+ompA,CRP-cAMP 
+ompC,YjjQ  // IHF  // Lrp-Leucine  // Lrp  // EnvY  // OmpR  // CpxR
+ompF,PhoB  // RstA   // CpxR // OmpR  // IHF  // EnvY  // CRP-cAMP  // Fur-Fe<sup>2+</sup> 
+oxyR,OxyR  // CRP-cAMP 
+phoA // psiF,PhoB 
+phoB // phoR,PhoB 
+purB // hflD,PurR-Hypoxanthine 
+purC,PurR-Hypoxanthine 
+purD // purH,RbsR  // PurR-Hypoxanthine  // PhoP 
+purL,PurR-Hypoxanthine 
+purM // purN,PurR-Hypoxanthine  // FNR 
+purR,PurR-Hypoxanthine  // Fur-Fe<sup>2+</sup> 
+pyrC,Fur-Fe<sup>2+</sup>  // PurR-Hypoxanthine 
+pyrD,Fis  // PurR-Hypoxanthine 
+recA,LexA 
+rhaS // rhaR,RhaS // RhaS-L-rhamnose  // RhaR-L-rhamnose  // CRP-cAMP 
+sodA,IHF  // Fur-Fe<sup>2+</sup>  // FNR  // ArcA  // SoxS  // Rob  // MarA  // CRP-cAMP 
+ssb,LexA  // ArcA 
+sulA,RcdA   // LexA 
+trpA // trpB // trpC // trpD // trpE // trpL,TrpR-Tryptophan 
+tyrR,TyrR 
+uvrA,LexA  // ArcA 
+uvrB,LexA 
+uvrD,LexA 
+alkB // ada,Ada 
+ahpC // ahpF,MetJ-S-adenosylmethionine  // OxyR 
+ansB,FNR  // CRP-cAMP 
+araE,CRP-cAMP  // AraC-Arabinose 
+cysB,PhoP  // CysB 
+cysH // cysI // cysJ,CysB-O-acetyl-L-serine  // IHF 
+cysK,CysB-O-acetyl-L-serine 
+fadL,CRP-cAMP  // OmpR  // FadR  // ArcA  // PhoP 
+ilvI // ilvH,H-NS  // Lrp 
+purK // purE,PurR-Hypoxanthine 
+rpoH,CytR  // CRP-cAMP 
+rpoH,CytR  // CRP-cAMP  // DnaA-ATP 
+tnaC // tnaA // tnaB,CRP-cAMP  // TorR 
+phoE,PhoB 
+tyrB,TyrR-Tyrosine 
+tyrP,TyrR  // TyrR-Tyrosine  // IHF  // HU  // TyrR-Phenylalanine 
+glnB,PurR-Hypoxanthine 
+ilvC,IlvY  // IlvY-2-acetolactate  
+malT,Mlc  // CRP-cAMP  // Lrp 
+fabA,FabR  // FadR 
+mtr,TrpR-Tryptophan  // IHF  // HU  // TyrR-Tyrosine 
+purA,MarA  // PurR-Hypoxanthine  // GadE 
+aidB,isovaleryl-CoA dehydrogenase and  // Lrp  // Ada 
+dctR // slp,YdeO  // H-NS  // GadE-RcsB  // GadW  // GadX  // MarA 
+appX // appC // appB // appA,YdeO  // AppY  // ArcA 
+araH // araG // araF,CRP-cAMP  // AraC-Arabinose 
+araJ,CRP-cAMP  // AraC-Arabinose 
+cydA // cydB,HypT-[Met-oxidized]  // FNR  // H-NS  // ArcA 
+cyoE // cyoD // cyoC // cyoB // cyoA,YedW  // CusR-P<SUP>asp</SUP>  // Cra  // PdhR  // FNR  // ArcA  // Fur-Fe<sup>2+</sup>  // GadE  // CRP-cAMP 
+sucA // sucB // sucC // sucD,IHF  // ArcA  // FNR 
+fumA,ArcA  // FNR  // CRP-cAMP 
+fumC,CRP-cAMP  // Fur-Fe<sup>2+</sup>  // FNR // ArcA  // SoxS  // MarA  // SoxR 
+gltA,ArcA  // CRP-cAMP  // IHF 
+icd,ArcA 
+mdh,DpiA-P<sup>asp</sup>  // ArcA  // FlhDC  // CRP-cAMP 
+carA // carB,ArgR-L-arginine 
+carA // carB,Fis  // RutR  // PurR-Hypoxanthine  // aminopeptidase A/I // IHF 
+argD,PhoP  // ArgR-L-arginine 
+asnA,AsnC 
+asnC,AsnC  // Nac 
+atoB // atoD // atoA // atoE,IHF  // AtoC 
+betA // betB // betI,Cra  // BetI  // ArcA 
+betT,Cra  // BetI  // ArcA 
+bioB // bioF // bioC // bioD,BirA-bio-5'-AMP 
+cadC,H-NS  // MlrA  // LeuO  // CadC  // FNR 
+crp,Cra  // Fis  // CRP-cAMP 
+cpdB,CRP-cAMP 
+fur,Fur-Fe<sup>2+</sup>  // CRP-cAMP 
+glgP // glgA // glgC,CRP-cAMP 
+malK // lamB // malM,MalT-Maltotriose-ATP  // CRP-cAMP 
+speC,CRP-cAMP 
+tdcG // tdcF // tdcE // tdcD // tdcC // tdcB // tdcA,TdcR  // TdcA  // IHF  // CRP-cAMP  // FNR 
+ubiG,CRP-cAMP 
+ebgA // ebgC,EbgR  // CRP-cAMP 
+fucP // fucI // fucK // fucU // fucR,FucR-L-fuculose-1-phosphate  // CRP-cAMP 
+nupG,CytR  // DeoR  // CRP-cAMP 
+uhpT,UvrY- Phosphorylated  // CRP-cAMP  // UhpA 
+melA // melB,MelR  // MelR-Melibiose // CRP-cAMP 
+malX // malY,MalI  // CRP-cAMP 
+srlA // srlE // srlB // srlD // gutM // srlR // gutQ,H-NS  // GutR  // GutM  // CRP-cAMP 
+udp,CytR  // CRP-cAMP 
+fucO // fucA,FucR-L-fuculose-1-phosphate  // CRP-cAMP 
+flhC // flhD,YjjQ  // FliZ   // MatA  // OmpR  // LrhA  // HdfR  // RcsAB  // Fur-Fe<sup>2+</sup>  // IHF  // H-NS  // CRP-cAMP  // QseB 
+malS,CRP-cAMP  // MalT-Maltotriose-ATP  // PhoP 
+aldB,Fis  // CRP-cAMP 
+hns,H-NS  // CspA  // Fis  // GadX 
+gyrA,Fis  // CspA  // CRP-cAMP 
+pck,CRP-cAMP  // Cra 
+cynT // cynS // cynX,CynR-Cyanate 
+cynR,CynR 
+cysM // cysA // cysW // cysU // cysP,H-NS  // CysB-O-acetyl-L-serine 
+cysC // cysN // cysD,CysB-O-acetyl-L-serine 
+nupC,CytR  // CRP-cAMP  // Nac 
+dsdX // dsdA,DsdC-D-serine   // CRP-cAMP 
+dsdC,NsrR-nitric oxide // DsdC-D-serine  
+exuT,DpiA-P<sup>asp</sup>  // ExuR  // CRP-cAMP 
+fecE // fecD // fecC // fecB // fecA,HypT-[Met-oxidized]  // Fur-Fe<sup>2+</sup>  // CRP-cAMP  // PdhR 
+fdhF,NarL  // FhlA-Formate  // FNR  // NarP 
+hycI // hycH // hycG // hycF // hycE // hycD // hycC // hycB // hycA,NsrR-nitric oxide // IHF  // FhlA-Formate  // ModE-MoO<sub>4</sub><sup>2-</sup> 
+hypA // hypB // hypC // hypD // hypE,NsrR-nitric oxide // IHF  // FhlA-Formate 
+proP,CRP-cAMP 
+narL // narX,FNR  // ModE-MoO<sub>4</sub><sup>2-</sup> 
+fdnG // fdnH // fdnI,NarP  // FNR  // NarL 
+ndh,Fur-Fe<sup>2+</sup>  // NsrR-nitric oxide // PdhR  // FNR  // IHF  // ArcA  // Fis 
+fumB,Fis  // FNR  // ArcA  // Fur-Fe<sup>2+</sup> 
+aspA,NarL  // FNR  // CRP-cAMP 
+fruA // fruK // fruB,Cra 
+ppsA,Cra 
+entD // fepA,Fur-Fe<sup>2+</sup>  // CRP-cAMP 
+fepB,RutR  // Fur-Fe<sup>2+</sup> 
+fepC // fepG // fepD,Fur-Fe<sup>2+</sup> 
+entC // entE // entB // entA // entH,Fur-Fe<sup>2+</sup>  // CRP-cAMP 
+tonB,Fur-Fe<sup>2+</sup> 
+mglC // mglA // mglB,GalS  // FlhDC  // GalR  // CRP-cAMP 
+gatD // gatC // gatB // gatA // gatZ // gatY,GatR  // ArcA  // CRP-cAMP 
+gcvP // gcvH // gcvT,CRP-cAMP  // PurR-Hypoxanthine  // Lrp  // GcvA  // FNR 
+gcvA,GcvA 
+glnQ // glnP // glnH,IHF  // NtrC 
+glpX // glpK // glpF,GlpR  // CRP-cAMP 
+ihfA,IHF 
+ihfB,IHF 
+dps,MntR-Mn<sup>2+</sup>  // H-NS  // Fis // OxyR  // IHF 
+envZ // ompR,CRP-cAMP 
+leuD // leuC // leuB // leuA // leuL,LeuO 
+umuD // umuC,LexA 
+lrp,H-NS  // NsrR-nitric oxide // Lrp-Leucine  // Lrp  // GadE 
+gltB // gltD // gltF,Fur-Fe<sup>2+</sup>  // AdiY  // HdfR  // Lrp-Leucine  // Nac  // FNR  // CRP-cAMP  // ArgR-L-arginine  // Lrp  // GadE  // IHF 
+livJ,Lrp-Leucine 
+livF // livG // livM // livH // livK,Lrp 
+lysA,ArgP  // LysR 
+lysR,LysR 
+malI,CRP-cAMP  // MalI 
+fpr,SoxS  // MarA 
+nfo,SoxS  // Rob  // MarA 
+marR // marA // marB,CpxR // AcrR  // Cra  // MarR  // MarA  // SoxS  // Fis  // Rob  // CRP-cAMP 
+metC,MetJ-S-adenosylmethionine 
+glyA,PurR-Hypoxanthine  // MetR-L-homocysteine
+mtlA // mtlD // mtlR,MtlR  // Cra  // Fis  // CRP-cAMP 
+nadB,NadR  and NMN adenylyltransferase
+pncB,NadR  and NMN adenylyltransferase // CRP-cAMP 
+manX // manY // manZ,Cra  // Mlc  // NagC  // CRP-cAMP 
+codB // codA,PurR-Hypoxanthine  // Nac 
+adhE,Lrp  // Cra  // NarL  // Fis 
+nrfA // nrfB // nrfC // nrfD // nrfE // nrfF // nrfG,NsrR-nitric oxide // NsrR  // Fis  // FNR  // FlhDC  // NarL  // NarP  // IHF 
+nhaR // nhaA,H-NS  // NhaR-Na<SUP>+</SUP> 
+phnP // phnO // phnN // phnM // phnL // phnK // phnJ // phnI // phnH // phnG // phnF // phnE_2 // phnE_1 // phnD // phnC,PhoB 
+phoU // pstB // pstA // pstC // pstS,PhoB  // IHF  // FNR 
+prs,PurR-Hypoxanthine 
+speB // speA,PurR-Hypoxanthine 
+guaA // guaB,Fis // PurR-Hypoxanthine  // DnaA-ATP  // CRP-cAMP 
+rbsR // rbsD // rbsA // rbsC // rbsB // rbsK,RbsR  // CRP-cAMP 
+wcaB // wcaA // wzc // wzb // wza,RcsAB 
+rhaT,RhaS // ArcA  // CRP-cAMP  // RhaS-L-rhamnose 
+zwf,FNR // Fur-Fe<sup>2+</sup>  // Cra  // SoxS  // Rob  // MarA 
+ftsQ // ftsA // ftsZ,SdiA 
+soxS,AcrR  // Fur-Fe<sup>2+</sup>  // FNR // SoxS  // SoxR 
+torC // torA // torD,NarL  // TorR 
+treC // treB,TreR  // CRP-cAMP  // ArcA 
+araD // araA // araB,AraC  // CRP-cAMP  // AraC-Arabinose 
+fadA // fadB,Fis  // FadR  // ArcA 
+glpQ // glpT,Fis  // IHF  // GlpR  // CRP-cAMP  // FNR 
+metF,MetJ-S-adenosylmethionine 
+rhaD // rhaA // rhaB,RhaS-L-rhamnose  // CRP-cAMP 
+trpR,TrpR-Tryptophan 
+lysU,Lrp 
+oppA // oppB // oppC // oppD // oppF,Fur-Fe<sup>2+</sup>  // Lrp  // ArcA  // ModE-MoO<sub>4</sub><sup>2-</sup> 
+sdaA,Lrp 
+serA,Nac  // Lrp 
+tdh // kbl,Lrp 
+argE,ArgR-L-arginine 
+eda // edd,KdgR  // GntR  // Cra 
+gntU // gntK,GntR  // IdnR-5-ketogluconate  // CRP-cAMP 
+gntT,GntR  // CRP-cAMP 
+accB // accC,biotin carboxyl carrier protein (dimer)
+accD,FadR 
+acrA // acrB,MprA  // EnvR  // AcrR  // PhoP  // MarA  // SoxS  // Rob 
+acrE // acrF,H-NS  // FNR 
+adiA,H-NS  // AdiY  // IHF 
+ampD // ampE,CRP-cAMP 
+arsR // arsB // arsC,ArsR 
+artM // artQ // artI // artP,ArgR-L-arginine 
+ascF // ascB,CRP-cAMP  // AscG 
+caiE // caiD // caiC // caiB // caiA // caiT,H-NS  // CRP-cAMP  // CaiF-L-carnitine  // ArcA  // FNR 
+chbG // chbF // chbR // chbA // chbC // chbB,ChbR  // NagC  // CRP-cAMP  // ChbR-<i>N</i>-monoacetylchitobiose-6-phosphate
+creA // creB // creC // creD,NagC 
+cydC // cydD,NarL  // FNR  // ArcA 
+dadA // dadX,CRP-cAMP  // Lrp 
+recF // dnaN // dnaA,DnaA-ATP  // ArgP 
+dppF // dppD // dppC // dppB // dppA,FNR  // IHF 
+htrE // yadV,IHF 
+exbD // exbB,Fur-Fe<sup>2+</sup> 
+fabH // fabD // fabG,FadR 
+feoC // feoA // feoB,NagC  // Fur-Fe<sup>2+</sup>  // FNR 
+ybdZ // fes // entF // fepE,H-NS  // Fur-Fe<sup>2+</sup>  // FNR 
+flgN // flgM // flgA,FlhDC 
+flgB // flgC // flgD // flgE // flgF // flgG // flgH // flgI // flgJ,FlhDC 
+fliD // fliS // fliT,FlhDC 
+fliL // fliM // fliN // fliO // fliP // fliQ // fliR,FlhDC 
+glgS,CRP-cAMP 
+glmS // glmU,NagC 
+yhiD // hdeB // hdeA,FliZ   // RcsB-P<SUP>asp56</SUP> // PhoP  // GadE  // GadW  // Lrp-Leucine  // H-NS  // MarA  // GadX  // TorR-TorI
+hipA // hipB,HipB antitoxin and  // HipAB toxin/antitoxin complex and  // IHF 
+hyaA // hyaB // hyaC // hyaD // hyaE // hyaF,YdeO  // Fis  // NarL  // NarP  // IscR  // ArcA  // AppY 
+hybO // hybG // hybF // hybE // hybD // hybC // hybB // hybA,ArcA  // NarL 
+moaA // moaB // moaC // moaD // moaE,CueR-Cu<sup>+</sup>  // FNR 
+modA // modB // modC,ModE-MoO<sub>4</sub><sup>2-</sup>  // CRP-cAMP 
+moeB // moeA,FNR  // ArcA  // NarL 
+cheW // cheA // motB // motA,CpxR
+ccmH // ccmG // ccmF // ccmE // ccmD // ccmC // ccmB // ccmA // napC // napB // napH // napG // napA // napD // napF,NarL  // FNR  // ModE-MoO<sub>4</sub><sup>2-</sup>  // NarP  // FlhDC 
+nikR // nikA // nikB // nikC // nikD // nikE,NikR-Ni // NarL  // FNR 
+nuoN // nuoM // nuoL // nuoK // nuoJ // nuoI // nuoH // nuoG // nuoF // nuoE // nuoC // nuoB // nuoA,FNR  // ArcA  // IHF  // NarL 
+phoQ // phoP,PhoP 
+potF // potG // potH // potI,NtrC 
+pspA // pspB // pspC // pspD // pspE,IHF  // PspF 
+rpsI // rplM,CRP-cAMP  // Fis  // FNR 
+rpmA // rplU,MlrA
+rpsF // priB // rpsR // rplI,CRP-cAMP 
+rpsQ // rpmC // rplP // rpsC // rplV // rpsS // rplB // rplW // rplD // rplC // rpsJ,ArcA  // FNR 
+rplS // trmD // rimM // rpsP,FNR 
+ruvB // ruvA,LexA 
+serC // aroA,CRP-cAMP  // Lrp 
+dksA // sfsA,CRP-cAMP 
+tehA // tehB,NsrR-nitric oxide // NsrR 
+infC // thrS,NsrR-nitric oxide
+ttdT // ttdA // ttdB,Dan-L-tartrate 
+ubiC // ubiA,FNR  // IHF  // NarL  // ArcA 
+dcd // udk,RbsR-ribose
+xylF // xylG // xylH // xylR,Fis  // XylR-Xylose  // CRP-cAMP 
+dsdA,DsdC-D-serine   // CRP-cAMP 
+pflB // focA,NarL  // CRP-cAMP  // IHF  // FNR  // ArcA 
+pflB // focA,ArcA 
+pflB // focA,NarL  // FNR 
+pflB,Fis 
+ackA,ArcA  // FNR 
+bolA,H-NS  // OmpR 
+osmB,RcsB-P<SUP>asp56</SUP>
+csgC // csgB // csgA,FliZ   // CpxR // CsgD 
+csgG // csgF // csgE // csgD,RcdA   // BasR  // FliZ   // Cra  // MlrA  // IHF  // RstA   // CpxR // RcsAB  // OmpR  // CsgD  // CRP-cAMP 
+stpA, H-NS  // Lrp 
+osmE,IHF  // Fis 
+htpG,AscG 
+htrE // yadV,IHF 
+htrE // yadV,IHF 
+mngR,MngR 
+fimB,H-NS 
+fimB,BasR  // IHF  // NanR  // NagC  // H-NS 
+grpE,CRP-cAMP 
+tcyJ // fliZ // fliA,SutR  // CsgD  // MatA  // NsrR-nitric oxide // H-NS  // FlhDC 
+hypB // hypC // hypD // hypE,FNR 
+icd,Cra 
+rpoH,CpxR
+rpoH,CytR  // CRP-cAMP  // DnaA-ATP 
+lrhA,LrhA 
+trmA,Fis 
+uspA,IHF  // FadR 
+rpsU // dnaG // rpoD,LexA 
+uraA // upp,FNR 
+rpoS,MqsA antitoxin of the MqsRA toxin-antitoxin system and  // Fur-Fe<sup>2+</sup>  // ArcA  // CRP-cAMP  // GadX 
+pgk // epd,Cra  // CRP-cAMP 
+nuoN // nuoM // nuoL // nuoK // nuoJ // nuoI // nuoH // nuoG // nuoF // nuoE // nuoC // nuoB // nuoA,Fis 
+tsx,DeoR 
+tsx,CytR  // CRP-cAMP 
+soxR,AcrR  // Fur-Fe<sup>2+</sup>  // FNR // SoxR 
+mprA // emrA // emrB,MprA 
+fecR // fecI,Fur-Fe<sup>2+</sup> 
+ppiA,CpxR
+ppiA,CytR  // CRP-cAMP 
+ppiA,CytR  // CRP-cAMP 
+ppiA,CytR  // CRP-cAMP 
+cadA // cadB,Lrp  // ArcA  // H-NS  // CadC  // GadX  // GadE-RcsB
+fumB // dcuB,NarL  // FNR  // CRP-cAMP 
+tcyJ // fliZ // fliA,NsrR-nitric oxide
+glnB,PurR-Hypoxanthine 
+ubiX // purF // cvpA,PurR-Hypoxanthine 
+ompC,Lrp 
+ompC,IHF  // Lrp 
+yhfA,CRP-cAMP 
+ptsH // ptsI // crr,NagC  // Mlc  // CRP-cAMP 
+ptsH // ptsI // crr,NagC  // CRP-cAMP 
+ptsH // ptsI // crr,NagC 
+ptsH // ptsI // crr,CRP-cAMP  // Cra 
+ptsH // ptsI // crr,Cra  // CRP-cAMP 
+rcsA,H-NS  // GadE  // RcsAB 
+glmS // glmU,NagC 
+aspV,Fis 
+thrW,Fis 
+argU,Fis 
+lysT // valT // lysW,Fis 
+proL,Fis 
+valU // valX // valY // lysV,Fis // Fis 
+argW,Fis 
+pheV,Fis 
+argX // hisR // leuT // proM,Fis 
+tufB // thrU // tyrU // glyT // thrT,Fis 
+leuX,Fis 
+glnX // glnV // metU // glnW // glnU // leuW // metT,Fis 
+serT,Fis 
+serX,Fis 
+tpr // tyrV // tyrT,Fis 
+alaX // alaW,Fis 
+glyU,Fis 
+infB // nusA // rimP // metY,Fis 
+proK,Fis 
+pheU,Fis 
+leuV // leuP // leuQ,Fis 
+pdhR // aceE // aceF // lpd,Cra  // PdhR  // FNR  // CRP-cAMP 
+lpd,Fur-Fe<sup>2+</sup>  // ArcA  // CRP-cAMP  // FNR  // Fis 
+sdhC // sdhD // sdhA // sdhB // sucA // sucB // sucC // sucD,FNR  // CRP-cAMP  // ArcA  // Fur-Fe<sup>2+</sup> 
+pykF,Cra 
+uxuB // uxuA,OxyR  // UxuR  // ExuR  // CRP-cAMP 
+aldA,DnaA-ATP  // ArcA  // FNR  // CRP-cAMP 
+putP,fused PutA  / proline dehydrogenase / 1-pyrroline-5-carboxylate dehydrogenase
+putP,CRP-cAMP 
+caiF,NarL  // H-NS  // CRP-cAMP  // FNR 
+fixX // fixC // fixB // fixA,CRP-cAMP  // CaiF-L-carnitine  // FNR 
+envZ // ompR,CRP-cAMP  // IHF 
+envZ // ompR,CRP-cAMP 
+envZ // ompR,CRP-cAMP 
+lldD // lldR // lldP,LldR-L-lactose  // ArcA  // LldR 
+fimD // fimH // fimG // fimF // fimC // fimI // fimA,Lrp  // IHF  // H-NS 
+fimE,H-NS  // Lrp  // LrhA 
+rpoH,IHF 
+msrA,Fis 
+ampC,BolA 
+eda,KdgR 
+mukB // mukE // mukF // smtA,H-NS 
+eda,PhoB 
+rseC // rseB // rseA // rpoE,CpxR
+xapB // xapA,XapR-xanthosine 
+tauD // tauC // tauB // tauA,CysB-O-acetyl-L-serine  // Cbl 
+pnp // rpsO // truB // rbfA // infB // nusA // rimP // metY,CRP-cAMP  // ArgR-L-arginine 
+metY,Fis 
+arcA,FNR 
+arcA,FNR 
+putA,BasR  // fused PutA  / proline dehydrogenase / 1-pyrroline-5-carboxylate dehydrogenase // MarA 
+nmpC,MprA  // IHF  // OmpR  // CRP-cAMP 
+cydB // cydA,H-NS  // ArcA  // FNR 
+ccmH // ccmG // ccmF // ccmE // ccmD // ccmC // ccmB // ccmA // napC // napB // napH // napG // napA // napD // napF,NarL  // NarP  // ModE-MoO<sub>4</sub><sup>2-</sup>  // FlhDC 
+phr,LexA 
+yiaJ,YiaJ  // CRP-cAMP  // IHF 
+gadC // gadB,FliZ   // GadW  // AdiY  // RcsB-P<SUP>asp56</SUP> // Fis  // CRP-cAMP  // GadX  // GadE 
+paaZ,PaaX  // CRP-cAMP  // IHF 
+glpR // glpG // glpE,CRP-cAMP 
+hypF // hydN,FhlA-Formate  // FlhDC 
+dadX // dadA,Lrp  // CRP-cAMP 
+dadX // dadA,Lrp  // CRP-cAMP 
+rnpB // garK // garR // garL // garP,Fur-Fe<sup>2+</sup>  // H-NS  // CdaR  // FNR 
+hupA,CRP-cAMP  // Fis 
+hupB,Fis 
+hupB,Fis  // CRP-cAMP 
+xseA,CRP-cAMP 
+paaK // paaJ // paaI // paaH // paaG // paaF // paaE // paaD // paaC // paaB // paaA,PaaX  // CRP-cAMP  // IHF 
+mazF // mazE // relA,HipAB toxin/antitoxin complex and  // HipB antitoxin and 
+mazG // mazF // mazE,MazE-MazF   // MazE antitoxin of the MazF-MazE toxin-antitoxin system // Fis 
+mazG // mazF // mazE,MazE-MazF   // MazE antitoxin of the MazF-MazE toxin-antitoxin system // Fis 
+ilvX // ilvG_1 // ilvA // ilvD // ilvE // ilvM // ilvG_2 // ilvL,IHF 
+ilvX // ilvG_1 // ilvA // ilvD // ilvE // ilvM // ilvG_2 // ilvL,Lrp  // Lrp-Leucine  // IHF 
+poxB,Cra  // MarA  // SoxS 
+rnpB,Fis 
+tpx,FNR  // ArcA 
+adhE,NarL  // FNR 
+pqiB // pqiA,SoxS  // MarA 
+hlyE,Fis  // CRP-cAMP  // FNR  // SlyA  // H-NS 
+degP,H-NS  // CpxR
+gadX // gadA,AdiY  // RcsB-P<SUP>asp56</SUP> // Fis  // H-NS  // GadW  // TorR-TorI // CRP-cAMP  // FNR  // GadX  // GadE-RcsB  // ArcA 
+amtB // glnK,Fur-Fe<sup>2+</sup>  // FNR // NtrC  // GadX 
+yiaM // sgbE // sgbU // sgbH // lyxK // yiaO // yiaN // yiaL // yiaK,YiaJ  // IHF  // CRP-cAMP 
+recF // dnaN // dnaA,DnaA-ATP 
+rtcA // rtcB,RtcR  // IHF 
+aroP,Cra  // TyrR-Tyrosine 
+nac,Fur-Fe<sup>2+</sup>  // FNR // Nac  // NtrC 
+phoQ // phoP,PhoP 
+polA,DnaA-ATP 
+xylB // xylA,AraC-Arabinose  // XylR-Xylose  // CRP-cAMP 
+xylR,ArcA 
+hmp,NsrR-nitric oxide // MetR  // Fur-Fe<sup>2+</sup>  // FNR  // NsrR 
+focB // hyfR // hyfJ // hyfI // hyfH // hyfG // hyfF // hyfE // hyfD // hyfC // hyfB // hyfA,FNR  // HyfR  // FhlA-Formate  // CRP-cAMP 
+paaY // paaX,PaaX 
+proX // proW // proV,H-NS 
+proX // proW // proV,IHF  // H-NS 
+grxA,OxyR 
+zraP,ZraR 
+zraR // zraS,ZraR  // CRP-cAMP 
+pfkA,Cra 
+mlc,Mlc  // CRP-cAMP 
+ynfK // mlc,Mlc  // CRP-cAMP 
+torR,TorR 
+acnA,Rob  // MarA  // SoxS  // ArcA  // FNR  // CRP-cAMP  // Cra 
+acnB,ArcA  // Fis  // Cra  // CRP-cAMP 
+spf,CRP-cAMP 
+adiY,H-NS 
+cdd,NsrR-nitric oxide // CytR  // CRP-cAMP 
+yeiL,FNR  // Lrp-Leucine  // IHF  // YeiL 
+phoH,PhoB 
+queA,Fis 
