@@ -1,880 +1,738 @@
-spy,BaeR CpxR 
-ycaC,BaeR 
-qseC qseB,BasR QseB 
-yecR,FlhD 
-flhE flhAflhB,FlhD 
-fliE,CsgD FlhD 
-fliK fliJfliIfliHfliG fliF,CsgD FlhD 
-sroC gltLgltKgltJgltI,FlhD 
-ytfE,NarP NarL NsrR 
-ygbA,NsrR NsrR 
-astE astBastDastAastC,NtrC ArgR 
-nrdH nrdInrdFnrdE,IscR 
-cpxP,CpxR 
-dsbA rdoA,CpxR 
-ptsG,SoxS Mlc Fis 
-ptsG,Mlc Fis 
-grcA,Fis PdhR 
-rrfA rrlAalaTileTrrsA,Lrp Fis 
-rrfB rrlBgltTrrsB,Lrp Fis 
-rrfC rrlCgltUrrsC,Lrp Fis 
-rrfE rrlEgltVrrsE,Lrp Fis 
-rrfG rrlGgltWrrsG,Lrp Fis 
-rrfH rrlHalaVileVrrsH,Lrp Fis 
-rrfF thrVrrfDrrlDalaU ileUrrsD,Lrp Fis 
-gdhA,ArgP Nac 
-sgrR sroAtbpAthiPthiQ,SgrR 
-sgrT setAsgrS,Cra SgrR 
-leuO,LeuO 
-cra,PhoB 
-uof fur,OxyR SoxS 
-uof furfldA,SoxS 
-dkgB,NsrR 
-dinJ yafQ,DinJ YafQ LexA 
-yafP yafOyafNdinB,LexA 
-yafP yafOyafN,LexA 
-yagK,RcdA 
-ecpA,MatA 
-ecpR,MatA 
-rclC rclBrclA,RclR 
-pdeL,Cra 
-mhpT,NsrR 
-iraP,CsgD 
-ykiA,RcsB 
-sbcD sbcC,PhoB 
-fadM,FadR 
-ybaO,MarA 
-tomB hha,BasR PdhR CpxR 
-hemH,OxyR 
-ybdN,CysB 
-dsbG,OxyR 
-dpiA dpiB,NarL 
-ybfN chiP,NagC 
-acrZ,SoxS MarA 
-ybhL,YjjQ 
-mcbA,McbR 
-ybjJ ybjI,RcdA 
-rybB,NsrR 
-lysO,ArgR 
-yccT,CsgD 
-yccA,CpxR 
-gfcA,YjjQ 
-wrbA yccJ,CsgD 
-efeU_2 efeU_1,CpxR 
-ycdZ,CytR 
-dinI,NagC LexA 
-ldtC,CpxR 
-iraM,PhoP 
-yciE yciFyciG,McbR 
-yciX ymiA,YjjQ 
-yciW,CysB 
-puuP puuA,PuuR 
-puuE puuBpuuCpuuRpuuD,PuuR 
-ycjY,PgrR 
-uspE,GadX 
-hslJ,CysB 
-ydbD,NsrR 
-ynbD ynbCynbBynbA,RcsB 
-mcbR,YgiV 
-lsrK lsrR,LsrR 
-yneM,PhoP 
-dgcZ,CysB CpxR 
-ydfH,PhoB 
-dicC ydfXydfW,DicA 
-dicA,DicA 
-intQ insDydfEydfDdicB,DicA 
-rspA rspB,YdfH 
-add,RbsR 
-mepH,NsrR 
-rprA,CpxR 
-ydiV,SdiA 
-ynjI,RcsB 
-yeaE,NsrR 
-mipA,PhoB 
-yeaR yoaG,Fis NarP NarL NsrR 
-argP,ArgP PhoB 
-yoaC,CysB 
-cbl,CysB NtrC 
-yebE,CpxR 
-yebG,LexA 
-yebK,YebK 
-yecT,RcsB 
-yedX,YedW PhoB 
-yefM yoeB,YefM YefM 
-cyaR,CpxR 
-rcnR,RcnR 
-rcnB rcnA,RcnR 
-mlrA,FliZ 
-folE yeiB,MetJ 
-yojI,Lrp 
-arnF arnEarnTarnDarnA arnCarnB,BasR 
-alaA,Lrp 
-yfbR,CysB 
-alaC,SgrR 
-murR,MurR 
-eutH eutA,HipB 
-eutS eutPeutQeutTeutD eutM,NagC 
-pgpC tadA,NsrR 
-yfiB dgcNyfiR,YjjQ 
-intA,AlpA 
-ygaU,CpxR 
-yqaE,CpxR 
-casA casBcasCcasDcasE cas1cas2,LeuO 
-ptrA recBrecD,LexA 
-ppdA ppdBygdBppdCrecC,FlhD 
-ygeH,CysB 
-fau ssrS,Fis Lrp 
-argO,Lrp ArgP 
-pitB,PhoB 
-dkgA yqhD,YqhC 
-yqhG,RcsB 
-mqsR mqsA,MqsA 
-ygiC ygiBygiAtolC,SoxS MarA 
-fadH,HipB FadR 
-sfsB,RcsB 
-ibaG,MlrA 
-tsgA,NsrR 
-asd,ArgP 
-yhjA,OxyR 
-yhjC,PhoB 
-avtA,Lrp 
-yibQ envCgpmM,Cra 
-waaH,NsrR PhoB 
-gor,OxyR 
-dinD,LexA 
-mioC,MraZ 
-rffM wzyErffTwzxErffA rffCrffHrffGwecC wecBwzzErfe,NsrR 
-yjbE,RcsA 
-yjbJ,FliZ 
-adiC,PhoB GadE 
-yjfN,CpxR 
-yjfF ytfTytfRytfQ,AraC 
-bdcA,NsrR 
-pepA,I 
-yjhC yjhB,NanR 
-lgoR,UxuR 
-slt,CpxR 
-ihfA pheTpheSpheMrplT rpmIinfCthrS,NsrR 
-norR,NsrR NorR 
-mioC asnC,AsnC Nac 
-mnmG mioCasnC,AsnC Nac 
-ygbK,FlhD 
-ftnB,CpxR 
-mzrA yqjA,CpxR 
-yjbH yjbGyjbFyjbE,RcsA 
-nhaR,YdeO 
-glgP glgAglgCglgXglgB,PhoP 
-rnlB rnlA,IscR 
-eptA,BasR 
-cynS cynT,CynR 
-hokD relErelB,RelB RelB 
-crp,Fis 
-crp,Fis 
-hypF,Cra 
-hypF,Cra 
-eno,Cra 
-eno,Cra 
-eno,Cra 
-hisP hisMhisQhisJ,ArgR 
-csgG csgFcsgEcsgD,FliZ RstA 
-gadW gadX,PhoB GadX RutR GadW GadE 
-lpxC ftsZftsAftsQddlB murCmurGftsWmurD mraYmurFmurEftsI ftsL,LexA 
-ftsK,LexA 
-cysH,HypT 
-rutR,RutR 
-ydeO safA,YdeO PhoP EvgA 
-bglJ yjjQ,LeuO 
-cspE,DinJ 
-dctA,DcuR 
-trg,Fis 
-sbmC,LexA 
-yhbS yhbT,CsgD 
-tpiA,Cra 
-ydhT ydhUydhXydhWydhV ydhY,NarL NarP 
-ecnB,OmpR 
-nemA nemR,RutR NemR 
-fau ssrS,Fis Lrp 
-pstS,PhoB 
-pstA pstCpstS,PhoB 
-ygiC ygiBygiAtolC,PhoP 
-ygiC ygiBygiAtolC,MarA SoxS 
-murP murQ,MurR 
-murP murQ,MurR 
-gadW,YdeO 
-gadW,GadX GadW SdiA PhoP 
-gadE,GadX YdeO 
-fadR,FadR 
-yjeV,DnaA 
-ogt,NarL Fis 
-waaZ waaY,MarA SoxS 
-citG citXcitFcitEcitD citC,NarL 
-dpiA dpiB,DcuR NarL 
-ahpF ahpC,OxyR 
-ymgC ariRymgAycgZ,BluR 
-flhC flhD,MatA 
-acrD,BaeR CpxR 
-mgrR,PhoP 
-fabB,FabR FadR 
-flxA,Fis 
-fliC,MatA GadE 
-flgN flgM,CsgD 
-ycgR,FlhD 
-pdeH,FlhD 
-yhcH nanKnanEnanTnanA,Fis NanR 
-sodB,NsrR 
-asr,RcdA RstA PhoB 
-ribA,SoxS 
-osmC,Lrp 
-osmC,Lrp 
-ychF,OxyR 
-metK,MetJ 
-pspF,PspF 
-cusA cusBcusFcusC,YedW PhoB 
-cusS cusR,YedW PhoB 
-inaA,MarA SoxS 
-iscA iscUiscSiscR,IscR 
-dcuD,PhoP 
-gabP gabTgabD,Nac 
-glcA glcBglcGglcFglcE glcD,PdhR GlcC 
-glcC,Cra Fis GlcC 
-osmY,FliZ Fis Lrp 
-recN,LexA 
-psiE,PhoB 
-ybjN rimKnfsAybjC,MarA OxyR SoxS 
-gadX,PhoB GadX RutR GadW GadE 
-metQ metImetN,HypT MetJ 
-serA,Lrp 
-mhpF mhpEmhpDmhpCmhpB mhpA,MhpR 
-mgtL mgtA,PhoP 
-treR,PhoP 
-treR,PhoP 
-mgrB,PhoP 
-topA,Fis 
-topA,Fis 
-gyrB,Fis 
-sufE sufSsufDsufCsufB sufA,NsrR OxyR IscR 
-micF,AcrR Lrp Lrp MarA SoxS HU OmpR 
-isrC flu,OxyR 
-cpxA cpxR,CpxR 
-emrY emrK,EvgA 
-trxC,OxyR 
-ybaT ybaS,GadX 
-cydB cydA,Cra 
-fldB,SoxS 
-patA,NtrC Fis 
-bamE,NsrR CpxR 
-mscM psd,CpxR 
-bacA,CpxR 
-yaiW sbmA,CpxR 
-uspD yiiS,YdeO 
-hisP hisMhisQhisJargT,NtrC 
-prpE prpDprpCprpB,Cra PrpR 
-yeaH yeaG,NtrC 
-yhdZ yhdYyhdXyhdW,NtrC 
-ddpF ddpDddpCddpBddpA ddpX,NtrC 
-yciG,McbR 
-glgP glgA,PhoP 
-phoU,PhoB 
-uxaB,ExuR 
-ssrS,Fis Lrp 
-ssrS,Fis Lrp 
-iraM,PhoP 
-dgkA,BasR 
-rutA rutBrutCrutDrutE rutFrutG,RutR NtrC PhoP 
-actP yjcHacs,Fis 
-actP yjcHacs,Fis 
-metL metB,HypT MetJ PhoP 
-proP,Fis 
-sra,OmpR Fis 
-ftsQ,SdiA 
-gabP gabTgabDlhgOcsiD,CsiR Lrp 
-pdeR,FliZ RutR 
-dsbC,CpxR 
-lpxA fabZlpxDskp,CpxR GadE 
-phoQ,PhoB 
-ydeM ydeN,AraC NagC 
-ydeI,RcdA 
-sroD fadD,FadR 
-leuO,LeuO RcsB 
-yjiY,YehT 
-yhjX,YpdB 
-waaH,BasR 
-bluF,RcdA 
-leuL,LeuO 
-gntK,GntR IdnR 
-tnaC,TorR 
-bglG,RcsB LeuO Fis 
-ilvL,Lrp Lrp 
-mpaA ymjCymjDycjY,PgrR 
-leuE,Lrp 
-cbpM cbpA,Fis 
-cbpM cbpA,Fis 
-gloA nemAnemR,RutR NemR 
-patD ydcVydcUydcTydcS,Nac 
-ompN ydbK,SoxS 
-nanA,Fis NanR 
-nanS nanMnanC,NanR NagC 
-feaR,PhoB NsrR Nac 
-tynA,FeaR 
-bglG,RcsB 
-ygeA araE,AraC 
-galE,GalR HU GalS 
-galE,HU GalR GalS GalR GalS 
-galT galE,GalR HU GalS 
-galT galE,HU GalR GalS GalR GalS 
-galK galTgalE,GalR HU GalS 
-galK galTgalE,HU GalR GalS GalR GalS 
-relA,NtrC 
-ariR,CysB 
-accA,FadR 
-accC accB,FadR 
-fabI,FadR 
-iclR,IclR FadR 
-nagE,NagC 
-norW norV,NarL NarP NorR 
-pgm seqA,HU 
-garD,CdaR 
-gudD gudXgudP,CdaR 
-mngB mngA,MngR 
-rpiB,AlsR 
-cdaR,CdaR 
-alsE alsCalsAalsBrpiR,AlsR 
-alsE alsCalsAalsBrpiR,AlsR 
-recX recA,LexA 
-fumB dcuB,DcuR 
-nfsB,SoxS MarA 
-idnK,GntR IdnR 
-idnR idnTidnOidnD,GntR IdnR 
-bglB bglFbglG,RcsB LeuO Fis 
-gadE,PhoP GadE 
-hdeD,PhoP GadE GadX 
-yeaD gapA,Cra 
-gapA,Cra 
-gapA,Cra 
-gapA,Cra 
-gntT,GntR 
-gntT,GntR 
-asnB,GadX 
-lon,GadX 
-gntP,OxyR UxuR 
-nfuA gntX,GntR 
-uxaA uxaC,ExuR 
-uxuR,UxuR ExuR 
-exuR,ExuR 
-uidC uidBuidA,UidR UxuR 
-uidR,UidR 
-gnd,GadE 
-ulaF ulaEulaDulaCulaB ulaA,UlaR 
-ulaG,UlaR 
-apaH apaGrsmApdxA,Fis 
-rsmA pdxA,Fis 
-fadJ fadI,FadR 
-malZ,MalT 
-dmsD ynfHynfGynfFynfE,NarL 
-argG,ArgR 
-mdtF mdtEgadE,FliZ GadX GadW GadE EvgA YdeO 
-pspG,PspF 
-gadY,GadW GadX 
-glnA,NtrC 
-glnA,Fis NtrC 
-cytR,CytR 
-serC,Lrp 
-ugpQ ugpCugpEugpAugpB,PhoB 
-ugpQ ugpCugpEugpAugpB,PhoB 
-yidQ,CpxR 
-dcuA aspA,NarL 
-gcvB,GcvA 
-pnp rpsOtruBrbfAinfB nusArimPmetY,Fis 
-tisB,LexA 
-murI btuB,GadX 
-dinG,LexA 
-folA,TyrR 
-dapB,ArgP 
-lysP,Lrp ArgP 
-gltX,Fis 
-amn,PhoB 
-alaS,AlaS 
-dapD,ArgP 
-pgi,SoxS 
-cspD,MqsA 
-katE,Fis 
-ppc,Cra 
-ung,CpxR 
-lysC,ArgP 
-uvrC,LexA 
-ansB,Fis 
-agaA agaWagaVkbaZ,AgaR 
-agaR,AgaR 
-agaI agaDagaCagaBkbaY agaS,AgaR 
-ppiD,CpxR 
-ssuB ssuCssuDssuAssuE,CysB Cbl 
-aceF aceE,NsrR 
-ruvB ruvA,LexA 
-ptrA,LexA 
-uvrC uvrY,LexA 
-nanM nanC,NanR NagC 
-ilvH ilvI,Lrp 
-cspI,BasR Fis 
-tsr,CpxR 
-hcr hcp,OxyR NsrR NarL NarP 
-galP,NagC GalS GalR GalR GalS 
-hcaR,HcaR 
-hcaD hcaBhcaChcaFhcaE,HcaR 
-prpR,PhoB AscG PrpR 
-mntH,OxyR 
-tktB,PhoB 
-glk,Cra 
-evgS evgA,EvgA 
-evgS evgA,EvgA 
-polB,LexA 
-allA,AllR 
-allS,AllR 
-glxK ybbYallBybbWglxR hyigcl,AllR 
-allE allCallD,AllS 
-fhuF,OxyR 
-ydeP,UvrY NarP NarL NagC PhoP EvgA 
-yegZ yegR,EvgA 
-frc,EvgA 
-yfdE yfdVoxcfrc yfdX,EvgA 
-yrbL,BasR PhoP 
-borD,PhoP 
-rstB rstA,PhoP 
-slyB,PhoP 
-slyB,PhoP 
-rob,SoxS MarA 
-nagA,PhoP 
-hemL,PdhR PhoP 
-pagP,PhoP 
-ybjG,PhoP 
-ompT,PhoP 
-tam lsrGlsrFlsrBlsrD lsrClsrA,LsrR 
-baeR baeSmdtDmdtCmdtB mdtA,BaeR CpxR 
-mglC mglA,Fis 
-dhaR,DhaR 
-dhaM dhaLdhaK,DhaR 
-glnQ,Fis 
-acrD,EvgA 
-fbaA pgkepd,Cra 
-artJ,ArgR 
-metE,MetJ MetR 
-metR,MetJ MetR 
-metR,MetJ MetR 
-ydjM,LexA 
-insK,LexA 
-dinQ,LexA 
-symE,LexA 
-ybfE,LexA 
-hokE,LexA 
-cho,LexA 
-acrR,AcrR 
-yqjH,YqjI 
-zinT,SoxS 
-fliE,CsgD 
-fhlA hypEhypDhypChypB hypA,NsrR FhlA 
-dcuR dcuS,NarL 
-fbaB,Cra 
-pgaD pgaCpgaBpgaA,OmpR 
-argA,ArgR 
-dtpA,OmpR 
-metY,ArgR 
-erpA,IscR 
-nfuA,IscR 
-ydiU,IscR 
-napC napBnapHnapGnapA napDnapF,IscR 
-oxyS,OxyR 
-ybiT,AscG 
-yhiM,GadE 
-yidL,RcsB 
-lgoD,UxuR 
-yncE,MarA 
-yqjI,YqjI 
-rcdA,RcdA 
-ydbK,SoxS 
-yegH,PhoB 
-ttdR,Dan 
-ygiZ,RcsB 
-omrB,OmpR 
-omrA,OmpR 
-dacC,BolA 
-dsrA,LeuO 
-fadE,FadR 
-feaB,FeaR NsrR 
-grxD,NsrR 
-galR,GalS GalR 
-nlpA,CsgD 
-aslB,GadE 
-dgcC,CsgD 
-pepD,CsgD 
-molR_1,RcsB LexA 
-lpxC ftsZftsAftsQddlB murCmurGftsWmurD mraYmurFmurEftsI ftsLrsmHmraZ,MraZ PdhR 
-mpl,Cra 
-aceB aceAaceK,IclR Cra 
-alkA,Ada 
-araC,AraC AraC 
-argC argBargH,ArgR 
-argF,ArgR 
-argI,ArgR 
-argR,ArgR 
-tyrA aroF,TyrR 
-aroG,TyrR CpxR 
-aroL yaiAaroM,TyrR 
-aroP,Cra TyrR 
-bioA,BirA 
-deoC deoAdeoBdeoD,DeoR 
-deoC deoAdeoBdeoD,DeoR CytR Fis 
-dmsA dmsBdmsC,Fis NarL 
-dusB fis,Fis 
-frdD frdCfrdBfrdA,NarL DcuR 
-galS,GalS GalR 
-galM galKgalTgalE,GalR HU GalS 
-galM galKgalTgalE,HU GalR GalS GalR GalS 
-glnG glnLglnA,NtrC 
-glnG glnL,NtrC 
-glnG glnLglnA,Fis NtrC 
-glpA glpBglpC,Fis GlpR FlhD 
-glpD,GlpR 
-ilvY,IlvY IlvY 
-katG,OxyR 
-kdpF kdpCkdpBkdpA,KdpE 
-lacA lacYlacZ,LacI 
-lexA dinF,LexA 
-malG malFmalE,Fis MalT 
-malQ malP,MalT 
-melR,MelR MelR 
-metA,MetJ 
-metH,MetR 
-umpH nagCnagAnagB,NagC 
-narG narHnarJnarI,Fis RstA NarL 
-narK,Fis NarL 
-nirB nirDnirCcysG,Cra Fis NarL NarP 
-yfaE nrdAnrdB,DnaA ArgP Fis 
-ompC,YjjQ Lrp Lrp EnvY OmpR CpxR 
-ompF,PhoB RstA CpxR OmpR EnvY 
-oxyR,OxyR 
-phoA psiF,PhoB 
-phoB phoR,PhoB 
-purB hflD,PurR 
-purC,PurR 
-purD purH,RbsR PurR PhoP 
-purL,PurR 
-purM purN,PurR 
-purR,PurR 
-pyrC,PurR 
-pyrD,Fis PurR 
-recA,LexA 
-rhaS rhaR,RhaS RhaS RhaR 
-sodA,SoxS MarA 
-ssb,LexA 
-sulA,RcdA LexA 
-tyrR,TyrR 
-uvrA,LexA 
-uvrB,LexA 
-uvrD,LexA 
-alkB ada,Ada 
-ahpC ahpF,MetJ OxyR 
-araE,AraC 
-cysB,PhoP CysB 
-cysH cysIcysJ,CysB 
-cysK,CysB 
-fadL,OmpR FadR PhoP 
-ilvI ilvH,Lrp 
-purK purE,PurR 
-rpoH,CytR 
-rpoH,CytR DnaA 
-tnaC tnaAtnaB,TorR 
-phoE,PhoB 
-tyrB,TyrR 
-tyrP,TyrR TyrR HU TyrR 
-glnB,PurR 
-ilvC,IlvY IlvY 
-malT,Mlc Lrp 
-fabA,FabR FadR 
-mtr,HU TyrR 
-purA,MarA PurR GadE 
-aidB,Lrp Ada 
-dctR slp,YdeO GadE GadW GadX MarA 
-appX appCappBappA,YdeO AppY 
-araH araGaraF,AraC 
-araJ,AraC 
-cydA cydB,HypT 
-cyoE cyoDcyoCcyoBcyoA,YedW Cra PdhR GadE 
-fumC,SoxS MarA SoxR 
-mdh,FlhD 
-carA carB,ArgR 
-carA carB,Fis RutR PurR I 
-argD,PhoP ArgR 
-asnA,AsnC 
-asnC,AsnC Nac 
-atoB atoDatoAatoE,AtoC 
-betA betBbetI,Cra BetI 
-betT,Cra BetI 
-bioB bioFbioCbioD,BirA 
-cadC,MlrA LeuO CadC 
-crp,Cra Fis 
-malK lamBmalM,MalT 
-tdcG tdcFtdcEtdcDtdcC tdcBtdcA,TdcR TdcA 
-ebgA ebgC,EbgR 
-fucP fucIfucKfucUfucR,FucR 
-nupG,CytR DeoR 
-uhpT,UvrY UhpA 
-melA melB,MelR MelR 
-malX malY,MalI 
-srlA srlEsrlBsrlDgutM srlRgutQ,GutR GutM 
-udp,CytR 
-fucO fucA,FucR 
-flhC flhD,YjjQ FliZ MatA OmpR LrhA HdfR RcsA QseB 
-malS,MalT PhoP 
-aldB,Fis 
-hns,CspA Fis GadX 
-gyrA,Fis CspA 
-pck,Cra 
-cynT cynScynX,CynR 
-cynR,CynR 
-cysM cysAcysWcysUcysP,CysB 
-cysC cysNcysD,CysB 
-nupC,CytR Nac 
-dsdX dsdA,DsdC 
-dsdC,NsrR DsdC 
-exuT,ExuR 
-fecE fecDfecCfecBfecA,HypT PdhR 
-fdhF,NarL FhlA NarP 
-hycI hycHhycGhycFhycE hycDhycChycBhycA,NsrR FhlA 
-hypA hypBhypChypDhypE,NsrR FhlA 
-fdnG fdnHfdnI,NarP NarL 
-ndh,NsrR PdhR Fis 
-fumB,Fis 
-aspA,NarL 
-fruA fruKfruB,Cra 
-ppsA,Cra 
-fepB,RutR 
-mglC mglAmglB,GalS FlhD GalR 
-gatD gatCgatBgatAgatZ gatY,GatR 
-gcvP gcvHgcvT,PurR Lrp GcvA 
-gcvA,GcvA 
-glnQ glnPglnH,NtrC 
-glpX glpKglpF,GlpR 
-dps,Fis OxyR 
-leuD leuCleuBleuAleuL,LeuO 
-umuD umuC,LexA 
-lrp,NsrR Lrp Lrp GadE 
-gltB gltDgltF,AdiY HdfR Lrp Nac ArgR Lrp GadE 
-livJ,Lrp 
-livF livGlivMlivHlivK,Lrp 
-lysA,ArgP LysR 
-lysR,LysR 
-malI,MalI 
-fpr,SoxS MarA 
-nfo,SoxS MarA 
-marR marAmarB,CpxR AcrR Cra MarR MarA SoxS Fis 
-metC,MetJ 
-glyA,PurR MetR 
-mtlA mtlDmtlR,MtlR Cra Fis 
-manX manYmanZ,Cra Mlc NagC 
-codB codA,PurR Nac 
-adhE,Lrp Cra NarL Fis 
-nrfA nrfBnrfCnrfDnrfE nrfFnrfG,NsrR NsrR Fis FlhD NarL NarP 
-phnP phnOphnNphnMphnL phnKphnJphnIphnH phnGphnFphnE_2phnE_1phnDphnC,PhoB 
-phoU pstBpstApstCpstS,PhoB 
-prs,PurR 
-speB speA,PurR 
-guaA guaB,Fis PurR DnaA 
-rbsR rbsDrbsArbsCrbsB rbsK,RbsR 
-wcaB wcaAwzcwzb wza,RcsA 
-rhaT,RhaS RhaS 
-zwf,Cra SoxS MarA 
-ftsQ ftsAftsZ,SdiA 
-soxS,AcrR SoxS SoxR 
-torC torAtorD,NarL TorR 
-treC treB,TreR 
-araD araAaraB,AraC AraC 
-fadA fadB,Fis FadR 
-glpQ glpT,Fis GlpR 
-metF,MetJ 
-rhaD rhaArhaB,RhaS 
-lysU,Lrp 
-oppA oppBoppCoppDoppF,Lrp 
-sdaA,Lrp 
-serA,Nac Lrp 
-tdh kbl,Lrp 
-argE,ArgR 
-eda edd,KdgR GntR Cra 
-gntU gntK,GntR IdnR 
-gntT,GntR 
-accD,FadR 
-acrA acrB,MprA EnvR AcrR PhoP MarA SoxS 
-adiA,AdiY 
-arsR arsBarsC,ArsR 
-artM artQartIartP,ArgR 
-ascF ascB,AscG 
-caiE caiDcaiCcaiBcaiA caiT,CaiF 
-chbG chbFchbRchbAchbC chbB,ChbR NagC ChbR 
-creA creBcreCcreD,NagC 
-cydC cydD,NarL 
-dadA dadX,Lrp 
-recF dnaNdnaA,DnaA ArgP 
-fabH fabDfabG,FadR 
-feoC feoAfeoB,NagC 
-flgN flgMflgA,FlhD 
-flgB flgCflgDflgEflgF flgGflgHflgIflgJ,FlhD 
-fliD fliSfliT,FlhD 
-fliL fliMfliNfliOfliP fliQfliR,FlhD 
-glmS glmU,NagC 
-yhiD hdeBhdeA,FliZ PhoP GadE GadW Lrp MarA GadX TorR 
-hipA hipB,HipB HipA ant 
-hyaA hyaBhyaChyaDhyaE hyaF,YdeO Fis NarL NarP IscR AppY 
-hybO hybGhybFhybEhybD hybChybBhybA,NarL 
-moeB moeA,NarL 
-cheW cheAmotBmotA,CpxR 
-ccmH ccmGccmFccmEccmD ccmCccmBccmAnapC napBnapHnapGnapA napDnapF,NarL NarP FlhD 
-nikR nikAnikBnikCnikD nikE,NikR NarL 
-nuoN nuoMnuoLnuoKnuoJ nuoInuoHnuoGnuoF nuoEnuoCnuoBnuoA,NarL 
-phoQ phoP,PhoP 
-potF potGpotHpotI,NtrC 
-pspA pspBpspCpspDpspE,PspF 
-rpsI rplM,Fis 
-rpmA rplU,MlrA 
-ruvB ruvA,LexA 
-serC aroA,Lrp 
-tehA tehB,NsrR NsrR 
-infC thrS,NsrR 
-ttdT ttdAttdB,Dan 
-ubiC ubiA,NarL 
-dcd udk,RbsR 
-xylF xylGxylHxylR,Fis XylR 
-dsdA,DsdC 
-pflB focA,NarL 
-pflB focA,NarL 
-pflB,Fis 
-bolA,OmpR 
-csgC csgBcsgA,FliZ CpxR CsgD 
-csgG csgFcsgEcsgD,RcdA BasR FliZ Cra MlrA RstA CpxR RcsA OmpR CsgD 
-stpA,Lrp 
-osmE,Fis 
-htpG,AscG 
-mngR,MngR 
-fimB,BasR NanR NagC 
-tcyJ fliZfliA,CsgD MatA NsrR FlhD 
-icd,Cra 
-rpoH,CpxR 
-rpoH,CytR DnaA 
-lrhA,LrhA 
-trmA,Fis 
-uspA,FadR 
-rpsU dnaGrpoD,LexA 
-rpoS,MqsA GadX 
-pgk epd,Cra 
-nuoN nuoMnuoLnuoKnuoJ nuoInuoHnuoGnuoF nuoEnuoCnuoBnuoA,Fis 
-tsx,DeoR 
-tsx,CytR 
-soxR,AcrR SoxR 
-mprA emrAemrB,MprA 
-ppiA,CpxR 
-ppiA,CytR 
-ppiA,CytR 
-ppiA,CytR 
-cadA cadB,Lrp CadC GadX GadE 
-fumB dcuB,NarL 
-tcyJ fliZfliA,NsrR 
-glnB,PurR 
-ubiX purFcvpA,PurR 
-ompC,Lrp 
-ompC,Lrp 
-ptsH ptsIcrr,NagC Mlc 
-ptsH ptsIcrr,NagC 
-ptsH ptsIcrr,NagC 
-ptsH ptsIcrr,Cra 
-ptsH ptsIcrr,Cra 
-rcsA,GadE RcsA 
-glmS glmU,NagC 
-aspV,Fis 
-thrW,Fis 
-argU,Fis 
-lysT valTlysW,Fis 
-proL,Fis 
-valU valXvalYlysV,Fis Fis 
-argW,Fis 
-pheV,Fis 
-argX hisRleuTproM,Fis 
-tufB thrUtyrUglyTthrT,Fis 
-leuX,Fis 
-glnX glnVmetUglnWglnU leuWmetT,Fis 
-serT,Fis 
-serX,Fis 
-tpr tyrVtyrT,Fis 
-alaX alaW,Fis 
-glyU,Fis 
-infB nusArimPmetY,Fis 
-proK,Fis 
-pheU,Fis 
-leuV leuPleuQ,Fis 
-pdhR aceEaceFlpd,Cra PdhR 
-lpd,Fis 
-pykF,Cra 
-uxuB uxuA,OxyR UxuR ExuR 
-aldA,DnaA 
-putP,fus pro 
-caiF,NarL 
-fixX fixCfixBfixA,CaiF 
-lldD lldRlldP,LldR LldR 
-fimD fimHfimGfimFfimC fimIfimA,Lrp 
-fimE,Lrp LrhA 
-msrA,Fis 
-ampC,BolA 
-eda,KdgR 
-eda,PhoB 
-rseC rseBrseArpoE,CpxR 
-xapB xapA,XapR 
-tauD tauCtauBtauA,CysB Cbl 
-pnp rpsOtruBrbfAinfB nusArimPmetY,ArgR 
-metY,Fis 
-putA,BasR fus pro MarA 
-nmpC,MprA OmpR 
-ccmH ccmGccmFccmEccmD ccmCccmBccmAnapC napBnapHnapGnapA napDnapF,NarL NarP FlhD 
-phr,LexA 
-yiaJ,YiaJ 
-gadC gadB,FliZ GadW AdiY Fis GadX GadE 
-paaZ,PaaX 
-hypF hydN,FhlA FlhD 
-dadX dadA,Lrp 
-dadX dadA,Lrp 
-rnpB garKgarRgarLgarP,CdaR 
-hupA,Fis 
-hupB,Fis 
-hupB,Fis 
-paaK paaJpaaIpaaHpaaG paaFpaaEpaaDpaaC paaBpaaA,PaaX 
-mazF mazErelA,HipA ant HipB 
-mazG mazFmazE,MazE MazE Fis 
-mazG mazFmazE,MazE MazE Fis 
-ilvX ilvG_1ilvAilvDilvE ilvMilvG_2ilvL,Lrp Lrp 
-poxB,Cra MarA SoxS 
-rnpB,Fis 
-adhE,NarL 
-pqiB pqiA,SoxS MarA 
-hlyE,Fis SlyA 
-degP,CpxR 
-gadX gadA,AdiY Fis GadW TorR GadX GadE 
-amtB glnK,NtrC GadX 
-yiaM sgbEsgbUsgbHlyxK yiaOyiaNyiaLyiaK,YiaJ 
-recF dnaNdnaA,DnaA 
-rtcA rtcB,RtcR 
-aroP,Cra TyrR 
-nac,Nac NtrC 
-phoQ phoP,PhoP 
-polA,DnaA 
-xylB xylA,AraC XylR 
-hmp,NsrR MetR NsrR 
-focB hyfRhyfJhyfIhyfH hyfGhyfFhyfEhyfD hyfChyfBhyfA,HyfR FhlA 
-paaY paaX,PaaX 
-grxA,OxyR 
-zraP,ZraR 
-zraR zraS,ZraR 
-pfkA,Cra 
-mlc,Mlc 
-ynfK mlc,Mlc 
-torR,TorR 
-acnA,MarA SoxS Cra 
-acnB,Fis Cra 
-cdd,NsrR CytR 
-yeiL,Lrp YeiL 
-phoH,PhoB 
-queA,Fis 
+qseC,basR
+qseC,qseB
+flhE,flhDC
+fliK,csgD
+fliK,flhDC
+fliJfliIfliHfliG,csgD
+fliJfliIfliHfliG,flhDC
+sroC,flhDC
+astE,ntrC
+astE,argR-
+nrdH,iscR
+dsbA,cpxR
+rrfA,lrp-L
+rrfA,fis
+rrfB,lrp-L
+rrfB,fis
+rrfC,lrp-L
+rrfC,fis
+rrfE,lrp-L
+rrfE,fis
+rrfG,lrp-L
+rrfG,fis
+rrfH,lrp-L
+rrfH,fis
+rrfF,lrp-L
+rrfF,fis
+thrVrrfDrrlDalaU,lrp-L
+thrVrrfDrrlDalaU,fis
+sgrR,sgrR
+sgrT,cra
+sgrT,sgrR
+uof,oxyR
+uof,soxS
+uof,soxS
+dinJ,dinJ
+dinJ,yafQ
+dinJ,lexA
+yafP,lexA
+yafP,lexA
+rclC,rclR
+sbcD,phoB
+tomB,basR
+tomB,pdhR
+tomB,cpxR
+dpiA,narL
+ybfN,nagC
+ybjJ,rcdA
+wrbA,csgD
+efeU_2,cpxR
+yciE,mcbR
+yciX,yjjQ
+puuP,puuR
+puuE,puuR
+ynbD,rcsB-
+lsrK,lsrR
+dicC,dicA
+intQ,dicA
+rspA,ydfH
+yeaR,fis
+yeaR,narP
+yeaR,narL
+yeaR,nsrR
+yefM,yefM-
+rcnB,rcnR
+folE,metJ-
+arnF,basR
+arnEarnTarnDarnA,basR
+eutH,hipBa
+eutS,nagC
+eutPeutQeutTeutD,nagC
+pgpC,nsrR-
+yfiB,yjjQ
+casA,leuO
+casBcasCcasDcasE,leuO
+ptrA,lexA
+ppdA,flhDC
+fau,fis
+fau,lrp
+dkgA,yqhC
+mqsR,mqsAa
+ygiC,soxS
+ygiC,marA
+yibQ,cra
+rffM,nsrR-
+wzyErffTwzxErffA,nsrR-
+rffCrffHrffGwecC,nsrR-
+yjfF,araC
+yjhC,nanR
+ihfA,nsrR-
+pheTpheSpheMrplT,nsrR-
+mioC,asnC
+mioC,nac
+mnmG,asnC
+mnmG,nac
+mzrA,cpxR
+yjbH,rcsAB
+glgP,phoP
+rnlB,iscR
+cynS,cynR-
+hokD,relB-
+hisP,argR-
+csgG,fliZ
+csgG,rstA
+gadW,phoB
+gadW,gadX
+gadW,rutR
+gadW,gadW
+gadW,gadE
+lpxC,lexA
+ftsZftsAftsQddlB,lexA
+murCmurGftsWmurD,lexA
+mraYmurFmurEftsI,lexA
+ydeO,ydeO
+ydeO,phoP
+ydeO,evgA
+bglJ,leuO
+yhbS,csgD
+ydhT,narL
+ydhT,narP
+ydhUydhXydhWydhV,narL
+ydhUydhXydhWydhV,narP
+nemA,rutR
+nemA,nemR
+fau,fis
+fau,lrp
+pstA,phoB
+ygiC,phoP
+ygiC,marA
+ygiC,soxS
+murP,murR
+murP,murR
+waaZ,marA
+waaZ,soxS
+citG,narL
+citXcitFcitEcitD,narL
+dpiA,dcuR
+dpiA,narL
+ahpF,oxyR
+ymgC,bluR
+flhC,matA
+flgN,csgD
+yhcH,fis
+yhcH,nanR
+cusA,yedW
+cusA,phoB
+cusS,yedW
+cusS,phoB
+iscA,iscR-
+gabP,nac
+glcA,pdhR
+glcA,glcC-
+glcBglcGglcFglcE,pdhR
+glcBglcGglcFglcE,glcC-
+ybjN,marA
+ybjN,oxyR
+ybjN,soxS
+metQ,hypT-
+metQ,metJ-
+mhpF,mhpR-
+mhpEmhpDmhpCmhpB,mhpR-
+mgtL,phoP
+sufE,nsrR-
+sufE,oxyR
+sufE,iscR
+sufSsufDsufCsufB,nsrR-
+sufSsufDsufCsufB,oxyR
+sufSsufDsufCsufB,iscR
+isrC,oxyR
+cpxA,cpxR
+emrY,evgA
+ybaT,gadX
+cydB,cra
+mscM,cpxR
+yaiW,cpxR
+uspD,ydeO
+hisP,ntrC
+prpE,cra
+prpE,prpR-
+yeaH,ntrC
+yhdZ,ntrC
+ddpF,ntrC
+ddpDddpCddpBddpA,ntrC
+glgP,phoP
+rutA,rutR
+rutA,ntrC
+rutA,phoP
+rutBrutCrutDrutE,rutR
+rutBrutCrutDrutE,ntrC
+rutBrutCrutDrutE,phoP
+actP,fis
+actP,fis
+metL,hypT-
+metL,metJ-
+metL,phoP
+gabP,csiR
+gabP,lrp-L
+lpxA,cpxR
+lpxA,gadE
+ydeM,araC-
+ydeM,nagC
+sroD,fadR
+mpaA,pgrR
+cbpM,fis
+cbpM,fis
+gloA,rutR
+gloA,nemR
+patD,nac
+ompN,soxS
+nanS,nanR
+nanS,nagC
+ygeA,araC-
+galT,galR
+galT,hU
+galT,galS
+galT,hU
+galT,galR
+galT,galS
+galT,galR-
+galT,galS-
+galK,galR
+galK,hU
+galK,galS
+galK,hU
+galK,galR
+galK,galS
+galK,galR-
+galK,galS-
+accC,fadR
+norW,narL
+norW,narP
+norW,norR
+pgm,hU
+gudD,cdaR
+mngB,mngR
+alsE,alsR
+alsE,alsR
+recX,lexA
+fumB,dcuR
+idnR,gntR
+idnR,idnR-
+bglB,rcsB-
+bglB,leuO
+bglB,fis
+yeaD,cra
+nfuA,gntR
+uxaA,exuR
+uidC,uidR
+uidC,uxuR
+ulaF,ulaR
+ulaEulaDulaCulaB,ulaR
+apaH,fis
+rsmA,fis
+fadJ,fadR
+dmsD,narL
+mdtF,fliZ
+mdtF,gadX
+mdtF,gadW
+mdtF,gadE
+mdtF,evgA
+mdtF,ydeO
+ugpQ,phoB
+ugpQ,phoB
+dcuA,narL
+pnp,fis
+rpsOtruBrbfAinfB,fis
+murI,gadX
+agaA,agaR
+agaI,agaR
+agaDagaCagaBkbaY,agaR
+ssuB,cysB-
+ssuB,cbl
+aceF,nsrR-
+ruvB,lexA
+uvrC,lexA
+nanM,nanR
+nanM,nagC
+ilvH,lrp
+hcr,oxyR
+hcr,nsrR
+hcr,narL
+hcr,narP
+hcaD,hcaR-
+evgS,evgA
+evgS,evgA
+glxK,allR-
+ybbYallBybbWglxR,allR-
+allE,allS-
+yegZ,evgA
+yfdE,evgA
+yfdVoxcfrc,evgA
+rstB,phoP
+tam,lsrR
+lsrGlsrFlsrBlsrD,lsrR
+baeR,baeR
+baeR,cpxR
+baeSmdtDmdtCmdtB,baeR
+baeSmdtDmdtCmdtB,cpxR
+mglC,fis
+dhaM,dhaR
+fbaA,cra
+fhlA,nsrR-
+fhlA,fhlA-
+hypEhypDhypChypB,nsrR-
+hypEhypDhypChypB,fhlA-
+dcuR,narL
+pgaD,ompR
+napC,iscR
+napBnapHnapGnapA,iscR
+lpxC,mraZ
+lpxC,pdhR
+ftsZftsAftsQddlB,mraZ
+ftsZftsAftsQddlB,pdhR
+murCmurGftsWmurD,mraZ
+murCmurGftsWmurD,pdhR
+mraYmurFmurEftsI,mraZ
+mraYmurFmurEftsI,pdhR
+aceB,iclR-
+aceB,cra
+argC,argR-
+tyrA,tyrR-
+aroL,tyrR-
+deoC,deoR
+deoC,deoR
+deoC,cytR
+deoC,fis
+dmsA,fis
+dmsA,narL
+dusB,fis
+frdD,narL
+frdD,dcuR
+galM,galR
+galM,hU
+galM,galS
+galM,hU
+galM,galR
+galM,galS
+galM,galR-
+galM,galS-
+glnG,ntrC
+glnG,ntrC
+glnG,fis
+glnG,ntrC
+glpA,fis
+glpA,glpR
+glpA,flhDC
+kdpF,kdpE
+lacA,lacI
+lexA,lexA
+malG,fis
+malG,malT-
+malQ,malT-
+umpH,nagC
+narG,fis
+narG,rstA
+narG,narL
+nirB,cra
+nirB,fis
+nirB,narL
+nirB,narP
+yfaE,dnaA-
+yfaE,argP
+yfaE,fis
+phoA,phoB
+phoB,phoB
+purB,purR-
+purD,rbsR
+purD,purR-
+purD,phoP
+purM,purR-
+rhaS,rhaS
+rhaS,rhaS-
+rhaS,rhaR-
+alkB,ada
+ahpC,metJ-
+ahpC,oxyR
+cysH,cysB-
+ilvI,lrp
+purK,purR-
+tnaC,torR
+dctR,ydeO
+dctR,gadE-
+dctR,gadW
+dctR,gadX
+dctR,marA
+appX,ydeO
+appX,appY
+araH,araC-
+cydA,hypT-
+cyoE,yedW
+cyoE,cra
+cyoE,pdhR
+cyoE,gadE
+carA,argR-
+carA,fis
+carA,rutR
+carA,purR-
+carA,i
+atoB,atoC
+betA,cra
+betA,betI
+bioB,birA-
+malK,malT-
+tdcG,tdcR
+tdcG,tdcA
+tdcFtdcEtdcDtdcC,tdcR
+tdcFtdcEtdcDtdcC,tdcA
+ebgA,ebgR
+fucP,fucR-
+melA,melR
+melA,melR-
+malX,malI
+srlA,gutR
+srlA,gutM
+srlEsrlBsrlDgutM,gutR
+srlEsrlBsrlDgutM,gutM
+fucO,fucR-
+flhC,yjjQ
+flhC,fliZ
+flhC,matA
+flhC,ompR
+flhC,lrhA
+flhC,hdfR
+flhC,rcsAB
+flhC,qseB
+cynT,cynR-
+cysM,cysB-
+cysC,cysB-
+dsdX,dsdC-
+fecE,hypT-
+fecE,pdhR
+hycI,nsrR-
+hycI,fhlA-
+hycHhycGhycFhycE,nsrR-
+hycHhycGhycFhycE,fhlA-
+hypA,nsrR-
+hypA,fhlA-
+fdnG,narP
+fdnG,narL
+fruA,cra
+mglC,galS
+mglC,flhDC
+mglC,galR
+gatD,gatR
+gatCgatBgatAgatZ,gatR
+gcvP,purR-
+gcvP,lrp
+gcvP,gcvA
+glnQ,ntrC
+glpX,glpR
+leuD,leuO
+umuD,lexA
+gltB,adiY
+gltB,hdfR
+gltB,lrp-L
+gltB,nac
+gltB,argR-
+gltB,lrp
+gltB,gadE
+livF,lrp
+marR,cpxR
+marR,acrR
+marR,cra
+marR,marR
+marR,marA
+marR,soxS
+marR,fis
+mtlA,mtlR
+mtlA,cra
+mtlA,fis
+manX,cra
+manX,mlc
+manX,nagC
+codB,purR-
+codB,nac
+nrfA,nsrR-
+nrfA,nsrR
+nrfA,fis
+nrfA,flhDC
+nrfA,narL
+nrfA,narP
+nrfBnrfCnrfDnrfE,nsrR-
+nrfBnrfCnrfDnrfE,nsrR
+nrfBnrfCnrfDnrfE,fis
+nrfBnrfCnrfDnrfE,flhDC
+nrfBnrfCnrfDnrfE,narL
+nrfBnrfCnrfDnrfE,narP
+phnP,phoB
+phnOphnNphnMphnL,phoB
+phnKphnJphnIphnH,phoB
+phoU,phoB
+speB,purR-
+guaA,fis
+guaA,purR-
+guaA,dnaA-
+rbsR,rbsR
+rbsDrbsArbsCrbsB,rbsR
+wcaB,rcsAB
+wcaAwzcwzb,rcsAB
+ftsQ,sdiA
+torC,narL
+torC,torR
+treC,treR
+araD,araC
+araD,araC-
+fadA,fis
+fadA,fadR
+glpQ,fis
+glpQ,glpR
+rhaD,rhaS-
+oppA,lrp
+tdh,lrp
+eda,kdgR
+eda,gntR
+eda,cra
+gntU,gntR
+gntU,idnR-
+acrA,mprA
+acrA,envR
+acrA,acrR
+acrA,phoP
+acrA,marA
+acrA,soxS
+arsR,arsR
+artM,argR-
+ascF,ascG
+caiE,caiF-
+caiDcaiCcaiBcaiA,caiF-
+chbG,chbR
+chbG,nagC
+chbG,chbR-
+chbFchbRchbAchbC,chbR
+chbFchbRchbAchbC,nagC
+chbFchbRchbAchbC,chbR-
+creA,nagC
+cydC,narL
+dadA,lrp
+recF,dnaA-
+recF,argP
+fabH,fadR
+feoC,nagC
+flgN,flhDC
+flgB,flhDC
+flgCflgDflgEflgF,flhDC
+fliD,flhDC
+fliL,flhDC
+fliMfliNfliOfliP,flhDC
+glmS,nagC
+yhiD,fliZ
+yhiD,phoP
+yhiD,gadE
+yhiD,gadW
+yhiD,lrp-L
+yhiD,marA
+yhiD,gadX
+yhiD,torR-
+hipA,hipBa
+hipA,hipAB
+hipA,antit
+hyaA,ydeO
+hyaA,fis
+hyaA,narL
+hyaA,narP
+hyaA,iscR
+hyaA,appY
+hyaBhyaChyaDhyaE,ydeO
+hyaBhyaChyaDhyaE,fis
+hyaBhyaChyaDhyaE,narL
+hyaBhyaChyaDhyaE,narP
+hyaBhyaChyaDhyaE,iscR
+hyaBhyaChyaDhyaE,appY
+hybO,narL
+hybGhybFhybEhybD,narL
+moeB,narL
+cheW,cpxR
+ccmH,narL
+ccmH,narP
+ccmH,flhDC
+ccmGccmFccmEccmD,narL
+ccmGccmFccmEccmD,narP
+ccmGccmFccmEccmD,flhDC
+ccmCccmBccmAnapC,narL
+ccmCccmBccmAnapC,narP
+ccmCccmBccmAnapC,flhDC
+napBnapHnapGnapA,narL
+napBnapHnapGnapA,narP
+napBnapHnapGnapA,flhDC
+nikR,nikR-
+nikR,narL
+nikAnikBnikCnikD,nikR-
+nikAnikBnikCnikD,narL
+nuoN,narL
+nuoMnuoLnuoKnuoJ,narL
+nuoInuoHnuoGnuoF,narL
+phoQ,phoP
+potF,ntrC
+pspA,pspF
+rpsI,fis
+rpmA,mlrA
+ruvB,lexA
+serC,lrp
+tehA,nsrR-
+tehA,nsrR
+infC,nsrR-
+ttdT,dan-L
+ubiC,narL
+dcd,rbsR-
+xylF,fis
+xylF,xylR-
+pflB,narL
+pflB,narL
+csgC,fliZ
+csgC,cpxR
+csgC,csgD
+csgG,rcdA
+csgG,basR
+csgG,fliZ
+csgG,cra
+csgG,mlrA
+csgG,rstA
+csgG,cpxR
+csgG,rcsAB
+csgG,ompR
+csgG,csgD
+tcyJ,csgD
+tcyJ,matA
+tcyJ,nsrR-
+tcyJ,flhDC
+rpsU,lexA
+pgk,cra
+nuoN,fis
+nuoMnuoLnuoKnuoJ,fis
+nuoInuoHnuoGnuoF,fis
+mprA,mprA
+cadA,lrp
+cadA,cadC
+cadA,gadX
+cadA,gadE-
+fumB,narL
+tcyJ,nsrR-
+ubiX,purR-
+ptsH,nagC
+ptsH,mlc
+ptsH,nagC
+ptsH,nagC
+ptsH,cra
+ptsH,cra
+glmS,nagC
+lysT,fis
+valU,fis
+argX,fis
+tufB,fis
+glnX,fis
+glnVmetUglnWglnU,fis
+tpr,fis
+alaX,fis
+infB,fis
+leuV,fis
+pdhR,cra
+pdhR,pdhR
+uxuB,oxyR
+uxuB,uxuR
+uxuB,exuR
+fixX,caiF-
+lldD,lldR-
+lldD,lldR
+fimD,lrp
+fimHfimGfimFfimC,lrp
+rseC,cpxR
+xapB,xapR-
+tauD,cysB-
+tauD,cbl
+pnp,argR-
+rpsOtruBrbfAinfB,argR-
+ccmH,narL
+ccmH,narP
+ccmH,flhDC
+ccmGccmFccmEccmD,narL
+ccmGccmFccmEccmD,narP
+ccmGccmFccmEccmD,flhDC
+ccmCccmBccmAnapC,narL
+ccmCccmBccmAnapC,narP
+ccmCccmBccmAnapC,flhDC
+napBnapHnapGnapA,narL
+napBnapHnapGnapA,narP
+napBnapHnapGnapA,flhDC
+gadC,fliZ
+gadC,gadW
+gadC,adiY
+gadC,fis
+gadC,gadX
+gadC,gadE
+hypF,fhlA-
+hypF,flhDC
+dadX,lrp
+dadX,lrp
+rnpB,cdaR
+paaK,paaX
+paaJpaaIpaaHpaaG,paaX
+paaFpaaEpaaDpaaC,paaX
+mazF,hipAB
+mazF,antit
+mazF,hipBa
+mazG,mazE-
+mazG,mazEa
+mazG,fis
+mazG,mazE-
+mazG,mazEa
+mazG,fis
+ilvX,lrp
+ilvX,lrp-L
+ilvG_1ilvAilvDilvE,lrp
+ilvG_1ilvAilvDilvE,lrp-L
+pqiB,soxS
+pqiB,marA
+gadX,adiY
+gadX,fis
+gadX,gadW
+gadX,torR-
+gadX,gadX
+gadX,gadE-
+amtB,ntrC
+amtB,gadX
+yiaM,yiaJ
+sgbEsgbUsgbHlyxK,yiaJ
+recF,dnaA-
+rtcA,rtcR
+phoQ,phoP
+xylB,araC-
+xylB,xylR-
+focB,hyfR
+focB,fhlA-
+hyfRhyfJhyfIhyfH,hyfR
+hyfRhyfJhyfIhyfH,fhlA-
+hyfGhyfFhyfEhyfD,hyfR
+hyfGhyfFhyfEhyfD,fhlA-
+paaY,paaX
+zraR,zraR
+ynfK,mlc

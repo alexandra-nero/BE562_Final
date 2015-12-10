@@ -14,7 +14,7 @@ def readCSVFile(fileName):
 	for row in myFile:
 		tfNum+=1
 	TFPairs = []
-	for i in xrange(tfNum):
+	for i in xrange(tfNum*5):
 		TFPairs+=[[0]*2]
 	myFile2 = csv.reader(open(fileName+'OldTFPairs.csv', 'rb'))
 	geneCount = 0
@@ -22,12 +22,14 @@ def readCSVFile(fileName):
 		tfString = row[0]
 		slashCount = 0
 		tfPiece = ""
+		tfPieces = []
 		index = 0
 		for c in tfString:
 			if (slashCount % 2 == 0 and c == '/'):
 				if (tfString[index+1] == '/'):
 					slashCount += 1
-					tfPiece += " "
+					tfPieces.append(tfPiece)
+					tfPiece = ""
 			elif c == '/':
 				slashCount += 1
 			elif c == ' ':
@@ -54,31 +56,31 @@ def readCSVFile(fileName):
 		geneVector.append(genePiece)
 		index = 0
 		finalgeneString = ""
-		removeG = []
+		newGeneVector = []
 		for gene in geneVector:
 			geneLower = gene[0].lower() + gene[1:]
 			if 'sup' in gene or 'sub' in gene or 'SUP' in gene or 'SUB' in gene:
-				removeG.append(gene)
+				continue
 			elif validGene(gene[:5]+ " ", fileName) or validGene(geneLower[:5]+ " ", fileName):
-				finalgeneString += gene[:5] + " "
+				newGeneVector.append(geneLower[:5])
 			elif validGene(gene[:4] + " ", fileName) or validGene(geneLower[:4] + " ", fileName):
-				finalgeneString += gene[:4] + " "
+				newGeneVector.append(geneLower[:5])
 			elif validGene(gene[:3] + " ", fileName) or validGene(geneLower[:3] + " ", fileName):
-				finalgeneString += gene[:3] + " "
+				newGeneVector.append(geneLower[:5])
 			else:
-				removeG.append(gene)
+				continue
 
-		for element in removeG:
-			geneVector.remove(element)
-		newGeneVector = []
-		for i in geneVector:
-			if i not in newGeneVector:
-				newGeneVector.append(i)
+		newNewGeneVector = []
+		for i in newGeneVector:
+			if i not in newNewGeneVector:
+				newNewGeneVector.append(i)
 
-		if(len(newGeneVector) > 0):
-			TFPairs[geneCount][0] = tfPiece
-			TFPairs[geneCount][1] = finalgeneString
-			geneCount += 1
+		if(len(newNewGeneVector) > 0):
+			for tfthing in tfPieces:
+				for genething in newNewGeneVector:
+					TFPairs[geneCount][0]= tfthing
+					TFPairs[geneCount][1] = genething
+					geneCount += 1
 	return TFPairs
 			
 def createTFPairsFile(fileName):
