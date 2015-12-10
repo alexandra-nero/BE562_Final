@@ -32,8 +32,6 @@ def readCSVFile(fileName):
 					tfPiece = ""
 			elif c == '/':
 				slashCount += 1
-			elif c == ' ':
-				continue
 			else:
 				tfPiece += c
 			index+=1
@@ -64,9 +62,9 @@ def readCSVFile(fileName):
 			elif validGene(gene[:5]+ " ", fileName) or validGene(geneLower[:5]+ " ", fileName):
 				newGeneVector.append(geneLower[:5])
 			elif validGene(gene[:4] + " ", fileName) or validGene(geneLower[:4] + " ", fileName):
-				newGeneVector.append(geneLower[:5])
+				newGeneVector.append(geneLower[:4])
 			elif validGene(gene[:3] + " ", fileName) or validGene(geneLower[:3] + " ", fileName):
-				newGeneVector.append(geneLower[:5])
+				newGeneVector.append(geneLower[:3])
 			else:
 				continue
 
@@ -78,8 +76,8 @@ def readCSVFile(fileName):
 		if(len(newNewGeneVector) > 0):
 			for tfthing in tfPieces:
 				for genething in newNewGeneVector:
-					TFPairs[geneCount][0]= tfthing
-					TFPairs[geneCount][1] = genething
+					TFPairs[geneCount][0]= tfthing.strip()
+					TFPairs[geneCount][1] = genething.strip()
 					geneCount += 1
 	return TFPairs
 			
