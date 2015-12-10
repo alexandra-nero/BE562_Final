@@ -183,7 +183,7 @@ def createCSV(fileName, geneNumber):
 
     #fileName = raw_input('Enter the name of the files: ')
     #geneNumber = raw_input('Enter the number of genes: ')
-    GENE_NUM = int(geneNumber)
+    GENE_NUM = geneNumber
     
     DNAMatrix, currentGene = separate(fileName, GENE_NUM)
     cfile = csv.writer(open(""+fileName+"Master.csv", "wb"))
@@ -233,8 +233,5 @@ def createCSV(fileName, geneNumber):
         cfile.writerow(characteristicsVector)
         del characteristicsVector[:]
     
-    print('Creating .csv file of the TF/Gene Pairs...')
-    #creating the accompanying tf/gene pair file name
-    GenerateTFPairs.createTFPairsFile(fileName)
 
-    
+

@@ -1,20 +1,40 @@
-import FirstParameter
+#import FirstParameter
 #import SecondParameter
-import ThirdParameter
+#import ThirdParameter
+import GenerateTFPairs
 import MasterCSVCreator
 
 #define all file Names here:
-fileNames =['Ecoli_MG1655']
-geneNumber = ['4500']
+fileName ='Ecoli_MG1655'
+geneNumber = 4500
+geneLength = 4639675
+
+
+def splitData(fileName):
+	myFile = csv.reader(open(fileName+'OldTFPairs.csv', 'rb'))
+	testFile = csvwriter(open(fileName+'TestTFPairs.csv', 'wb'))
+	trainFile = csv.writer(open(fileName+'TrainTFPairs.csv', 'wb'))
+	count = 0
+	for row in myFile:
+		if count == 8 or count == 9:
+			testFile.writerow(row)
+			if count == 9:
+				count = 0
+		else:
+			trainFile.writerow(row)
+		count += 1
+
+
+#def calculateAccuracy():
 
 
 
 #main function for entire program
 
 def main():
-	geneCount = 0
-	for geneFile in fileNames:
-		MasterCSVCreator.createCSV(geneFile, geneNumber[geneCount])
-		geneCount+=1
+	MasterCSVCreator.createCSV(fileName, geneNumber)
+    GenerateTFPairs.createTFPairsFile(fileName)
+    splitData(fileName)
+
 main()	
 

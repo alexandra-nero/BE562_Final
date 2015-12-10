@@ -82,6 +82,8 @@ def readCSVFile(fileName):
 	return TFPairs
 			
 def createTFPairsFile(fileName):
+	print('Creating .csv file of the TF/Gene Pairs...')
+    #creating the accompanying tf/gene pair file name
 	TFPairs = readCSVFile(fileName)
 	cFile = csv.writer(open(fileName+"TFPairs.csv", 'wb'))
 	for i in xrange(len(TFPairs)):
