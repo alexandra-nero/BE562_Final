@@ -22,39 +22,37 @@ TFFILE_REG_GENES_POS = 1
 BIN_SIZE = 250
 
 def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
-	"returns a list of distances from all TFs to all the genes they regulate given the genome's length, and the names of both the TF/Promoter pair file and the all genes file"
+	#"returns a list of distances from all TFs to all the genes they regulate given the genome's length, and the names of both the TF/Promoter pair file and the all genes file"
 	print("Starting to read in Training Distances")
 	posTrainDist = []
-	genesFile = open(genesFileName)
-	pairFile = open(pairFileName,'rb')
+	pairFile = csv.reader(open(pairFileName,'rb'))
 	for tf in pairFile:				#looking through all TFs
-		tfPos = None
+		tfPos = 0
 		tfName = tf[TFFILE_TF_POS]
-		for gene in genesFile:		#looking for TF in gene file
-			if gene[GENEFILE_GENE_POS] == tfName:
-				tfPos = gene[GENEFILE_START_COLUMN]
-				if tfPos == None:
-					print ("ERROR: cannot read in position of TF")
-					break
-		if tfPos != None:
-			regGenes = tf[TFFILE_REG_GENES_POS]
-			regGenesList = []
-			regGenesList = regGenes.split()
-			posPairDist = []
-			for regGene in xrange(len(regGenesList)):	#looping through all genes regulated
-				regGeneName = regGenesList[regGene]
-				for gene in genesFile:					#looking for gene regulated by TF in gene file
-					if gene[GENEFILE_GENE_POS] == regGeneName:
-						regGenePos=gene[GENEFILE_START_COLUMN]
-						posDist = []
-						posDist.append(abs(regGenePos-tfPos))
-						posDist.append(abs(posDist[0]-genomeLength))
-						posTrainDist.append(min(posDist))
+		genesFile = csv.reader(open(genesFileName,'rb'))
+		for gene in genesFile:
+			if tfName in gene[GENEFILE_GENE_POS]:
+				tfPos = int(gene[GENEFILE_START_COLUMN])
+		regGenes = tf[TFFILE_REG_GENES_POS]
+		regGenesList = []
+		regGenesList = regGenes.split()
+		posPairDist = []
+		for regGene in xrange(len(regGenesList)):	#looping through all genes regulated
+			regGeneName = regGenesList[regGene]
+			genesFile1 = csv.reader(open(genesFileName,'rb'))
+			for gene1 in genesFile1:					#looking for gene regulated by TF in gene file
+				if regGeneName in gene1[GENEFILE_GENE_POS]:
+					regGenePos=int(gene1[GENEFILE_START_COLUMN])
+					posDist = []
+					posDist.append(abs(regGenePos-tfPos))
+					posDist.append(abs(posDist[0]-genomeLength))
+					posTrainDist.append(min(posDist))
 	enzymeMatrix = []
 	negTrainDist = []
 	for gene in genesFile:
 		if gene[1] == 'F':
 			enzymeMatrix.append(gene)
+	#ENZYME MATRIX IS EMPTY
 	for outerEnzyme in xrange(len(enzymeMatrix)):
 		outerPos = outerEnzyme[GENEFILE_GENE_POS]
 		for innerEnzyme in range(outerEnzyme, len(enzymeMatrix)):
@@ -71,12 +69,16 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 
 
 def normTrainingDistances(genomeLength, trainingDistances):
-	"counts frequencies for distances in each bin given the length of the genome and the list of distances between the TFs and the promoters they regulate, then normalizes them into probabilities"
+	#"counts frequencies for distances in each bin given the length of the genome and the list of distances between the TFs and the promoters they regulate, then normalizes them into probabilities"
 	numberOfBins = (genomeLength/250)+1
-	binnedDistances = [numberOfBins]
+	print(numberOfBins)
+	binnedDistances = []
+	for k in xrange(numberOfBins):
+		binnedDistances+=[0]
 	totalFreq=0
 	for i in xrange(len(trainingDistances)):
 		correctBin = ((int(trainingDistances[i]-1)/250))
+		print (correctBin)
 		binnedDistances[correctBin]+=1
 		totalFreq+=1
 	normDist=[]
@@ -87,26 +89,29 @@ def normTrainingDistances(genomeLength, trainingDistances):
 	return normDist
 
 def secondParamMain(genomeLength, rootFileName):
-	"manages the running of all other functions in second Parameter File"
+	#"manages the running of all other functions in second Parameter File"
 	genesFileName = str(rootFileName)+"Master.csv"
 	print(genesFileName)
 	pairFileName = str(rootFileName)+"TFPairs.csv"
 	print(pairFileName)
 	posNegTup = readPosTrainingDistances(genomeLength, pairFileName, genesFileName) 
-	
+	#THERE IS NOTHING IN POSNEGTUP
 	outputCSV(posNegTup[0], posNegTup[1], rootFileName)
 
 
 def outputCSV(posNormTrainDist, negNormTrainDist, rootFileName):
-	"creates a CSV file from the normalized data. requires the yes and no normalized probability lists"
+	#"creates a CSV file from the normalized data. requires the yes and no normalized probability lists"
 	print("Starting to write to CSV!")
 	secondParamCSV = csv.writer(open(""+rootFileName+"secondParam.csv", "wb"))
 	titleRow = ["Position (250 bp)","P(pair)","P(not pair)"]
 	secondParamCSV.writerow(titleRow)
+	 #THERE IS NOTHING IN POSNORMTRAINDIST
 	for x in xrange(len(posNormTrainDist)):
 		row = []
 		row.append(x)
 		row.append(posNormTrainDist)
 		row.append(negNormTrainDist)
 		secondParamCSV.writerow(row)
+
+
 secondParamMain(4639675, "Ecoli_MG1655")
