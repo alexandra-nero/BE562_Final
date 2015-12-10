@@ -1,7 +1,5 @@
 import csv
 
-
-
 def validGene(gene, fileName):
 	myFile = csv.reader(open(fileName+'Master.csv', 'rb'))
 	for row in myFile:
@@ -51,7 +49,7 @@ def readCSVFile(fileName):
 			else:
 				genePiece += c
 		geneVector.append(genePiece)
-		
+		print(geneVector)
 		index = 0
 		finalgeneString = ""
 		for gene in geneVector:
