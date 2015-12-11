@@ -98,7 +98,7 @@ def align(tfProm,geneProm):
 
     return max(score)
 
-def SecondParam(tfName,geneName):
+def ThirdParam(tfName,geneName):
 
     tfProm = getProm(tfName)
     geneProm = getProm(geneName)
