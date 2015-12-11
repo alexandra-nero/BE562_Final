@@ -28,14 +28,15 @@ def readCSVFile(fileName):
 			if (slashCount % 2 == 0 and c == '/'):
 				if (tfString[index+1] == '/'):
 					slashCount += 1
-					if (validGene(tfPiece, fileName)):
-						tfPieces.append(tfPiece)
+					tfPieces.append(tfPiece)
 					tfPiece = ""
 			elif c == '/':
 				slashCount += 1
 			else:
 				tfPiece += c
 			index+=1
+
+		tfPieces.append(tfPiece)
 
 		geneString = row[1]
 		slashCount = 0
@@ -73,8 +74,12 @@ def readCSVFile(fileName):
 		for i in newGeneVector:
 			if i not in newNewGeneVector:
 				newNewGeneVector.append(i)
+		newTfPieces = []
+		for k in tfPieces:
+			if (validGene(k, fileName)):
+				newTfPieces.append(k)
 
-		if(len(newNewGeneVector) > 0 and len(tfPieces) > 0):
+		if(len(newNewGeneVector) > 0 and len(newTfPieces) > 0):
 			for tfthing in tfPieces:
 				for genething in newNewGeneVector:
 					TFPairs[geneCount][0]= tfthing.strip()
