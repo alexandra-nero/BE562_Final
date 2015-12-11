@@ -15,7 +15,8 @@ def normTrainingDistances(normCoreg):
 	
 	normDist=[]
 	if totalFreq!=0:
-		normDist = [x/totalFreq for x in binnedCoreg]
+		for x in xrange(binnedCoreg):
+			normDist.append(x/totalFreq)
 		print("Total frequency is: ", totalFreq)
 
 return normCoreg
