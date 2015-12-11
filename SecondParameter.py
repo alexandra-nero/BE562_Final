@@ -43,10 +43,10 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 			for gene1 in genesFile1:					#looking for gene regulated by TF in gene file
 				if regGeneName in gene1[GENEFILE_GENE_POS]:
 					regGenePos=int(gene1[GENEFILE_START_COLUMN])
-					#posDist = []
-					difference1 = abs(regGenePos-tfPos)
-					#posDist.append(abs(regGenePos-tfPos))
-					difference2 = posDist.append(abs(posDist[0]-genomeLength))
+					posDist = []
+					#difference1 = abs(regGenePos-tfPos)
+					posDist.append(abs(regGenePos-tfPos))
+					#difference2 = posDist.append(abs(posDist[0]-genomeLength))
 					posTrainDist.append(min(posDist))
 	enzymeMatrix = []
 	negTrainDist = []
@@ -92,7 +92,7 @@ def secondParamMain(genomeLength, rootFileName):
 	#"manages the running of all other functions in second Parameter File"
 	genesFileName = str(rootFileName)+"Master.csv"
 	print(genesFileName)
-	pairFileName = str(rootFileName)+"TFPairs.csv"
+	pairFileName = str(rootFileName)+"TrainTFPairs.csv"
 	print(pairFileName)
 	posNegTup = readPosTrainingDistances(genomeLength, pairFileName, genesFileName) 
 	#THERE IS NOTHING IN POSNEGTUP

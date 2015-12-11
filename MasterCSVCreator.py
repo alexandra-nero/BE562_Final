@@ -108,6 +108,8 @@ def findStartandStop(CSVMatrix, BigData):
                     if c == "(":
                         saveStart = True
                         saveStop = False
+                    if c == ',':
+                        break
                     if c == ".":
                         if dotTimes == 1:
                             saveStop = True

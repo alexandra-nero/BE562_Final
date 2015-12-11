@@ -12,7 +12,7 @@ geneLength = 4639675
 
 
 def splitData(fileName):
-	myFile = csv.reader(open(fileName+'OldTFPairs.csv', 'rb'))
+	myFile = csv.reader(open(fileName+'TFPairs.csv', 'rb'))
 	testFile = csv.writer(open(fileName+'TestTFPairs.csv', 'wb'))
 	trainFile = csv.writer(open(fileName+'TrainTFPairs.csv', 'wb'))
 	count = 0
