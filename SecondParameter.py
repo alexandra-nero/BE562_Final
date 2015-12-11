@@ -18,8 +18,6 @@ GENEFILE_TFVAL_POS = 1
 
 TFFILE_TF_POS = 0
 TFFILE_REG_GENES_POS = 1
-PSEUDOCOUNT = 
-
 BIN_SIZE = 250
 
 def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
@@ -63,7 +61,6 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 			negDist.append(abs(negDist[0]-genomeLength))
 			negTrainDist.append(min(negDist))
 	print("Normalizing positive training distances")
-	print(posTrainDist)
 	posNormTrainDist = normTrainingDistances(genomeLength, posTrainDist)
 	print("Normalizing negative training distances")
 	negNormTrainDist = normTrainingDistances(genomeLength, negTrainDist)
@@ -71,21 +68,23 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 
 
 def normTrainingDistances(genomeLength, trainingDistances):
-	#"counts frequencies for distances in each bin given the length of the genome and the list of distances between the TFs and the promoters they regulate, then normalizes them into probabilities"
+	#"counts frequencies for distances in each bin given the length of the genome and the list of 
+	#distances between the TFs and the promoters they regulate, then normalizes them into probabilities"
 	numberOfBins = (genomeLength/250)+1
 	binnedDistances = []
 	for k in xrange(numberOfBins):
-		binnedDistances+=[0]
+		binnedDistances.append(0)
 	totalFreq=0
 	for i in xrange(len(trainingDistances)):
-		#print(trainingDistances[i])
-		correctBin = ((int(trainingDistances[i]-1)/250))
-		binnedDistances[correctBin]+=1
+		correctBin = (int(trainingDistances[i])/250)
+		print binnedDistances[correctBin]
+		binnedDistances[correctBin] += 1 
 		totalFreq+=1
+
 	normDist=[]
 	pseudocount = totalFreq/genomeLength
 	if totalFreq!=0:
-		normDist = [x/totalFreq for x in binnedDistances]
+		normDist = [(x/totalFreq)+pseudocount for x in binnedDistances]
 		print("Total frequency is: ", totalFreq)
 
 	return normDist
@@ -93,9 +92,7 @@ def normTrainingDistances(genomeLength, trainingDistances):
 def secondParamMain(genomeLength, rootFileName):
 	#"manages the running of all other functions in second Parameter File"
 	genesFileName = str(rootFileName)+"Master.csv"
-	print(genesFileName)
 	pairFileName = str(rootFileName)+"TrainTFPairs.csv"
-	print(pairFileName)
 	posNegTup = readPosTrainingDistances(genomeLength, pairFileName, genesFileName) 
 	#THERE IS NOTHING IN POSNEGTUP
 	outputCSV(posNegTup[0], posNegTup[1], rootFileName)
