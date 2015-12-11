@@ -18,6 +18,7 @@ GENEFILE_TFVAL_POS = 1
 
 TFFILE_TF_POS = 0
 TFFILE_REG_GENES_POS = 1
+PSEUDOCOUNT = 
 
 BIN_SIZE = 250
 
@@ -53,7 +54,6 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 	for gene in genesFile:
 		if gene[1] == 'F':
 			enzymeMatrix.append(gene)
-	#ENZYME MATRIX IS EMPTY
 	for outerEnzyme in xrange(len(enzymeMatrix)):
 		outerPos = outerEnzyme[GENEFILE_GENE_POS]
 		for innerEnzyme in range(outerEnzyme, len(enzymeMatrix)):
@@ -63,6 +63,7 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 			negDist.append(abs(negDist[0]-genomeLength))
 			negTrainDist.append(min(negDist))
 	print("Normalizing positive training distances")
+	print(posTrainDist)
 	posNormTrainDist = normTrainingDistances(genomeLength, posTrainDist)
 	print("Normalizing negative training distances")
 	negNormTrainDist = normTrainingDistances(genomeLength, negTrainDist)
@@ -82,6 +83,7 @@ def normTrainingDistances(genomeLength, trainingDistances):
 		binnedDistances[correctBin]+=1
 		totalFreq+=1
 	normDist=[]
+	pseudocount = totalFreq/genomeLength
 	if totalFreq!=0:
 		normDist = [x/totalFreq for x in binnedDistances]
 		print("Total frequency is: ", totalFreq)
@@ -111,7 +113,7 @@ def outputCSV(posNormTrainDist, negNormTrainDist, rootFileName):
 		row.append(x)
 		row.append(posNormTrainDist)
 		row.append(negNormTrainDist)
-		secondParamCSV.writerow(row)
+		#secondParamCSV.writerow(row)
 
 
 secondParamMain(4639675, "Ecoli_MG1655")
