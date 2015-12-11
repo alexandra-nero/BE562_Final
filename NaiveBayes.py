@@ -29,11 +29,17 @@ def splitData(fileName):
 
 def calculateAccuracy(ProbMatrix):
 	testFile = csv.writer(open(fileName+'TestTFPairs.csv', 'wb'))
-	for pair in trainFile:
+	correctCount = 0
+	totalCount = 0
+	for pair in testFile:
 		regGene = pair[0]
 		tfGene = pair[1]
+		totalCount+=1
 		for row in ProbMatrix:
-			for column in ProbMatrix:
+			if ProbMatrix[row][0] == tfGene and ProbMatrix[row][1] == regGene:
+				if ProbMatrix[row][2] > 0:
+					correctCount+=1
+	return correctCount/totalCount
 
 
 
@@ -64,7 +70,7 @@ def runNaiveBayes():
 				totalDistance = min(difference, wrapAround)
 				currentBin = totalDistance/SecondParameter.BIN_SIZE
 
-				#first here
+				firstProbabilities = [0.5, 0.5]
 				secondProbabilities = secondParamFile[currentBin]
 				thirdProbabilities = ThirdParameter.ThirdParam(tfGene, regGene)
 
@@ -77,9 +83,5 @@ def runNaiveBayes():
 		finalProb.writerow(finalRow)
 		print (calculateAccuracy(finalMatrix))
 
-
-
-
-
-main()	
+runNaiveBayes()	
 
