@@ -32,10 +32,14 @@ def splitData(fileName):
 
 #main function for entire program
 
-def main():
+def runNaiveBayes():
+	finalFile = csv.writer(open(fileName+'PairProbability.csv', 'wb'))
 	MasterCSVCreator.createCSV(fileName, geneNumber)
+	masterFile = 
 	GenerateTFPairs.createTFPairsFile(fileName)
 	splitData(fileName)
+	for tfgene in 
+
 
 main()	
 
