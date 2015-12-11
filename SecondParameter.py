@@ -100,14 +100,14 @@ def normTrainingDistances(genomeLength, trainingDistances):
 	pseudocount = .05
 	if totalFreq!=0:
 		for x in xrange(len(binnedDistances)):
-			normDist.append((binnedDistances[x]/totalFreq)+pseudocount)
-			if(binnedDistances[x]>0):
-				nonzero+=1
-			else:
-				zero+=1
+			normDist.append(((binnedDistances[x]+pseudocount)/(totalFreq+pseudocount*numberOfBins)))
+			#if(binnedDistances[x]>0):
+			#	nonzero+=1
+			#else:
+			#	zero+=1
 	#print(normDist)
-	print("There is this many nonzero values before pseudocounts: ",nonzero)
-	print("zeroes: ",zero)
+	#print("There is this many nonzero values before pseudocounts: ",nonzero)
+	#print("zeroes: ",zero)
 	return normDist
 
 def secondParamMain(genomeLength, rootFileName):
@@ -123,15 +123,15 @@ def outputCSV(posNormTrainDist, negNormTrainDist, rootFileName):
 	#"creates a CSV file from the normalized data. requires the yes and no normalized probability lists"
 	print("Starting to write to CSV!")
 	secondParamCSV = csv.writer(open(""+rootFileName+"secondParam.csv", "wb"))
-	titleRow = ["Position (500 bp)","P(pair)","P(not pair)"]
-	secondParamCSV.writerow(titleRow)
+	#titleRow = ["Position (500 bp)","P(pair)","P(not pair)"]
+	#secondParamCSV.writerow(titleRow)
 	 #THERE IS NOTHING IN POSNORMTRAINDIST
 	for x in xrange(len(posNormTrainDist)):
 		row = []
-		row.append(x)
-		row.append(posNormTrainDist)
-		row.append(negNormTrainDist)
-		#secondParamCSV.writerow(row)
+		#row.append(x)
+		row.append(posNormTrainDist[x])
+		row.append(negNormTrainDist[x])
+		secondParamCSV.writerow(row)
 
 
 secondParamMain(4639675, "Ecoli_MG1655")
