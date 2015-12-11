@@ -114,9 +114,45 @@ def secondParamMain(genomeLength, rootFileName):
 	#"manages the running of all other functions in second Parameter File"
 	genesFileName = str(rootFileName)+"Master.csv"
 	pairFileName = str(rootFileName)+"TrainTFPairs.csv"
+	testFileName = str(rootFileName)+"TestTFPairs.csv"
 	posNegTup = readPosTrainingDistances(genomeLength, pairFileName, genesFileName) 
-	#THERE IS NOTHING IN POSNEGTUP
 	outputCSV(posNegTup[0], posNegTup[1], rootFileName)
+
+def testAccuracy(testFileName,genesFileName):
+	print("Starting to read in testing Distances")
+	posTestDist = []
+	testFile = csv.reader(open(testFileName,'rb'))
+	for tf in testFile:				#looking through all TFs
+		tfPos = 0
+		tfName = tf[TFFILE_TF_POS]
+		genesFile = csv.reader(open(genesFileName,'rb'))
+		for gene in genesFile:
+			if tfName in gene[GENEFILE_GENE_POS]:
+				tfPos = int(gene[GENEFILE_START_COLUMN])
+		regGenes = tf[TFFILE_REG_GENES_POS]
+		regGenesList = []
+		regGenesList = regGenes.split()
+		posPairDist = []
+		for regGene in xrange(len(regGenesList)):	#looping through all genes regulated
+			regGeneName = regGenesList[regGene]
+			genesFile1 = csv.reader(open(genesFileName,'rb'))
+			for gene1 in genesFile1:					#looking for gene regulated by TF in gene file
+				if regGeneName in gene1[GENEFILE_GENE_POS]:
+					regGenePos=int(gene1[GENEFILE_START_COLUMN])
+					posDist = []
+					#difference1 = abs(regGenePos-tfPos)
+					posDist.append(abs(regGenePos-tfPos))
+					posDist.append(abs(posDist[0]-genomeLength))
+					posTestDist.append(min(posDist))
+	trainDistCSV = csv.reader(open("Ecoli_MG1655secondParam.csv",'rb'))
+	correctClassifyCount = 0
+	totalClassifyCount = 0;
+	for testTFDist in xrange(len(posTestDist)):
+		testBin = int(posTestDist[testTFDist]/BIN_SIZE)
+		#check trainDistCSV @ row testBin
+		#totalClassifyCount+=1
+		#if row[0]>row[1], correctClassifyCount+=1
+		#return correctClassifyCount/totalClassifyCount
 
 
 def outputCSV(posNormTrainDist, negNormTrainDist, rootFileName):
