@@ -89,15 +89,17 @@ def findStartandStop(CSVMatrix, BigData):
             if '     gene            ' in myString:
                 saveStart = False
                 saveStop = False
-                dotTimes=0
+                dotTimes = 0
+                if '(' not in myString:
+                    saveStart = True
                 for c in myString:
                     if ord(c) > 47 and ord(c) < 58:
-                        if dotTimes > 1:
+                        if dotTimes == 1:
                             saveStart = True
                             saveStop = False
-                        else:
-                            saveStart = False
-                            saveStop = True
+                        #else:
+                         #   saveStart = False
+                          #  saveStop = True
                         if saveStart:
                             totalStop += c
                         if saveStop:
@@ -107,11 +109,12 @@ def findStartandStop(CSVMatrix, BigData):
                         saveStart = True
                         saveStop = False
                     if c == ".":
-                        if dotTimes > 1:
+                        if dotTimes == 1:
                             saveStop = True
                             saveStart = False
-                        else:
-                            dotTimes+=1
+                        elif dotTimes > 1:
+                            break
+                        dotTimes+=1
         if len(totalStart) > 0 and len(totalStop) > 0:
             CSVMatrix[geneNumber][START_COLUMN] = int(totalStart)
             CSVMatrix[geneNumber][STOP_COLUMN] = int(totalStop)
@@ -219,7 +222,7 @@ def createCSV(fileName, geneNumber):
             characteristicsVector.append('F')
             characteristicsVector.append('N/A')
 
-        if CSVMatrix[geneNumber][DIRECTION_COLUMN]:
+        if (CSVMatrix[geneNumber][DIRECTION_COLUMN]==False):
             characteristicsVector.append(CSVMatrix[geneNumber][STOP_COLUMN])
             characteristicsVector.append(CSVMatrix[geneNumber][START_COLUMN])
         else:

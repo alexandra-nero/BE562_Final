@@ -43,9 +43,10 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 			for gene1 in genesFile1:					#looking for gene regulated by TF in gene file
 				if regGeneName in gene1[GENEFILE_GENE_POS]:
 					regGenePos=int(gene1[GENEFILE_START_COLUMN])
-					posDist = []
-					posDist.append(abs(regGenePos-tfPos))
-					posDist.append(abs(posDist[0]-genomeLength))
+					#posDist = []
+					difference1 = abs(regGenePos-tfPos)
+					#posDist.append(abs(regGenePos-tfPos))
+					difference2 = posDist.append(abs(posDist[0]-genomeLength))
 					posTrainDist.append(min(posDist))
 	enzymeMatrix = []
 	negTrainDist = []
@@ -71,14 +72,13 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 def normTrainingDistances(genomeLength, trainingDistances):
 	#"counts frequencies for distances in each bin given the length of the genome and the list of distances between the TFs and the promoters they regulate, then normalizes them into probabilities"
 	numberOfBins = (genomeLength/250)+1
-	print(numberOfBins)
 	binnedDistances = []
 	for k in xrange(numberOfBins):
 		binnedDistances+=[0]
 	totalFreq=0
 	for i in xrange(len(trainingDistances)):
+		#print(trainingDistances[i])
 		correctBin = ((int(trainingDistances[i]-1)/250))
-		print (correctBin)
 		binnedDistances[correctBin]+=1
 		totalFreq+=1
 	normDist=[]
