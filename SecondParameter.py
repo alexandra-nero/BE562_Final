@@ -47,19 +47,30 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 					posDist.append(abs(regGenePos-tfPos))
 					posDist.append(abs(posDist[0]-genomeLength))
 					posTrainDist.append(min(posDist))
+
+
+	#neg stuff start				
 	enzymeMatrix = []
 	negTrainDist = []
-	for gene in genesFile:
-		if gene[1] == 'F':
-			enzymeMatrix.append(gene)
+	genesFile2 = csv.reader(open(genesFileName,'rb'))
+	for gene2 in genesFile2:
+		if gene2[GENEFILE_TFVAL_POS] == 'F':
+			enzymeMatrix.append(gene2)
 	for outerEnzyme in xrange(len(enzymeMatrix)):
-		outerPos = outerEnzyme[GENEFILE_GENE_POS]
+		currentRow = enzymeMatrix[outerEnzyme]
+		outerPos = currentRow[GENEFILE_START_COLUMN]
+		#print(outerPos)
 		for innerEnzyme in range(outerEnzyme, len(enzymeMatrix)):
 			negDist = []
-			innerPos = innerEnzyme[GENEFILE_GENE_POS]
-			negDist.append(abs(outerPos - innerPos))
+			currentInnerRow = enzymeMatrix[innerEnzyme]
+			innerPos = currentInnerRow[GENEFILE_START_COLUMN]
+			negDist.append(abs(int(outerPos) - int(innerPos)))
 			negDist.append(abs(negDist[0]-genomeLength))
 			negTrainDist.append(min(negDist))
+	#neg stuff end
+
+	#print(enzymeMatrix)
+	#print(negTrainDist)
 	print("Normalizing positive training distances")
 	posNormTrainDist = normTrainingDistances(genomeLength, posTrainDist)
 	print("Normalizing negative training distances")
