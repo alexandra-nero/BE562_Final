@@ -18,7 +18,7 @@ GENEFILE_TFVAL_POS = 1
 
 TFFILE_TF_POS = 0
 TFFILE_REG_GENES_POS = 1
-BIN_SIZE = 250
+BIN_SIZE = 500
 
 def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 	#"returns a list of distances from all TFs to all the genes they regulate given the genome's length, and the names of both the TF/Promoter pair file and the all genes file"
@@ -45,7 +45,7 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 					posDist = []
 					#difference1 = abs(regGenePos-tfPos)
 					posDist.append(abs(regGenePos-tfPos))
-					#difference2 = posDist.append(abs(posDist[0]-genomeLength))
+					posDist.append(abs(posDist[0]-genomeLength))
 					posTrainDist.append(min(posDist))
 	enzymeMatrix = []
 	negTrainDist = []
@@ -70,23 +70,33 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 def normTrainingDistances(genomeLength, trainingDistances):
 	#"counts frequencies for distances in each bin given the length of the genome and the list of 
 	#distances between the TFs and the promoters they regulate, then normalizes them into probabilities"
-	numberOfBins = (genomeLength/250)+1
+	numberOfBins = (genomeLength/(2*BIN_SIZE))+1
+	#print numberOfBins
 	binnedDistances = []
 	for k in xrange(numberOfBins):
 		binnedDistances.append(0)
 	totalFreq=0
 	for i in xrange(len(trainingDistances)):
-		correctBin = (int(trainingDistances[i])/250)
-		print binnedDistances[correctBin]
+		correctBin = (int(trainingDistances[i]/BIN_SIZE))
+		#print binnedDistances[correctBin]
+		#print correctBin
 		binnedDistances[correctBin] += 1 
 		totalFreq+=1
-
+	print("Total frequency is: ", totalFreq)
+	nonzero=0
+	zero=0
 	normDist=[]
-	pseudocount = totalFreq/genomeLength
+	pseudocount = .05
 	if totalFreq!=0:
-		normDist = [(x/totalFreq)+pseudocount for x in binnedDistances]
-		print("Total frequency is: ", totalFreq)
-
+		for x in xrange(len(binnedDistances)):
+			normDist.append((binnedDistances[x]/totalFreq)+pseudocount)
+			if(binnedDistances[x]>0):
+				nonzero+=1
+			else:
+				zero+=1
+	#print(normDist)
+	print("There is this many nonzero values before pseudocounts: ",nonzero)
+	print("zeroes: ",zero)
 	return normDist
 
 def secondParamMain(genomeLength, rootFileName):
@@ -102,7 +112,7 @@ def outputCSV(posNormTrainDist, negNormTrainDist, rootFileName):
 	#"creates a CSV file from the normalized data. requires the yes and no normalized probability lists"
 	print("Starting to write to CSV!")
 	secondParamCSV = csv.writer(open(""+rootFileName+"secondParam.csv", "wb"))
-	titleRow = ["Position (250 bp)","P(pair)","P(not pair)"]
+	titleRow = ["Position (500 bp)","P(pair)","P(not pair)"]
 	secondParamCSV.writerow(titleRow)
 	 #THERE IS NOTHING IN POSNORMTRAINDIST
 	for x in xrange(len(posNormTrainDist)):
