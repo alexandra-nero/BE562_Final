@@ -60,7 +60,7 @@ def readPosTrainingDistances(genomeLength, pairFileName, genesFileName):
 		currentRow = enzymeMatrix[outerEnzyme]
 		outerPos = currentRow[GENEFILE_START_COLUMN]
 		#print(outerPos)
-		for innerEnzyme in range(outerEnzyme, len(enzymeMatrix)):
+		for innerEnzyme in range(outerEnzyme+1, len(enzymeMatrix)):
 			negDist = []
 			currentInnerRow = enzymeMatrix[innerEnzyme]
 			innerPos = currentInnerRow[GENEFILE_START_COLUMN]
