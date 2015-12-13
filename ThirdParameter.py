@@ -111,9 +111,10 @@ def ThirdParam(tfName,geneName):
     for i in range(len(tfProm)):
         score[i] = align(tfProm[i:len(tfProm)]+tfProm[0:i],geneProm)
     
-    
+    finalscore = max(score)
+    Naivebayes = 0.5
 
-    return max(score)
+    return Naivebayes,Naivebayes
 
 def randSeq(length): # produces random sequence of given length
     seq = ''
