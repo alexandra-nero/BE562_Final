@@ -1,9 +1,8 @@
-
 import sys, csv, os
 
-MASTERCSV = 'testcsv.csv'
-GNOMELENGTH = 20000
-INTERGENEDIST = 200
+MASTERCSV = 'Ecoli_MG1655Master.csv'
+GNOMELENGTH = 4639675
+INTERGENEDIST = 25
 
 def readcsv(file):
     file = open(file)
@@ -15,7 +14,7 @@ def readcsv(file):
 
 def getTnum(gene, csvmatrix):
     temp = []
-    for i in range(len(csvmatrix)):
+    for i in range(len(csvmatrix)-1):
         if gene in csvmatrix[i][0]: 
             temp.append(i)
     if len(temp) == 0:
@@ -24,15 +23,16 @@ def getTnum(gene, csvmatrix):
     elif len(temp) == 1:
         c = int(temp[0])
     else: 
-        return('Error: ' + str(len(temp)) + ' occurences of gene \'' + gene + '\'.')
-        sys.exit(1)
+        c = int(temp[0])
     return c
 
-def findP(gene, csvfile, pcutoff, genomelength):
+def findP(gene):
+    csvfile = MASTERCSV
+    pcutoff = INTERGENEDIST
+    genomelength = GNOMELENGTH
     csvmatrix = readcsv(csvfile)
     position = getTnum(gene, csvmatrix)
     genenum = len(csvmatrix)
-    print((position -1)%genenum)
     
     if csvmatrix[position][5] == 'F' and csvmatrix[(position-1)%genenum][5] == 'F':
             #If query and target are more than pcutoff bp away, P is of query
@@ -77,8 +77,4 @@ def findP(gene, csvfile, pcutoff, genomelength):
         sys.exit(1)    
 
     return output
-                    
-#have to add the addition of the promoter to the end of the csv file       
-                
-x = findP('yaaB', MASTERCSV, INTERGENEDIST, GNOMELENGTH)
 
