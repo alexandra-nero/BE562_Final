@@ -124,8 +124,8 @@ def ThirdParam(tfName,geneName):
     prob = csv.reader(prob_f)
     for row in prob:
         if str(finalscore) == row[0]:
-            probyes = row[1]
-            probno = row[2]
+            probyes = float(row[1])
+            probno = float(row[2])
 
     return probyes, probno
 
