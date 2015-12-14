@@ -46,7 +46,7 @@ def calculateAccuracy(ProbMatrix):
 		tfGene = pair[1]
 		totalCount+=1
 		for row in ProbMatrix:
-			if ProbMatrix[row][0] == tfGene and ProbMatrix[row][1] == regGene:
+			if tfGene in ProbMatrix[row][0] and regGene in ProbMatrix[row][1]:
 				if ProbMatrix[row][2] > 0:
 					correctCount+=1
 	return correctCount/totalCount
@@ -87,19 +87,24 @@ def runNaiveBayes():
 				totalDistance = min(difference, wrapAround)
 				currentBin = int(totalDistance/SecondParameter.BIN_SIZE)
 
-				
+				print (tfGene[NAME_COLUMN], regGene[NAME_COLUMN])
 				#firstProbabilities = [0.5, 0.5]
 				secondProbabilities = SecondDataMatrix[currentBin]
 				thirdProbabilities = ThirdParameter.ThirdParam(tfGene[NAME_COLUMN], regGene[NAME_COLUMN])
 
-		NaiveBayes = (secondProbabilities[0]+thirdProbabilities[0])/(secondProbabilities[1]+thirdProbabilities[1])
-		NaiveBayesProb = math.log(NaiveBayes)
-		finalRow = [tfGene, regGene, NaiveBayesProb]
-		finalMatrix[pairCount][0] = tfGene
-		finalMatrix[pairCount][1] = regGene
-		finalMatrix[pairCount][2] = NaiveBayesProb
-		finalProb.writerow(finalRow)
-		print (calculateAccuracy(finalMatrix))
+				if thirdProbabilities[0] < 0 or thirdProbabilities[1] < 0:
+					print "invalid probability"
+
+				else:
+					NaiveBayes = (secondProbabilities[0]+thirdProbabilities[0])/(secondProbabilities[1]+thirdProbabilities[1])
+					NaiveBayesProb = math.log(NaiveBayes)
+					finalRow = [tfGene, regGene, NaiveBayesProb]
+					finalMatrix[pairCount][0] = tfGene
+					finalMatrix[pairCount][1] = regGene
+					finalMatrix[pairCount][2] = NaiveBayesProb
+					finalProb.writerow(finalRow)
+
+	print (calculateAccuracy(finalMatrix))
 
 runNaiveBayes()	
 
