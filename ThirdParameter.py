@@ -5,10 +5,11 @@ import sys, csv, random
 import pfinder3 as pf
 
 mastercsvfile = 'Ecoli_MG1655Master.csv'
+thirdparamcsv = 'Ecoli_MG1655thirdParam.csv'
 fastafile = 'sequence.fasta'
 PROM_LENGTH = 200
 BIN_SIZE = 1
-THRESHOLD = 5
+THRESHOLD = 4
 MATCH = 1
 MISMATCH = -1
 
@@ -83,7 +84,12 @@ def align(tfProm,geneProm):
                 score[i] = score[i-1] + MATCH
             else:
                 if score[i-1] > THRESHOLD:
-                    score[i] = score[i-1] + MISMATCH
+                    if score[i-2] > score[i-1]:
+                        score[i] = score[i-1]
+                    elif score[i-2] == score[i-1]:
+                        score[i] = score[i-1]
+                    else:
+                        score[i] = score[i-1] + MISMATCH
                 elif score[i-1] == 0:
                     score[i] = 0
                 else:
@@ -111,10 +117,17 @@ def ThirdParam(tfName,geneName):
     for i in range(len(tfProm)):
         score[i] = align(tfProm[i:len(tfProm)]+tfProm[0:i],geneProm)
     
-    finalscore = max(score)
-    Naivebayes = 0.5
+    fscore = max(score)
+    finalscore = fscore[1]
 
-    return Naivebayes,Naivebayes
+    prob_f = open(thirdparamcsv)
+    prob = csv.reader(prob_f)
+    for row in prob:
+        if str(finalscore) == row[0]:
+            probyes = row[1]
+            probno = row[2]
+
+    return probyes, probno
 
 def randSeq(length): # produces random sequence of given length
     seq = ''
