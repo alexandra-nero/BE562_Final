@@ -1,6 +1,6 @@
 #import FirstParameter
 import SecondParameter
-import ThirdParameter
+#import ThirdParameter
 import GenerateTFPairs
 import MasterCSVCreator
 import csv
@@ -87,11 +87,12 @@ def runNaiveBayes():
 				totalDistance = min(difference, wrapAround)
 				currentBin = int(totalDistance/SecondParameter.BIN_SIZE)
 
-				firstProbabilities = [0.5, 0.5]
+				
+				#firstProbabilities = [0.5, 0.5]
 				secondProbabilities = SecondDataMatrix[currentBin]
 				thirdProbabilities = ThirdParameter.ThirdParam(tfGene, regGene)
 
-		NaiveBayes = (firstProbabilities[0]+secondProbabilities[0]+thirdProbabilities[0])/(firstProbabilities[1]+secondProbabilities[1]+thirdProbabilities[1])
+		NaiveBayes = (secondProbabilities[0]+thirdProbabilities[0])/(secondProbabilities[1]+thirdProbabilities[1])
 		NaiveBayesProb = math.log(NaiveBayes)
 		finalRow = [tfGene, regGene, NaiveBayesProb]
 		finalMatrix[pairCount][0] = tfGene
