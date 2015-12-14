@@ -1,10 +1,20 @@
 #import FirstParameter
-#import SecondParameter
-#import ThirdParameter
+import SecondParameter
+import ThirdParameter
 import GenerateTFPairs
 import MasterCSVCreator
 import csv
 import math
+
+
+
+DIRECTION_COLUMN = 5
+TF_COLUMN = 1
+START_COLUMN = 3
+STOP_COLUMN = 4
+REPRESSOR_COLUMN = 2
+ACTIVATOR_COLUMN = 2
+NAME_COLUMN = 0
 
 #define all file Names here:
 fileName ='Ecoli_MG1655'
@@ -42,6 +52,12 @@ def calculateAccuracy(ProbMatrix):
 	return correctCount/totalCount
 
 
+def makeMatrix(fileName):
+	myFile = csv.reader(open(fileName+'secondParam.csv', 'rb'))
+	DataMatrix = []
+	for row in myFile:
+		DataMatrix.append(row)
+	return DataMatrix
 
 
 #main function for entire program
@@ -49,29 +65,30 @@ def calculateAccuracy(ProbMatrix):
 def runNaiveBayes():
 	finalProb = csv.reader(open(fileName+'FinalProb.csv', 'wb'))
 	finalMatrix = [] 
-	MasterCSVCreator.createCSV(fileName, geneNumber)
+	#MasterCSVCreator.createCSV(fileName, geneNumber)
 	masterTFFile = csv.reader(open(fileName+'Master.csv', 'rb'))
-	GenerateTFPairs.createTFPairsFile(fileName)
-	splitData(fileName)
+	#GenerateTFPairs.createTFPairsFile(fileName)
+	#splitData(fileName)
+	SecondDataMatrix = makeMatrix(fileName)
 
 	#generate files from parameters
-	SecondParameter.secondParamMain(geneLength, fileName)
+	#SecondParameter.secondParamMain(geneLength, fileName)
 	secondParamFile = csv.reader(open(fileName+"secondParam.csv", 'rb'))
 
 	pairCount = 0
 	for tfGene in masterTFFile:
-		if (tfGene[MasterCSVCreator.TF_COLUMN] == 'T' or tfGene[MasterCSVCreator.TF_COLUMN] == 'unknown'):
-			startTF = tfGene[MasterCSVCreator.START_COLUMN]
+		if (tfGene[TF_COLUMN] == 'T' or tfGene[TF_COLUMN] == 'unknown'):
+			startTF = int(tfGene[START_COLUMN])
 			masterRegFile = csv.reader(open(fileName+'Master.csv', 'rb'))
 			for regGene in masterRegFile:
-				startReg = tf[MasterCSVCreator.START_COLUMN]
+				startReg = int(tfGene[START_COLUMN])
 				difference = abs(startTF-startReg)
 				wrapAround = abs(geneLength-difference)
 				totalDistance = min(difference, wrapAround)
-				currentBin = totalDistance/SecondParameter.BIN_SIZE
+				currentBin = int(totalDistance/SecondParameter.BIN_SIZE)
 
 				firstProbabilities = [0.5, 0.5]
-				secondProbabilities = secondParamFile[currentBin]
+				secondProbabilities = SecondDataMatrix[currentBin]
 				thirdProbabilities = ThirdParameter.ThirdParam(tfGene, regGene)
 
 		NaiveBayes = (firstProbabilities[0]+secondProbabilities[0]+thirdProbabilities[0])/(firstProbabilities[1]+secondProbabilities[1]+thirdProbabilities[1])

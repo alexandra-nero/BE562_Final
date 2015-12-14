@@ -3,7 +3,7 @@
 
 import csv
 
-mastercsvfile = 'testcsv.csv'
+mastercsvfile = 'Ecoli_MG1655Master.csv'
 fastafile = 'sequence.fasta'
 PROM_LENGTH = 200
 THRESHOLD = 5
