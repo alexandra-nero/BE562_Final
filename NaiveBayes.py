@@ -90,7 +90,7 @@ def runNaiveBayes():
 				
 				#firstProbabilities = [0.5, 0.5]
 				secondProbabilities = SecondDataMatrix[currentBin]
-				thirdProbabilities = ThirdParameter.ThirdParam(tfGene, regGene)
+				thirdProbabilities = ThirdParameter.ThirdParam(tfGene[NAME_COLUMN], regGene[NAME_COLUMN])
 
 		NaiveBayes = (secondProbabilities[0]+thirdProbabilities[0])/(secondProbabilities[1]+thirdProbabilities[1])
 		NaiveBayesProb = math.log(NaiveBayes)
