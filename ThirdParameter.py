@@ -126,8 +126,13 @@ def ThirdParam(tfName,geneName):
         if str(finalscore) == row[0]:
             probyes = float(row[1])
             probno = float(row[2])
+            
+        
+    if finalscore < 200:
+        if finalscore > 3:
+            return probyes, probno
+    else: return MISMATCH, MISMATCH
 
-    return probyes, probno
 
 def randSeq(length): # produces random sequence of given length
     seq = ''
